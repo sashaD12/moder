@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,18 +10,28 @@
     "textureLeggings": "ekretarmor.layer_2",
     "enableBoots": true,
     "textureBoots": "ekretarmor.layer_2",
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "armorTextureFile": "xc",
     "helmetName": "Шлем Sekret Armor",
     "bodyName": "Нагрудник Sekret Armor",
     "leggingsName": "Поножи Sekret Armor",
     "bootsName": "Ботинки Sekret Armor",
-    "helmetSpecialInfo": [],
-    "bodySpecialInfo": [],
-    "leggingsSpecialInfo": [],
-    "bootsSpecialInfo": [],
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
     "helmetModelName": "Modelaaa",
     "helmetModelPart": "Head",
     "helmetModelTexture": "ekretarmor.layer_2.png",

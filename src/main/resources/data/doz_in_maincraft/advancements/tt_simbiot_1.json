@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "tt_simbiot_1": {
+    "tt_simbiot_1_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

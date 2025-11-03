@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "doz_in_maincraft:airdrop_open",
+    "doz_in_maincraft:armorers_workbench",
+    "doz_in_maincraft:chugunn_block",
+    "doz_in_maincraft:pile_cast_iron",
+    "doz_in_maincraft:ammunition_press",
+    "doz_in_maincraft:energy_framework",
+    "doz_in_maincraft:bloody_hole",
+    "doz_in_maincraft:hozmag_brick",
+    "doz_in_maincraft:metal_forming_machine",
+    "doz_in_maincraft:steal_block",
+    "doz_in_maincraft:tin_block",
+    "doz_in_maincraft:tin_ore",
+    "doz_in_maincraft:lead_block",
+    "doz_in_maincraft:lead_ore",
+    "doz_in_maincraft:aluminum_block",
+    "doz_in_maincraft:aluminum_ore",
+    "doz_in_maincraft:copper_block",
+    "doz_in_maincraft:copper_ore"
+  ]
+}

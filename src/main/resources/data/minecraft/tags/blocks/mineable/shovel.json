@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "doz_in_maincraft:nezerite_ore",
-    "doz_in_maincraft:crystal_ground"
+    "doz_in_maincraft:crystal_ground",
+    "doz_in_maincraft:nezerite_ore"
   ]
 }

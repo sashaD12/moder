@@ -22,19 +22,6 @@ import net.mcreator.doz_in_maincraft.DozInMaincraftMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class DozInMaincraftModKeyMappings {
-	public static final KeyMapping PROTGAS = new KeyMapping("key.doz_in_maincraft.protgas", GLFW.GLFW_KEY_N, "key.categories.misc") {
-		private boolean isDownOld = false;
-
-		@Override
-		public void setDown(boolean isDown) {
-			super.setDown(isDown);
-			if (isDownOld != isDown && isDown) {
-				DozInMaincraftMod.PACKET_HANDLER.sendToServer(new ProtgasMessage(0, 0));
-				ProtgasMessage.pressAction(Minecraft.getInstance().player, 0, 0);
-			}
-			isDownOld = isDown;
-		}
-	};
 	public static final KeyMapping RELOARD = new KeyMapping("key.doz_in_maincraft.reloard", GLFW.GLFW_KEY_R, "key.categories.misc") {
 		private boolean isDownOld = false;
 
@@ -44,6 +31,19 @@ public class DozInMaincraftModKeyMappings {
 			if (isDownOld != isDown && isDown) {
 				DozInMaincraftMod.PACKET_HANDLER.sendToServer(new ReloardMessage(0, 0));
 				ReloardMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+			}
+			isDownOld = isDown;
+		}
+	};
+	public static final KeyMapping PROTGAS = new KeyMapping("key.doz_in_maincraft.protgas", GLFW.GLFW_KEY_N, "key.categories.misc") {
+		private boolean isDownOld = false;
+
+		@Override
+		public void setDown(boolean isDown) {
+			super.setDown(isDown);
+			if (isDownOld != isDown && isDown) {
+				DozInMaincraftMod.PACKET_HANDLER.sendToServer(new ProtgasMessage(0, 0));
+				ProtgasMessage.pressAction(Minecraft.getInstance().player, 0, 0);
 			}
 			isDownOld = isDown;
 		}
@@ -64,8 +64,8 @@ public class DozInMaincraftModKeyMappings {
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
-		event.register(PROTGAS);
 		event.register(RELOARD);
+		event.register(PROTGAS);
 		event.register(GGG);
 	}
 
@@ -74,8 +74,8 @@ public class DozInMaincraftModKeyMappings {
 		@SubscribeEvent
 		public static void onClientTick(TickEvent.ClientTickEvent event) {
 			if (Minecraft.getInstance().screen == null) {
-				PROTGAS.consumeClick();
 				RELOARD.consumeClick();
+				PROTGAS.consumeClick();
 				GGG.consumeClick();
 			}
 		}

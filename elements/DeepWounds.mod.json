@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "potioneffect",
   "definition": {
     "effectName": "deep wounds",
@@ -9,10 +9,13 @@
       "falpha": 0.0
     },
     "isInstant": true,
-    "isBad": false,
-    "isBenefitical": false,
+    "mobEffectCategory": "NEUTRAL",
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
     "onActiveTick": {
       "name": "DeepWoundsAktivnoieSostoianiie"
     }

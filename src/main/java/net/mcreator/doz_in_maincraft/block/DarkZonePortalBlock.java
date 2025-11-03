@@ -7,7 +7,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -33,11 +33,11 @@ import java.util.Optional;
 
 public class DarkZonePortalBlock extends NetherPortalBlock {
 	public DarkZonePortalBlock() {
-		super(BlockBehaviour.Properties.of(Material.PORTAL).noCollission().randomTicks().strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 0).noLootTable());
+		super(BlockBehaviour.Properties.of().noCollission().randomTicks().pushReaction(PushReaction.BLOCK).strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 0).noLootTable());
 	}
 
 	@Override
-	public void randomTick(BlockState state, ServerLevel world, BlockPos pos, RandomSource random) {
+	public void randomTick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 	}
 
 	public static void portalSpawn(Level world, BlockPos pos) {
@@ -81,10 +81,10 @@ public class DarkZonePortalBlock extends NetherPortalBlock {
 
 	@Override
 	public void entityInside(BlockState state, Level world, BlockPos pos, Entity entity) {
-		if (!entity.isPassenger() && !entity.isVehicle() && entity.canChangeDimensions() && !entity.level.isClientSide() && true) {
+		if (entity.canChangeDimensions() && !entity.level().isClientSide() && true) {
 			if (entity.isOnPortalCooldown()) {
 				entity.setPortalCooldown();
-			} else if (entity.level.dimension() != ResourceKey.create(Registries.DIMENSION, new ResourceLocation("doz_in_maincraft:dark_zone"))) {
+			} else if (entity.level().dimension() != ResourceKey.create(Registries.DIMENSION, new ResourceLocation("doz_in_maincraft:dark_zone"))) {
 				entity.setPortalCooldown();
 				teleportToDimension(entity, pos, ResourceKey.create(Registries.DIMENSION, new ResourceLocation("doz_in_maincraft:dark_zone")));
 			} else {

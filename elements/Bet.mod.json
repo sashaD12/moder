@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "block",
   "definition": {
     "texture": "lsdklkf",
@@ -33,15 +33,20 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Bet",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1000.0,
     "resistance": 1.0E7,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -98,10 +103,9 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 100,
+    "vanillaToolTier": "DIAMOND",
     "isBonemealable": false,
     "hasInventory": false,
-    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -120,7 +124,7 @@
     "onEntityWalksOn": {
       "name": "BetKoghdaSushchnostKhoditPoBloku"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

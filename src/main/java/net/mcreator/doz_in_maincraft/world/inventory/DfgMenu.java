@@ -41,7 +41,7 @@ public class DfgMenu extends AbstractContainerMenu implements Supplier<Map<Integ
 	public DfgMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
 		super(DozInMaincraftModMenus.DFG.get(), id);
 		this.entity = inv.player;
-		this.world = inv.player.level;
+		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(5);
 		BlockPos pos = null;
 		if (extraData != null) {
@@ -79,18 +79,28 @@ public class DfgMenu extends AbstractContainerMenu implements Supplier<Map<Integ
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 70, 17) {
 			private final int slot = 0;
+			private int x = DfgMenu.this.x;
+			private int y = DfgMenu.this.y;
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 88, 17) {
 			private final int slot = 1;
+			private int x = DfgMenu.this.x;
+			private int y = DfgMenu.this.y;
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 25, 53) {
 			private final int slot = 2;
+			private int x = DfgMenu.this.x;
+			private int y = DfgMenu.this.y;
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 79, 53) {
 			private final int slot = 3;
+			private int x = DfgMenu.this.x;
+			private int y = DfgMenu.this.y;
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 124, 17) {
 			private final int slot = 4;
+			private int x = DfgMenu.this.x;
+			private int y = DfgMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {

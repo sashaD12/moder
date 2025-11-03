@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "block",
   "definition": {
     "texture": "energyframework",
@@ -33,15 +33,20 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Energy Framework",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 2.15,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
@@ -98,10 +103,9 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 4,
+    "vanillaToolTier": "DIAMOND",
     "isBonemealable": false,
     "hasInventory": false,
-    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -120,7 +124,7 @@
     "onBlockAdded": {
       "name": "EnergyFrameworkPriDobavlieniiBloka"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

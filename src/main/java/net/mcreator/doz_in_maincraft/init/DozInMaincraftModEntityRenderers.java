@@ -42,22 +42,14 @@ public class DozInMaincraftModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(DozInMaincraftModEntities.FORESTER_HUNTER.get(), ForesterHunterRenderer::new);
 		event.registerEntityRenderer(DozInMaincraftModEntities.FORRSTER_HUNTER_2.get(), ForrsterHunter2Renderer::new);
-		event.registerEntityRenderer(DozInMaincraftModEntities.BOW_FORESTERS.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(DozInMaincraftModEntities.FORRESTER_HUNTER_3.get(), ForresterHunter3Renderer::new);
 		event.registerEntityRenderer(DozInMaincraftModEntities.FORESTER_HUNTER_4.get(), ForesterHunter4Renderer::new);
 		event.registerEntityRenderer(DozInMaincraftModEntities.FORESTER_HUNTER_5.get(), ForesterHunter5Renderer::new);
-		event.registerEntityRenderer(DozInMaincraftModEntities.MGL.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(DozInMaincraftModEntities.L_96_A_1.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(DozInMaincraftModEntities.MAGNUM.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(DozInMaincraftModEntities.PP_19_BIZON.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(DozInMaincraftModEntities.BEAST_FOREST.get(), BeastForestRenderer::new);
 		event.registerEntityRenderer(DozInMaincraftModEntities.BEAST_FOREST_4.get(), BeastForest4Renderer::new);
 		event.registerEntityRenderer(DozInMaincraftModEntities.BEAST_FOREST_3.get(), BeastForest3Renderer::new);
 		event.registerEntityRenderer(DozInMaincraftModEntities.BEAST_FOREST_2.get(), BeastForest2Renderer::new);
 		event.registerEntityRenderer(DozInMaincraftModEntities.BEAST_FOREST_1.get(), BeastForest1Renderer::new);
-		event.registerEntityRenderer(DozInMaincraftModEntities.TT.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(DozInMaincraftModEntities.TT_SIMBIOT.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(DozInMaincraftModEntities.SPAS_12.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(DozInMaincraftModEntities.GHOUL_BANDIT.get(), GhoulBanditRenderer::new);
 		event.registerEntityRenderer(DozInMaincraftModEntities.GHOUL_BULL.get(), GhoulBullRenderer::new);
 		event.registerEntityRenderer(DozInMaincraftModEntities.BRIGADIER_GHUL.get(), BrigadierGhulRenderer::new);
@@ -72,5 +64,13 @@ public class DozInMaincraftModEntityRenderers {
 		event.registerEntityRenderer(DozInMaincraftModEntities.OBJECT_STOKER.get(), ObjectStokerRenderer::new);
 		event.registerEntityRenderer(DozInMaincraftModEntities.DRON.get(), FdgdRenderer::new);
 		event.registerEntityRenderer(DozInMaincraftModEntities.OBJECT_DIODE.get(), ObjectDiodeRenderer::new);
+		event.registerEntityRenderer(DozInMaincraftModEntities.BOW_FORESTERS_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(DozInMaincraftModEntities.L_96_A_1_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(DozInMaincraftModEntities.MGL_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(DozInMaincraftModEntities.MAGNUM_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(DozInMaincraftModEntities.PP_19_BIZON_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(DozInMaincraftModEntities.TT_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(DozInMaincraftModEntities.TT_SIMBIOT_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(DozInMaincraftModEntities.SPAS_12_PROJECTILE.get(), ThrownItemRenderer::new);
 	}
 }

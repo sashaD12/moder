@@ -40,7 +40,7 @@ public class ObjectStokerEntity extends Zombie {
 
 	public ObjectStokerEntity(EntityType<ObjectStokerEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.9f;
+		setMaxUpStep(0.9f);
 		xpReward = 200;
 		setNoAi(false);
 		setPersistenceRequired();

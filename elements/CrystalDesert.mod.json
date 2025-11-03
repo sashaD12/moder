@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "biome",
   "definition": {
     "name": "Crystal Desert",
@@ -13,6 +13,10 @@
       "value": "CUSTOM:CrystalEarth"
     },
     "airColor": {
+      "value": -15267554,
+      "falpha": 0.0
+    },
+    "fogColor": {
       "value": -15267554,
       "falpha": 0.0
     },

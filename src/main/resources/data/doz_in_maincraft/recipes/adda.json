@@ -2,31 +2,28 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "  2",
-    "345",
-    "678"
+    "  a",
+    "bcd",
+    "efe"
   ],
   "key": {
-    "2": {
+    "a": {
       "item": "doz_in_maincraft:steel_barrel"
     },
-    "3": {
+    "b": {
       "item": "doz_in_maincraft:magic_pine_log"
     },
-    "4": {
+    "c": {
       "item": "doz_in_maincraft:steal_block"
     },
-    "5": {
+    "d": {
       "item": "doz_in_maincraft:tin_ingot"
     },
-    "6": {
+    "e": {
       "item": "doz_in_maincraft:steal_ingot"
     },
-    "7": {
+    "f": {
       "item": "minecraft:redstone_block"
-    },
-    "8": {
-      "item": "doz_in_maincraft:steal_ingot"
     }
   },
   "result": {

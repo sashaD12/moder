@@ -41,7 +41,7 @@ public class TftyfyMenu extends AbstractContainerMenu implements Supplier<Map<In
 	public TftyfyMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
 		super(DozInMaincraftModMenus.TFTYFY.get(), id);
 		this.entity = inv.player;
-		this.world = inv.player.level;
+		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(3);
 		BlockPos pos = null;
 		if (extraData != null) {
@@ -79,6 +79,8 @@ public class TftyfyMenu extends AbstractContainerMenu implements Supplier<Map<In
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 51, 30) {
 			private final int slot = 0;
+			private int x = TftyfyMenu.this.x;
+			private int y = TftyfyMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -87,6 +89,8 @@ public class TftyfyMenu extends AbstractContainerMenu implements Supplier<Map<In
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 71, 29) {
 			private final int slot = 1;
+			private int x = TftyfyMenu.this.x;
+			private int y = TftyfyMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -95,6 +99,8 @@ public class TftyfyMenu extends AbstractContainerMenu implements Supplier<Map<In
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 91, 30) {
 			private final int slot = 2;
+			private int x = TftyfyMenu.this.x;
+			private int y = TftyfyMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {

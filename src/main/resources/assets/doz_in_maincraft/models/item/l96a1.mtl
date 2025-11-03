@@ -1,13 +1,13 @@
 newmtl m_a8a58873-453f-8bf1-6876-5dea31e4e5cf
+Ns 100.0
+d 1.0
 Ka 0.0 0.0 0.0
 Kd 0.0 0.0 0.0
 Ks 0.0 0.0 0.0
 map_Kd doz_in_maincraft:block/l96a1
+newmtl none
 Ns 100.0
 d 1.0
-newmtl none
 Ka 0.0 0.0 0.0
 Kd 0.0 0.0 0.0
 Ks 0.0 0.0 0.0
-Ns 100.0
-d 1.0

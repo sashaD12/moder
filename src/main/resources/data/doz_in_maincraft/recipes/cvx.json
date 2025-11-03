@@ -2,37 +2,25 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "bcb",
+    "ded"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "doz_in_maincraft:steal_ingot"
     },
-    "1": {
+    "b": {
       "item": "minecraft:netherite_scrap"
     },
-    "2": {
-      "item": "doz_in_maincraft:steal_ingot"
-    },
-    "3": {
-      "item": "minecraft:netherite_scrap"
-    },
-    "4": {
+    "c": {
       "item": "minecraft:snow_block"
     },
-    "5": {
-      "item": "minecraft:netherite_scrap"
-    },
-    "6": {
+    "d": {
       "item": "minecraft:redstone"
     },
-    "7": {
+    "e": {
       "item": "doz_in_maincraft:copper_ingot"
-    },
-    "8": {
-      "item": "minecraft:redstone"
     }
   },
   "result": {

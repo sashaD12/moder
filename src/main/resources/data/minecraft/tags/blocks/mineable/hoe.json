@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "doz_in_maincraft:burnt_blood_hole_block",
-    "doz_in_maincraft:burnt_bloody_hole"
+    "doz_in_maincraft:burnt_bloody_hole",
+    "doz_in_maincraft:burnt_blood_hole_block"
   ]
 }

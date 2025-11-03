@@ -17,9 +17,9 @@ public class StimulatorPriNazhatiiPravoiKnopkoiMyshiProcedure {
 			ItemStack _stktoremove = new ItemStack(DozInMaincraftModItems.STIMULATOR.get());
 			_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 		}
-		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 100, 5));
-		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.HEAL, 100, 5));
 	}
 }

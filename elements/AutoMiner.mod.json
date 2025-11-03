@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "block",
   "definition": {
     "texture": "auto_haxta",
@@ -33,15 +33,20 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Auto Miner",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.6,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
@@ -98,7 +103,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "vanillaToolTier": "IRON",
     "isBonemealable": false,
     "hasInventory": true,
     "guiBoundTo": "Fyv",
@@ -122,7 +127,7 @@
     "onTickUpdate": {
       "name": "AutoMinerObnovlieniieTika"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

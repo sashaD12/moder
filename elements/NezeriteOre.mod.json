@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "block",
   "definition": {
     "texture": "58a1f02ee16f015a3892374b_1",
@@ -33,15 +33,20 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Nezerite Ore",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.9999999999999998,
     "resistance": 1.407,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "destroyTool": "shovel",
     "customDrop": {
       "value": "CUSTOM:NezeriteDust"
@@ -98,10 +103,9 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "vanillaToolTier": "IRON",
     "isBonemealable": false,
     "hasInventory": false,
-    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -117,9 +121,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "generateFeature": true,
     "restrictionBiomes": [
       {
         "value": "desert"

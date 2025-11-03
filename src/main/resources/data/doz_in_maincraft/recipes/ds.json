@@ -2,37 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "bcb",
+    "aba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:oak_log"
     },
-    "1": {
+    "b": {
       "item": "minecraft:iron_ingot"
     },
-    "2": {
-      "item": "minecraft:oak_log"
-    },
-    "3": {
-      "item": "minecraft:iron_ingot"
-    },
-    "4": {
+    "c": {
       "item": "doz_in_maincraft:case_shooting_range_1"
-    },
-    "5": {
-      "item": "minecraft:iron_ingot"
-    },
-    "6": {
-      "item": "minecraft:oak_log"
-    },
-    "7": {
-      "item": "minecraft:iron_ingot"
-    },
-    "8": {
-      "item": "minecraft:oak_log"
     }
   },
   "result": {

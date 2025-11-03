@@ -2,37 +2,28 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "cde",
+    "bfb"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:netherite_scrap"
     },
-    "1": {
+    "b": {
       "item": "doz_in_maincraft:steal_block"
     },
-    "2": {
-      "item": "minecraft:netherite_scrap"
-    },
-    "3": {
+    "c": {
       "item": "doz_in_maincraft:tin_ingot"
     },
-    "4": {
+    "d": {
       "item": "doz_in_maincraft:cooling_mechanism"
     },
-    "5": {
+    "e": {
       "item": "doz_in_maincraft:aluminum_ingot"
     },
-    "6": {
-      "item": "doz_in_maincraft:steal_block"
-    },
-    "7": {
+    "f": {
       "item": "doz_in_maincraft:steal_ingot"
-    },
-    "8": {
-      "item": "doz_in_maincraft:steal_block"
     }
   },
   "result": {

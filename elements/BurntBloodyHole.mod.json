@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "block",
   "definition": {
     "texture": "xca",
@@ -33,15 +33,20 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Burnt Bloody Hole",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "destroyTool": "hoe",
     "customDrop": {
       "value": "CUSTOM:SymbioticUlcer"
@@ -98,7 +103,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "hasInventory": true,
     "guiBoundTo": "Tftyfy",
@@ -120,7 +125,7 @@
     "onBlockAdded": {
       "name": "BurntBloodyHoleKoghdaBlokDobavlien"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

@@ -3,24 +3,15 @@
   "group": "df",
   "category": "misc",
   "pattern": [
-    "012",
-    " 4 ",
-    " 7 "
+    "aaa",
+    " b ",
+    " b "
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "doz_in_maincraft:copper_ingot"
     },
-    "1": {
-      "item": "doz_in_maincraft:copper_ingot"
-    },
-    "2": {
-      "item": "doz_in_maincraft:copper_ingot"
-    },
-    "4": {
-      "item": "minecraft:stick"
-    },
-    "7": {
+    "b": {
       "item": "minecraft:stick"
     }
   },

@@ -41,7 +41,7 @@ public class GrtMenu extends AbstractContainerMenu implements Supplier<Map<Integ
 	public GrtMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
 		super(DozInMaincraftModMenus.GRT.get(), id);
 		this.entity = inv.player;
-		this.world = inv.player.level;
+		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(16);
 		BlockPos pos = null;
 		if (extraData != null) {
@@ -79,51 +79,83 @@ public class GrtMenu extends AbstractContainerMenu implements Supplier<Map<Integ
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 16, 17) {
 			private final int slot = 0;
+			private int x = GrtMenu.this.x;
+			private int y = GrtMenu.this.y;
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 34, 17) {
 			private final int slot = 1;
+			private int x = GrtMenu.this.x;
+			private int y = GrtMenu.this.y;
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 52, 17) {
 			private final int slot = 2;
+			private int x = GrtMenu.this.x;
+			private int y = GrtMenu.this.y;
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 70, 17) {
 			private final int slot = 3;
+			private int x = GrtMenu.this.x;
+			private int y = GrtMenu.this.y;
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 88, 17) {
 			private final int slot = 4;
+			private int x = GrtMenu.this.x;
+			private int y = GrtMenu.this.y;
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 106, 17) {
 			private final int slot = 5;
+			private int x = GrtMenu.this.x;
+			private int y = GrtMenu.this.y;
 		}));
 		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 124, 17) {
 			private final int slot = 6;
+			private int x = GrtMenu.this.x;
+			private int y = GrtMenu.this.y;
 		}));
 		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 142, 17) {
 			private final int slot = 7;
+			private int x = GrtMenu.this.x;
+			private int y = GrtMenu.this.y;
 		}));
 		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 16, 35) {
 			private final int slot = 8;
+			private int x = GrtMenu.this.x;
+			private int y = GrtMenu.this.y;
 		}));
 		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 34, 35) {
 			private final int slot = 9;
+			private int x = GrtMenu.this.x;
+			private int y = GrtMenu.this.y;
 		}));
 		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 52, 35) {
 			private final int slot = 10;
+			private int x = GrtMenu.this.x;
+			private int y = GrtMenu.this.y;
 		}));
 		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 70, 35) {
 			private final int slot = 11;
+			private int x = GrtMenu.this.x;
+			private int y = GrtMenu.this.y;
 		}));
 		this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 88, 35) {
 			private final int slot = 12;
+			private int x = GrtMenu.this.x;
+			private int y = GrtMenu.this.y;
 		}));
 		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 106, 35) {
 			private final int slot = 13;
+			private int x = GrtMenu.this.x;
+			private int y = GrtMenu.this.y;
 		}));
 		this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 124, 35) {
 			private final int slot = 14;
+			private int x = GrtMenu.this.x;
+			private int y = GrtMenu.this.y;
 		}));
 		this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 142, 35) {
 			private final int slot = 15;
+			private int x = GrtMenu.this.x;
+			private int y = GrtMenu.this.y;
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)

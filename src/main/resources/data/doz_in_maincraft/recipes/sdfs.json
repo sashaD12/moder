@@ -2,37 +2,25 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "abc",
+    "ded",
+    "cba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "doz_in_maincraft:magic_pine_log"
     },
-    "1": {
+    "b": {
       "item": "doz_in_maincraft:case_shooting_range_3"
     },
-    "2": {
+    "c": {
       "item": "doz_in_maincraft:steel_plate"
     },
-    "3": {
+    "d": {
       "item": "doz_in_maincraft:bolts"
     },
-    "4": {
+    "e": {
       "item": "doz_in_maincraft:box_detail"
-    },
-    "5": {
-      "item": "doz_in_maincraft:bolts"
-    },
-    "6": {
-      "item": "doz_in_maincraft:steel_plate"
-    },
-    "7": {
-      "item": "doz_in_maincraft:case_shooting_range_3"
-    },
-    "8": {
-      "item": "doz_in_maincraft:magic_pine_log"
     }
   },
   "result": {

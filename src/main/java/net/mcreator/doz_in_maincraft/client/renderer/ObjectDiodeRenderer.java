@@ -10,7 +10,7 @@ import net.mcreator.doz_in_maincraft.client.model.Modeltuha;
 
 public class ObjectDiodeRenderer extends MobRenderer<ObjectDiodeEntity, Modeltuha<ObjectDiodeEntity>> {
 	public ObjectDiodeRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modeltuha(context.bakeLayer(Modeltuha.LAYER_LOCATION)), 0.7f);
+		super(context, new Modeltuha<ObjectDiodeEntity>(context.bakeLayer(Modeltuha.LAYER_LOCATION)), 0.7f);
 	}
 
 	@Override

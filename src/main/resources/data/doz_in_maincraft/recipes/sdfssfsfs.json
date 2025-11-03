@@ -2,37 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "bcb",
+    "aba"
   ],
   "key": {
-    "0": {
-      "tag": "minecraft:coals"
+    "a": {
+      "item": "minecraft:air"
     },
-    "1": {
+    "b": {
       "item": "minecraft:potion"
     },
-    "2": {
-      "tag": "minecraft:coals"
-    },
-    "3": {
-      "item": "minecraft:potion"
-    },
-    "4": {
+    "c": {
       "item": "doz_in_maincraft:empty_balloon"
-    },
-    "5": {
-      "item": "minecraft:potion"
-    },
-    "6": {
-      "tag": "minecraft:coals"
-    },
-    "7": {
-      "item": "minecraft:potion"
-    },
-    "8": {
-      "tag": "minecraft:coals"
     }
   },
   "result": {

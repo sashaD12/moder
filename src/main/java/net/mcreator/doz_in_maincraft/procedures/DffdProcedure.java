@@ -22,7 +22,7 @@ public class DffdProcedure {
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 			if (entity instanceof LivingEntity _entity) {
-				ItemStack _setstack = new ItemStack(Blocks.AIR);
+				ItemStack _setstack = new ItemStack(Blocks.AIR).copy();
 				_setstack.setCount(1);
 				_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack);
 				if (_entity instanceof Player _player)

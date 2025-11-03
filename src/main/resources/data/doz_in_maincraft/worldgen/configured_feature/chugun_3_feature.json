@@ -1,0 +1,14 @@
+{
+  "type": "doz_in_maincraft:structure_feature",
+  "config": {
+    "structure": "doz_in_maincraft:chugun3",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  }
+}

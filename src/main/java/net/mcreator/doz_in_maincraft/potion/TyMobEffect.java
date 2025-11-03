@@ -14,11 +14,6 @@ public class TyMobEffect extends MobEffect {
 	}
 
 	@Override
-	public String getDescriptionId() {
-		return "effect.doz_in_maincraft.ty";
-	}
-
-	@Override
 	public void removeAttributeModifiers(LivingEntity entity, AttributeMap attributeMap, int amplifier) {
 		super.removeAttributeModifiers(entity, attributeMap, amplifier);
 		TyPriIstiechieniiEffiektaProcedure.execute(entity);

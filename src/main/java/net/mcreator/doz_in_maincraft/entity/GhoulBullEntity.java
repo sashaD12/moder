@@ -36,7 +36,7 @@ public class GhoulBullEntity extends Monster implements RangedAttackMob {
 
 	public GhoulBullEntity(EntityType<GhoulBullEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 4;
 		setNoAi(false);
 		setPersistenceRequired();
@@ -90,7 +90,7 @@ public class GhoulBullEntity extends Monster implements RangedAttackMob {
 
 	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
-		SPAS12Entity.shoot(this, target);
+		SPAS12ProjectileEntity.shoot(this, target);
 	}
 
 	public static void init() {

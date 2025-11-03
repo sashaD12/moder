@@ -2,24 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " 1 ",
-    "345",
-    " 7 "
+    " a ",
+    "bcb",
+    " d "
   ],
   "key": {
-    "1": {
+    "a": {
       "item": "minecraft:redstone"
     },
-    "3": {
+    "b": {
       "item": "minecraft:string"
     },
-    "4": {
+    "c": {
       "item": "minecraft:iron_nugget"
     },
-    "5": {
-      "item": "minecraft:string"
-    },
-    "7": {
+    "d": {
       "item": "doz_in_maincraft:unfinished_stimulant"
     }
   },

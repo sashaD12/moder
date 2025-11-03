@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "01"
+    "ab"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "doz_in_maincraft:clip_2"
     },
-    "1": {
+    "b": {
       "item": "doz_in_maincraft:patron_10mm"
     }
   },

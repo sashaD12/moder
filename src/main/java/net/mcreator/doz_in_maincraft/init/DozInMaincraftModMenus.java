@@ -29,8 +29,8 @@ import net.mcreator.doz_in_maincraft.DozInMaincraftMod;
 
 public class DozInMaincraftModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, DozInMaincraftMod.MODID);
-	public static final RegistryObject<MenuType<GrtMenu>> GRT = REGISTRY.register("grt", () -> IForgeMenuType.create(GrtMenu::new));
 	public static final RegistryObject<MenuType<DfsMenu>> DFS = REGISTRY.register("dfs", () -> IForgeMenuType.create(DfsMenu::new));
+	public static final RegistryObject<MenuType<GrtMenu>> GRT = REGISTRY.register("grt", () -> IForgeMenuType.create(GrtMenu::new));
 	public static final RegistryObject<MenuType<DfgMenu>> DFG = REGISTRY.register("dfg", () -> IForgeMenuType.create(DfgMenu::new));
 	public static final RegistryObject<MenuType<TftyfyMenu>> TFTYFY = REGISTRY.register("tftyfy", () -> IForgeMenuType.create(TftyfyMenu::new));
 	public static final RegistryObject<MenuType<Tier2Menu>> TIER_2 = REGISTRY.register("tier_2", () -> IForgeMenuType.create(Tier2Menu::new));

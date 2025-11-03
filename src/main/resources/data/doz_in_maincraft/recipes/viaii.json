@@ -2,34 +2,25 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "3 5",
-    "678"
+    "aba",
+    "c c",
+    "ded"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:gold_ingot"
     },
-    "1": {
+    "b": {
       "item": "minecraft:iron_block"
     },
-    "2": {
-      "item": "minecraft:gold_ingot"
-    },
-    "3": {
+    "c": {
       "item": "minecraft:redstone_block"
     },
-    "5": {
-      "item": "minecraft:redstone_block"
-    },
-    "6": {
+    "d": {
       "item": "minecraft:smooth_stone"
     },
-    "7": {
+    "e": {
       "item": "minecraft:stone_stairs"
-    },
-    "8": {
-      "item": "minecraft:smooth_stone"
     }
   },
   "result": {

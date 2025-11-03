@@ -10,7 +10,7 @@ import net.mcreator.doz_in_maincraft.client.model.Modelpalach;
 
 public class ObjectStokerRenderer extends MobRenderer<ObjectStokerEntity, Modelpalach<ObjectStokerEntity>> {
 	public ObjectStokerRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelpalach(context.bakeLayer(Modelpalach.LAYER_LOCATION)), 0.7f);
+		super(context, new Modelpalach<ObjectStokerEntity>(context.bakeLayer(Modelpalach.LAYER_LOCATION)), 0.7f);
 	}
 
 	@Override

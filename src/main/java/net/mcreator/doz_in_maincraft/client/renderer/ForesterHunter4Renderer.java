@@ -10,7 +10,7 @@ import net.mcreator.doz_in_maincraft.client.model.Modellesovik3;
 
 public class ForesterHunter4Renderer extends MobRenderer<ForesterHunter4Entity, Modellesovik3<ForesterHunter4Entity>> {
 	public ForesterHunter4Renderer(EntityRendererProvider.Context context) {
-		super(context, new Modellesovik3(context.bakeLayer(Modellesovik3.LAYER_LOCATION)), 1f);
+		super(context, new Modellesovik3<ForesterHunter4Entity>(context.bakeLayer(Modellesovik3.LAYER_LOCATION)), 1f);
 	}
 
 	@Override

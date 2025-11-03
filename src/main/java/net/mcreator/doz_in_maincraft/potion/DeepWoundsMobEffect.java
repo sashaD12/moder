@@ -13,18 +13,13 @@ public class DeepWoundsMobEffect extends MobEffect {
 	}
 
 	@Override
-	public String getDescriptionId() {
-		return "effect.doz_in_maincraft.deep_wounds";
-	}
-
-	@Override
 	public boolean isInstantenous() {
 		return true;
 	}
 
 	@Override
 	public void applyEffectTick(LivingEntity entity, int amplifier) {
-		DeepWoundsAktivnoieSostoianiieProcedure.execute(entity);
+		DeepWoundsAktivnoieSostoianiieProcedure.execute(entity.level(), entity);
 	}
 
 	@Override

@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "mm_10_mm": {
+    "mm_10_mm_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

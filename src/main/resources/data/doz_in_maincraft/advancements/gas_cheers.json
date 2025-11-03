@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "gas_cheers": {
+    "gas_cheers_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

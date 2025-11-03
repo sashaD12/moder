@@ -1,16 +1,3 @@
-/*
- *    MCreator note:
- *
- *    If you lock base mod element files, you can edit this file and it won't get overwritten.
- *    If you change your modid or package, you need to apply these changes to this file MANUALLY.
- *
- *    Settings in @Mod annotation WON'T be changed in case of the base mod element
- *    files lock too, so you need to set them manually here in such case.
- *
- *    If you do not lock base mod element files in Workspace settings, this file
- *    will be REGENERATED on each build.
- *
- */
 package net.mcreator.doz_in_maincraft;
 
 import org.apache.logging.log4j.Logger;
@@ -19,6 +6,7 @@ import org.apache.logging.log4j.LogManager;
 import net.minecraftforge.network.simple.SimpleChannel;
 import net.minecraftforge.network.NetworkRegistry;
 import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.util.thread.SidedThreadGroups;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -29,6 +17,8 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.doz_in_maincraft.world.features.StructureFeature;
+import net.mcreator.doz_in_maincraft.init.DozInMaincraftModTabs;
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModSounds;
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModPotions;
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModMobEffects;
@@ -36,7 +26,6 @@ import net.mcreator.doz_in_maincraft.init.DozInMaincraftModMenus;
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModItems;
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModFluids;
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModFluidTypes;
-import net.mcreator.doz_in_maincraft.init.DozInMaincraftModFeatures;
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModEntities;
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModBlocks;
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModBlockEntities;
@@ -56,25 +45,34 @@ public class DozInMaincraftMod {
 	public static final String MODID = "doz_in_maincraft";
 
 	public DozInMaincraftMod() {
+		// Start of user code block mod constructor
+		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		DozInMaincraftModSounds.REGISTRY.register(bus);
 		DozInMaincraftModBlocks.REGISTRY.register(bus);
+		DozInMaincraftModBlockEntities.REGISTRY.register(bus);
 		DozInMaincraftModItems.REGISTRY.register(bus);
 		DozInMaincraftModEntities.REGISTRY.register(bus);
-		DozInMaincraftModBlockEntities.REGISTRY.register(bus);
 
+		DozInMaincraftModTabs.REGISTRY.register(bus);
+
+		StructureFeature.REGISTRY.register(bus);
 		DozInMaincraftModMobEffects.REGISTRY.register(bus);
 		DozInMaincraftModPotions.REGISTRY.register(bus);
-		DozInMaincraftModMenus.REGISTRY.register(bus);
-		DozInMaincraftModFeatures.REGISTRY.register(bus);
 
+		DozInMaincraftModMenus.REGISTRY.register(bus);
 		DozInMaincraftModFluids.REGISTRY.register(bus);
 		DozInMaincraftModFluidTypes.REGISTRY.register(bus);
+
+		// Start of user code block mod init
+		// End of user code block mod init
 	}
 
+	// Start of user code block mod methods
+	// End of user code block mod methods
 	private static final String PROTOCOL_VERSION = "1";
-	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
+	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, clientVersion -> true);
 	private static int messageID = 0;
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder, BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {
@@ -85,7 +83,8 @@ public class DozInMaincraftMod {
 	private static final Collection<AbstractMap.SimpleEntry<Runnable, Integer>> workQueue = new ConcurrentLinkedQueue<>();
 
 	public static void queueServerWork(int tick, Runnable action) {
-		workQueue.add(new AbstractMap.SimpleEntry(action, tick));
+		if (Thread.currentThread().getThreadGroup() == SidedThreadGroups.SERVER)
+			workQueue.add(new AbstractMap.SimpleEntry<>(action, tick));
 	}
 
 	@SubscribeEvent

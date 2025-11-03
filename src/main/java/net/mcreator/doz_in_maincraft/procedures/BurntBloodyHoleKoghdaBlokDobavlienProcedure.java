@@ -17,7 +17,7 @@ public class BurntBloodyHoleKoghdaBlokDobavlienProcedure {
 				BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 				if (_ent != null) {
 					final int _slotid = 0;
-					final ItemStack _setstack = new ItemStack(DozInMaincraftModItems.BLOODY_TEAR.get());
+					final ItemStack _setstack = new ItemStack(DozInMaincraftModItems.BLOODY_TEAR.get()).copy();
 					_setstack.setCount(2);
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable)
@@ -30,7 +30,7 @@ public class BurntBloodyHoleKoghdaBlokDobavlienProcedure {
 				BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 				if (_ent != null) {
 					final int _slotid = 0;
-					final ItemStack _setstack = new ItemStack(DozInMaincraftModItems.BLOODY_TEAR.get());
+					final ItemStack _setstack = new ItemStack(DozInMaincraftModItems.BLOODY_TEAR.get()).copy();
 					_setstack.setCount(3);
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable)
@@ -43,7 +43,7 @@ public class BurntBloodyHoleKoghdaBlokDobavlienProcedure {
 				BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 				if (_ent != null) {
 					final int _slotid = 0;
-					final ItemStack _setstack = new ItemStack(DozInMaincraftModItems.BLOODY_TEAR.get());
+					final ItemStack _setstack = new ItemStack(DozInMaincraftModItems.BLOODY_TEAR.get()).copy();
 					_setstack.setCount(4);
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable)
@@ -58,7 +58,7 @@ public class BurntBloodyHoleKoghdaBlokDobavlienProcedure {
 					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = 2;
-						final ItemStack _setstack = new ItemStack(DozInMaincraftModItems.DOUBLE_BLOODY_TEAR.get());
+						final ItemStack _setstack = new ItemStack(DozInMaincraftModItems.DOUBLE_BLOODY_TEAR.get()).copy();
 						_setstack.setCount(2);
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 							if (capability instanceof IItemHandlerModifiable)
@@ -71,7 +71,7 @@ public class BurntBloodyHoleKoghdaBlokDobavlienProcedure {
 					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					if (_ent != null) {
 						final int _slotid = 2;
-						final ItemStack _setstack = new ItemStack(DozInMaincraftModItems.DOUBLE_BLOODY_TEAR.get());
+						final ItemStack _setstack = new ItemStack(DozInMaincraftModItems.DOUBLE_BLOODY_TEAR.get()).copy();
 						_setstack.setCount(1);
 						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 							if (capability instanceof IItemHandlerModifiable)
@@ -86,7 +86,7 @@ public class BurntBloodyHoleKoghdaBlokDobavlienProcedure {
 				BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 				if (_ent != null) {
 					final int _slotid = 3;
-					final ItemStack _setstack = new ItemStack(DozInMaincraftModItems.TRIPLE_TEAR_BLOOD.get());
+					final ItemStack _setstack = new ItemStack(DozInMaincraftModItems.TRIPLE_TEAR_BLOOD.get()).copy();
 					_setstack.setCount(1);
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable)

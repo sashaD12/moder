@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,18 +10,28 @@
     "textureLeggings": "nachalka",
     "enableBoots": true,
     "textureBoots": "nachalka",
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "armorTextureFile": "xc",
     "helmetName": "Шлем Survivor's Armor",
     "bodyName": "Нагрудник Survivor's Armor",
     "leggingsName": "Поножи Survivor's Armor",
     "bootsName": "Ботинки Survivor's Armor",
-    "helmetSpecialInfo": [],
-    "bodySpecialInfo": [],
-    "leggingsSpecialInfo": [],
-    "bootsSpecialInfo": [],
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
     "helmetModelName": "Modelnachalka_1",
     "helmetModelPart": "Head",
     "helmetModelTexture": "nachalka.png",

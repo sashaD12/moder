@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "plant",
   "definition": {
     "renderType": 2,
@@ -13,6 +13,19 @@
     "plantType": "normal",
     "suspiciousStewEffect": "DARKNESS",
     "suspiciousStewDuration": 35,
+    "secondaryTreeChance": 0.1,
+    "trees": [
+      null,
+      null
+    ],
+    "flowerTrees": [
+      null,
+      null
+    ],
+    "megaTrees": [
+      null,
+      null
+    ],
     "growapableSpawnType": "Cave",
     "growapableMaxHeight": 3,
     "customBoundingBox": true,
@@ -164,15 +177,20 @@
       }
     ],
     "name": "Dark Zone Crystal",
-    "specialInfo": [],
-    "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+    "specialInformation": {
+      "fixedValue": []
     },
+    "creativeTabs": [
+      {
+        "value": "BUILDING_BLOCKS"
+      }
+    ],
     "hardness": 2.0,
     "resistance": 3.0,
     "luminance": 4,
     "unbreakable": false,
     "isSolid": true,
+    "isWaterloggable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
       "value": "AMETHYST_CLUSTER"
@@ -230,9 +248,7 @@
     },
     "isBonemealable": false,
     "frequencyOnChunks": 1,
-    "spawnWorldTypes": [
-      "CUSTOM:DarkZone"
-    ],
+    "generateFeature": true,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:CrystalDesert"

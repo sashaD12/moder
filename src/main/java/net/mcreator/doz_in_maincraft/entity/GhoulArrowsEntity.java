@@ -36,7 +36,7 @@ public class GhoulArrowsEntity extends Monster implements RangedAttackMob {
 
 	public GhoulArrowsEntity(EntityType<GhoulArrowsEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 4;
 		setNoAi(false);
 		setPersistenceRequired();
@@ -90,7 +90,7 @@ public class GhoulArrowsEntity extends Monster implements RangedAttackMob {
 
 	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
-		TTSimbiotEntity.shoot(this, target);
+		TTSimbiotProjectileEntity.shoot(this, target);
 	}
 
 	public static void init() {

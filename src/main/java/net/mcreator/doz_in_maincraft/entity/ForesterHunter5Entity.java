@@ -30,6 +30,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
+import net.minecraft.network.chat.Component;
 
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModItems;
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModEntities;
@@ -41,7 +42,7 @@ public class ForesterHunter5Entity extends Villager {
 
 	public ForesterHunter5Entity(EntityType<ForesterHunter5Entity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 5;
 		setNoAi(false);
 		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(DozInMaincraftModItems.FORESTERS_SPEAR.get()));
@@ -50,6 +51,11 @@ public class ForesterHunter5Entity extends Villager {
 	@Override
 	public Packet<ClientGamePacketListener> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
+	}
+
+	@Override
+	protected Component getTypeName() {
+		return this.getType().getDescription();
 	}
 
 	@Override

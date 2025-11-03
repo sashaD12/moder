@@ -32,14 +32,14 @@ public class DffProcedure {
 		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Blocks.AIR)) : false) {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 				if (entity instanceof LivingEntity _entity) {
-					ItemStack _setstack = new ItemStack(Blocks.AIR);
+					ItemStack _setstack = new ItemStack(Blocks.AIR).copy();
 					_setstack.setCount(1);
 					_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack);
 					if (_entity instanceof Player _player)
 						_player.getInventory().setChanged();
 				}
 				if (entity instanceof Player _player) {
-					ItemStack _setstack = new ItemStack(Blocks.AIR);
+					ItemStack _setstack = new ItemStack(Blocks.AIR).copy();
 					_setstack.setCount(1);
 					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 				}
@@ -50,14 +50,14 @@ public class DffProcedure {
 			}
 		} else {
 			if (entity instanceof LivingEntity _entity) {
-				ItemStack _setstack = new ItemStack(Blocks.AIR);
+				ItemStack _setstack = new ItemStack(Blocks.AIR).copy();
 				_setstack.setCount(1);
 				_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack);
 				if (_entity instanceof Player _player)
 					_player.getInventory().setChanged();
 			}
 			if (entity instanceof Player _player) {
-				ItemStack _setstack = new ItemStack(Blocks.AIR);
+				ItemStack _setstack = new ItemStack(Blocks.AIR).copy();
 				_setstack.setCount(1);
 				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 			}

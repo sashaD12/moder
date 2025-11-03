@@ -21,11 +21,11 @@ public class StealSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 12f;
+				return 10f;
 			}
 
 			public int getLevel() {
-				return 5;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {

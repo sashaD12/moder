@@ -2,14 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0",
-    "1"
+    "a",
+    "a"
   ],
   "key": {
-    "0": {
-      "item": "doz_in_maincraft:piece_tin"
-    },
-    "1": {
+    "a": {
       "item": "doz_in_maincraft:piece_tin"
     }
   },

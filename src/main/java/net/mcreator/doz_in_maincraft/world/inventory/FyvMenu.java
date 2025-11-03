@@ -41,7 +41,7 @@ public class FyvMenu extends AbstractContainerMenu implements Supplier<Map<Integ
 	public FyvMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
 		super(DozInMaincraftModMenus.FYV.get(), id);
 		this.entity = inv.player;
-		this.world = inv.player.level;
+		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(1);
 		BlockPos pos = null;
 		if (extraData != null) {
@@ -79,6 +79,8 @@ public class FyvMenu extends AbstractContainerMenu implements Supplier<Map<Integ
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 78, 23) {
 			private final int slot = 0;
+			private int x = FyvMenu.this.x;
+			private int y = FyvMenu.this.y;
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)

@@ -2,36 +2,24 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "cdc",
+    "ebe"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:gold_ingot"
     },
-    "1": {
+    "b": {
       "item": "doz_in_maincraft:steel_plate"
     },
-    "2": {
-      "item": "minecraft:gold_ingot"
-    },
-    "3": {
+    "c": {
       "tag": "forge:stained_glass_panes"
     },
-    "4": {
+    "d": {
       "item": "minecraft:dragon_breath"
     },
-    "5": {
-      "tag": "forge:stained_glass_panes"
-    },
-    "6": {
-      "item": "minecraft:stone_button"
-    },
-    "7": {
-      "item": "doz_in_maincraft:steel_plate"
-    },
-    "8": {
+    "e": {
       "item": "minecraft:stone_button"
     }
   },

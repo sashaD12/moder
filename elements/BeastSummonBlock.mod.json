@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "block",
   "definition": {
     "texture": "photo_2023-09-03_21-11-14",
@@ -33,15 +33,20 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Beast Summon Block",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 10000.0,
     "resistance": 1.0E9,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -98,10 +103,9 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 100,
+    "vanillaToolTier": "DIAMOND",
     "isBonemealable": false,
     "hasInventory": false,
-    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -123,7 +127,7 @@
     "onRedstoneOn": {
       "name": "BeastSummonBlockKrasnyiKamienVkl"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

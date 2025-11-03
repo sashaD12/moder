@@ -1,15 +1,23 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "livingentity",
   "definition": {
     "mobName": "Dron",
     "mobLabel": "",
     "mobModelName": "Modeldron",
     "mobModelTexture": "dron.png",
-    "mobModelGlowTexture": "dron.png",
     "solidBoundingBox": {
       "fixedValue": false
     },
+    "modelLayers": [
+      {
+        "model": "Default",
+        "texture": "dron.png",
+        "disableHurtOverlay": false,
+        "glow": true
+      }
+    ],
+    "animations": [],
     "modelWidth": 0.6,
     "modelHeight": 1.0,
     "modelShadowSize": 0.0,
@@ -23,9 +31,11 @@
       "value": -11513776,
       "falpha": 0.0
     },
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
@@ -60,8 +70,10 @@
     "health": 6,
     "xpAmount": 0,
     "waterMob": true,
+    "breatheUnderwater": {
+      "fixedValue": true
+    },
     "flyingMob": true,
-    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,
@@ -96,6 +108,7 @@
     "stepSound": {
       "value": ""
     },
+    "entityDataEntries": [],
     "onMobTickUpdate": {
       "name": "FdgdPriObnovlieniiTikaSushchnosti"
     },
@@ -116,7 +129,7 @@
     "rangedAttackItem": {
       "value": ""
     },
-    "rangedItemType": "PP19Bizon",
+    "rangedItemType": "PP19BizonProjectile",
     "rangedAttackInterval": 37,
     "rangedAttackRadius": 18.6,
     "spawnThisMob": false,
@@ -130,6 +143,15 @@
         "value": "void"
       }
     ],
-    "spawnInDungeons": false
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ]
   }
 }

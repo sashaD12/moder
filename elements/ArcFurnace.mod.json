@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "block",
   "definition": {
     "texture": "zusr",
@@ -33,15 +33,20 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Arc Furnace",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 2.05,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
@@ -98,7 +103,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "vanillaToolTier": "IRON",
     "isBonemealable": false,
     "hasInventory": true,
     "guiBoundTo": "Dfg",
@@ -120,7 +125,7 @@
     "onTickUpdate": {
       "name": "ArcFurnaceObnovitTakt"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

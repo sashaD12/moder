@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "block",
   "definition": {
     "texture": "pres",
@@ -168,15 +168,20 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Ammunition Press",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
@@ -233,7 +238,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "vanillaToolTier": "DIAMOND",
     "isBonemealable": false,
     "hasInventory": true,
     "guiBoundTo": "Dsd",
@@ -255,7 +260,7 @@
     "onTickUpdate": {
       "name": "Dfsssss"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

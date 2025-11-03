@@ -1,26 +1,31 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
     "renderType": 1,
+    "blockingRenderType": 0,
     "texture": "lshchzn",
     "customModelName": "kopy:default",
+    "blockingModelName": "Normal blocking",
     "name": "Foresters Spear",
-    "specialInfo": [],
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
+    "specialInformation": {
+      "fixedValue": []
     },
-    "harvestLevel": 1,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "efficiency": 4.0,
     "attackSpeed": 0.8,
     "enchantability": 2,
     "damageVsEntity": 13.6,
     "usageCount": 1500,
-    "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [],
     "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": true
   }

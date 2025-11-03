@@ -22,26 +22,24 @@ public class SdsOverlay {
 	public static void eventHandler(RenderGuiEvent.Pre event) {
 		int w = event.getWindow().getGuiScaledWidth();
 		int h = event.getWindow().getGuiScaledHeight();
-		int posX = w / 2;
-		int posY = h / 2;
 		Level world = null;
 		double x = 0;
 		double y = 0;
 		double z = 0;
 		Player entity = Minecraft.getInstance().player;
 		if (entity != null) {
-			world = entity.level;
+			world = entity.level();
 			x = entity.getX();
 			y = entity.getY();
 			z = entity.getZ();
 		}
 		if (SdsUsloviiePokazaNalozhieniiaProcedure.execute()) {
-			Minecraft.getInstance().font.draw(event.getPoseStack(), Component.translatable("gui.doz_in_maincraft.sds.label_stop_increased_danger"), posX + -46, posY + -73, -13434880);
-			Minecraft.getInstance().font.draw(event.getPoseStack(), Component.translatable("gui.doz_in_maincraft.sds.label_warning"), posX + -19, posY + -62, -16777165);
-			Minecraft.getInstance().font.draw(event.getPoseStack(), Component.translatable("gui.doz_in_maincraft.sds.label_the_institute_is_not_responsible"), posX + -145, posY + -49, -13434880);
-			Minecraft.getInstance().font.draw(event.getPoseStack(), Component.translatable("gui.doz_in_maincraft.sds.label_warning1"), posX + -19, posY + -38, -16777165);
-			Minecraft.getInstance().font.draw(event.getPoseStack(), Component.translatable("gui.doz_in_maincraft.sds.label_the_institute_is_not_responsible1"), posX + -145, posY + -19, -13434880);
-			Minecraft.getInstance().font.draw(event.getPoseStack(), Component.translatable("gui.doz_in_maincraft.sds.label_stop_increased_danger1"), posX + -45, posY + -5, -13434880);
+			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.doz_in_maincraft.sds.label_stop_increased_danger"), w / 2 + -46, h / 2 + -73, -13434880, false);
+			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.doz_in_maincraft.sds.label_warning"), w / 2 + -19, h / 2 + -62, -16777165, false);
+			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.doz_in_maincraft.sds.label_the_institute_is_not_responsible"), w / 2 + -145, h / 2 + -49, -13434880, false);
+			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.doz_in_maincraft.sds.label_warning1"), w / 2 + -19, h / 2 + -38, -16777165, false);
+			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.doz_in_maincraft.sds.label_the_institute_is_not_responsible1"), w / 2 + -145, h / 2 + -19, -13434880, false);
+			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.doz_in_maincraft.sds.label_stop_increased_danger1"), w / 2 + -45, h / 2 + -5, -13434880, false);
 		}
 	}
 }

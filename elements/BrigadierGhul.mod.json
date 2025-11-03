@@ -1,15 +1,16 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "livingentity",
   "definition": {
     "mobName": "Brigadier Ghul",
     "mobLabel": "",
     "mobModelName": "Modelgul1",
     "mobModelTexture": "gul.png",
-    "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false
     },
+    "modelLayers": [],
+    "animations": [],
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
@@ -23,9 +24,11 @@
       "value": -13434880,
       "falpha": 0.0
     },
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
@@ -60,8 +63,10 @@
     "health": 25,
     "xpAmount": 4,
     "waterMob": false,
+    "pushedByFluids": {
+      "fixedValue": true
+    },
     "flyingMob": false,
-    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,
@@ -96,6 +101,7 @@
     "stepSound": {
       "value": ""
     },
+    "entityDataEntries": [],
     "hasAI": true,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
@@ -120,6 +126,15 @@
         "value": "void"
       }
     ],
-    "spawnInDungeons": false
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ]
   }
 }

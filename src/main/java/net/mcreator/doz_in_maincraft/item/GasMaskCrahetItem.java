@@ -26,6 +26,8 @@ import java.util.function.Consumer;
 import java.util.Map;
 import java.util.Collections;
 
+import com.google.common.collect.Iterables;
+
 public abstract class GasMaskCrahetItem extends ArmorItem {
 	public GasMaskCrahetItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
@@ -100,8 +102,11 @@ public abstract class GasMaskCrahetItem extends ArmorItem {
 		}
 
 		@Override
-		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			GasMaskCrahetSobytiieTaktovShliemaProcedure.execute(entity);
+		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
+				GasMaskCrahetSobytiieTaktovShliemaProcedure.execute(world, entity);
+			}
 		}
 	}
 }

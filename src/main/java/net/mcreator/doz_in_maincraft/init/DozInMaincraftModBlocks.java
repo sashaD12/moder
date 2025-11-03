@@ -163,8 +163,10 @@ public class DozInMaincraftModBlocks {
 	public static final RegistryObject<Block> AIRDROP_OPEN = REGISTRY.register("airdrop_open", () -> new AirdropOpenBlock());
 	public static final RegistryObject<Block> DARK_ZONE_CRYSTAL = REGISTRY.register("dark_zone_crystal", () -> new DarkZoneCrystalBlock());
 
+	// Start of user code block custom blocks
+	// End of user code block custom blocks
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-	public static class ClientSideHandler {
+	public static class BlocksClientSideHandler {
 		@SubscribeEvent
 		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
 			DarkZoneCrystalBlock.blockColorLoad(event);

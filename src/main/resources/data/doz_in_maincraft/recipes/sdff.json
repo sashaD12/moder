@@ -2,37 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aba",
+    "aaa"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "doz_in_maincraft:chugunn_block"
     },
-    "1": {
-      "item": "doz_in_maincraft:chugunn_block"
-    },
-    "2": {
-      "item": "doz_in_maincraft:chugunn_block"
-    },
-    "3": {
-      "item": "doz_in_maincraft:chugunn_block"
-    },
-    "4": {
+    "b": {
       "item": "minecraft:amethyst_shard"
-    },
-    "5": {
-      "item": "doz_in_maincraft:chugunn_block"
-    },
-    "6": {
-      "item": "doz_in_maincraft:chugunn_block"
-    },
-    "7": {
-      "item": "doz_in_maincraft:chugunn_block"
-    },
-    "8": {
-      "item": "doz_in_maincraft:chugunn_block"
     }
   },
   "result": {

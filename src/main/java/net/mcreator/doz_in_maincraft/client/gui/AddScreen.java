@@ -6,12 +6,12 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.doz_in_maincraft.world.inventory.AddMenu;
 
 import java.util.HashMap;
 
-import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
 public class AddScreen extends AbstractContainerScreen<AddMenu> {
@@ -34,22 +34,20 @@ public class AddScreen extends AbstractContainerScreen<AddMenu> {
 	private static final ResourceLocation texture = new ResourceLocation("doz_in_maincraft:textures/screens/add.png");
 
 	@Override
-	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(ms);
-		super.render(ms, mouseX, mouseY, partialTicks);
-		this.renderTooltip(ms, mouseX, mouseY);
+	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
+		this.renderBackground(guiGraphics);
+		super.render(guiGraphics, mouseX, mouseY, partialTicks);
+		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
 
 	@Override
-	protected void renderBg(PoseStack ms, float partialTicks, int gx, int gy) {
+	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int gx, int gy) {
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-		RenderSystem.setShaderTexture(0, texture);
-		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/rrrrrrrrrrrrrrrrrrrrrr.png"));
-		this.blit(ms, this.leftPos + 96, this.topPos + 16, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/rrrrrrrrrrrrrrrrrrrrrr.png"), this.leftPos + 96, this.topPos + 16, 0, 0, 16, 16, 16, 16);
 
 		RenderSystem.disableBlend();
 	}
@@ -64,18 +62,8 @@ public class AddScreen extends AbstractContainerScreen<AddMenu> {
 	}
 
 	@Override
-	public void containerTick() {
-		super.containerTick();
-	}
-
-	@Override
-	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, Component.translatable("gui.doz_in_maincraft.add.label_tools"), 6, 56, -12829636);
-	}
-
-	@Override
-	public void onClose() {
-		super.onClose();
+	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font, Component.translatable("gui.doz_in_maincraft.add.label_tools"), 6, 56, -12829636, false);
 	}
 
 	@Override

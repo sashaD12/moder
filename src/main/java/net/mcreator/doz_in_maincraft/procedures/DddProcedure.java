@@ -21,7 +21,7 @@ public class DddProcedure {
 	@SubscribeEvent
 	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
-			execute(event, event.player.level, event.player.getX(), event.player.getY(), event.player.getZ(), event.player);
+			execute(event, event.player.level(), event.player.getX(), event.player.getY(), event.player.getZ(), event.player);
 		}
 	}
 
@@ -33,7 +33,7 @@ public class DddProcedure {
 		if (entity == null)
 			return;
 		if (world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("doz_in_maincraft:creek_forest"))) {
-			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(DozInMaincraftModMobEffects.FOREST_SPORES.get(), 60, 1));
 		}
 	}

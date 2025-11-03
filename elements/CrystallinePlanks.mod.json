@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "block",
   "definition": {
     "texture": "crystalline_planks",
@@ -33,15 +33,20 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Crystalline Planks",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 8.0,
     "resistance": 9.09429939906239,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "destroyTool": "axe",
     "customDrop": {
       "value": ""
@@ -98,10 +103,9 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 0,
+    "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "hasInventory": false,
-    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -117,7 +121,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

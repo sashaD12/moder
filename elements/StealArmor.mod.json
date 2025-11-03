@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,18 +10,28 @@
     "textureLeggings": "steal_leggings",
     "enableBoots": true,
     "textureBoots": "steal_boots",
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "armorTextureFile": "steal",
     "helmetName": "Steal Helmet",
     "bodyName": "Steal Chestplate",
     "leggingsName": "Steal Leggings",
     "bootsName": "Steal Boots",
-    "helmetSpecialInfo": [],
-    "bodySpecialInfo": [],
-    "leggingsSpecialInfo": [],
-    "bootsSpecialInfo": [],
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

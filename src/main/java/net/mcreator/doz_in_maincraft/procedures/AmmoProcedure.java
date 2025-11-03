@@ -32,31 +32,31 @@ public class AmmoProcedure {
 		if (entity == null)
 			return;
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DozInMaincraftModItems.L_96_A_1.get()) {
-			if (entity instanceof Player _player && !_player.level.isClientSide())
+			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal(("ammo/" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("L96A1")))), true);
 		}
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DozInMaincraftModItems.MGL.get()) {
-			if (entity instanceof Player _player && !_player.level.isClientSide())
+			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal(("ammo/" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("MGL")))), true);
 		}
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DozInMaincraftModItems.MAGNUM.get()) {
-			if (entity instanceof Player _player && !_player.level.isClientSide())
+			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal(("ammo/" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("magnum")))), true);
 		}
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DozInMaincraftModItems.PP_19_BIZON.get()) {
-			if (entity instanceof Player _player && !_player.level.isClientSide())
+			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal(("ammo/" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("PP19")))), true);
 		}
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DozInMaincraftModItems.TT.get()) {
-			if (entity instanceof Player _player && !_player.level.isClientSide())
+			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal(("ammo/" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("TT")))), true);
 		}
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DozInMaincraftModItems.TT_SIMBIOT.get()) {
-			if (entity instanceof Player _player && !_player.level.isClientSide())
+			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal(("ammo/" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("TTS")))), true);
 		}
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DozInMaincraftModItems.SPAS_12.get()) {
-			if (entity instanceof Player _player && !_player.level.isClientSide())
+			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal(("ammo/" + ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("SPAS12")))), true);
 		}
 	}

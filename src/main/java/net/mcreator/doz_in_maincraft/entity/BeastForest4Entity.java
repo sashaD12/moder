@@ -25,6 +25,7 @@ import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AreaEffectCloud;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
@@ -51,7 +52,7 @@ public class BeastForest4Entity extends Monster implements RangedAttackMob {
 
 	public BeastForest4Entity(EntityType<BeastForest4Entity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 0;
 		setNoAi(false);
 		setPersistenceRequired();
@@ -152,36 +153,42 @@ public class BeastForest4Entity extends Monster implements RangedAttackMob {
 	}
 
 	@Override
-	public boolean hurt(DamageSource source, float amount) {
-		BeastForestKoghdaSushchnostRanienaProcedure.execute(this, source.getEntity());
-		if (source.getDirectEntity() instanceof ThrownPotion || source.getDirectEntity() instanceof AreaEffectCloud)
+	public boolean hurt(DamageSource damagesource, float amount) {
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Level world = this.level();
+		Entity entity = this;
+		Entity sourceentity = damagesource.getEntity();
+		Entity immediatesourceentity = damagesource.getDirectEntity();
+
+		BeastForestKoghdaSushchnostRanienaProcedure.execute(entity, sourceentity);
+		if (damagesource.getDirectEntity() instanceof ThrownPotion || damagesource.getDirectEntity() instanceof AreaEffectCloud)
 			return false;
-		if (source.is(DamageTypes.FALL))
+		if (damagesource.is(DamageTypes.FALL))
 			return false;
-		if (source.is(DamageTypes.CACTUS))
+		if (damagesource.is(DamageTypes.CACTUS))
 			return false;
-		if (source.is(DamageTypes.DROWN))
+		if (damagesource.is(DamageTypes.DROWN))
 			return false;
-		if (source.is(DamageTypes.TRIDENT))
+		if (damagesource.is(DamageTypes.TRIDENT))
 			return false;
-		if (source.is(DamageTypes.DRAGON_BREATH))
+		if (damagesource.is(DamageTypes.DRAGON_BREATH))
 			return false;
-		if (source.is(DamageTypes.WITHER))
+		if (damagesource.is(DamageTypes.WITHER) || damagesource.is(DamageTypes.WITHER_SKULL))
 			return false;
-		if (source.is(DamageTypes.WITHER_SKULL))
-			return false;
-		return super.hurt(source, amount);
+		return super.hurt(damagesource, amount);
 	}
 
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		BeastForest4KoghdaSushchnostUmiraietProcedure.execute(this.level, this.getX(), this.getY(), this.getZ());
+		BeastForest4KoghdaSushchnostUmiraietProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
-		L96A1Entity.shoot(this, target);
+		L96A1ProjectileEntity.shoot(this, target);
 	}
 
 	@Override

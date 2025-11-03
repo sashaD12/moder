@@ -31,8 +31,8 @@ public class DozInMaincraftModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
-			MenuScreens.register(DozInMaincraftModMenus.GRT.get(), GrtScreen::new);
 			MenuScreens.register(DozInMaincraftModMenus.DFS.get(), DfsScreen::new);
+			MenuScreens.register(DozInMaincraftModMenus.GRT.get(), GrtScreen::new);
 			MenuScreens.register(DozInMaincraftModMenus.DFG.get(), DfgScreen::new);
 			MenuScreens.register(DozInMaincraftModMenus.TFTYFY.get(), TftyfyScreen::new);
 			MenuScreens.register(DozInMaincraftModMenus.TIER_2.get(), Tier2Screen::new);

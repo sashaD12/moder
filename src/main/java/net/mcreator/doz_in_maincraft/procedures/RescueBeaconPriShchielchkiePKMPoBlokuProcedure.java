@@ -27,9 +27,9 @@ public class RescueBeaconPriShchielchkiePKMPoBlokuProcedure {
 			itemstack.getOrCreateTag().putDouble("z", z);
 		}
 		if (world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("doz_in_maincraft:crystal_desert")) || world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("doz_in_maincraft:crystal_forest"))) {
-			if (entity instanceof ServerPlayer _player && !_player.level.isClientSide()) {
+			if (entity instanceof ServerPlayer _player && !_player.level().isClientSide()) {
 				ResourceKey<Level> destinationType = Level.OVERWORLD;
-				if (_player.level.dimension() == destinationType)
+				if (_player.level().dimension() == destinationType)
 					return;
 				ServerLevel nextLevel = _player.server.getLevel(destinationType);
 				if (nextLevel != null) {

@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "survivors_armor_1": {
+    "survivors_armor_1_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

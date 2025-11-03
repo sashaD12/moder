@@ -1,6 +1,7 @@
 {
   "parent": "block/button_inventory",
   "textures": {
+    "particle": "doz_in_maincraft:block/magicpine_planks",
     "texture": "doz_in_maincraft:block/magicpine_planks"
   },
   "render_type": "solid"

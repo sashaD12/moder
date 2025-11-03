@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "doz_in_maincraft:foresters_spear",
+    "doz_in_maincraft:steal_sword",
+    "doz_in_maincraft:aluminum_sword",
+    "doz_in_maincraft:copper_sword"
+  ]
+}

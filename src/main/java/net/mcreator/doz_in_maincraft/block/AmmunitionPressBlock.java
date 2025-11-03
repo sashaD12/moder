@@ -7,8 +7,6 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -17,8 +15,6 @@ import net.minecraft.world.level.block.EntityBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
@@ -37,14 +33,11 @@ import net.mcreator.doz_in_maincraft.world.inventory.DsdMenu;
 import net.mcreator.doz_in_maincraft.procedures.DfsssssProcedure;
 import net.mcreator.doz_in_maincraft.block.entity.AmmunitionPressBlockEntity;
 
-import java.util.List;
-import java.util.Collections;
-
 import io.netty.buffer.Unpooled;
 
 public class AmmunitionPressBlock extends Block implements EntityBlock {
 	public AmmunitionPressBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -66,21 +59,6 @@ public class AmmunitionPressBlock extends Block implements EntityBlock {
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return Shapes.or(box(15, 3, 0, 16, 15, 1), box(15, 3, 15, 16, 15, 16), box(0, 3, 15, 1, 15, 16), box(0, 3, 0, 1, 15, 1), box(0, 0, 0, 16, 3, 16), box(0, 15, 0, 16, 18, 16), box(4, 3, 4, 12, 5, 12), box(13, 3, 1, 15, 15, 15),
 				box(1, 3, 1, 3, 15, 15), box(2, 3, 0, 14, 15, 2), box(4, 14, 4, 12, 15, 12), box(7.5, 5, 8.5, 8.5, 7, 9.5), box(2, 3, 14, 14, 5, 16), box(2, 13, 14, 14, 15, 16), box(12, 5, 7, 13, 9, 11), box(3, 5, 7, 4, 9, 11));
-	}
-
-	@Override
-	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 3;
-		return false;
-	}
-
-	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-		if (!dropsOriginal.isEmpty())
-			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
 	}
 
 	@Override

@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -13,18 +13,28 @@
     "onHelmetTick": {
       "name": "GasMaskCrahetSobytiieTaktovShliema"
     },
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "armorTextureFile": "xc",
     "helmetName": "Gasgas Mask",
     "bodyName": "Gasgas Mask Кираса",
     "leggingsName": "Gasgas Mask Поножи",
     "bootsName": "Gasgas Mask Ботинки",
-    "helmetSpecialInfo": [],
-    "bodySpecialInfo": [],
-    "leggingsSpecialInfo": [],
-    "bootsSpecialInfo": [],
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
     "helmetModelName": "Modelprotgas1",
     "helmetModelPart": "head",
     "helmetModelTexture": "protgas.png",

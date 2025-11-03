@@ -1,15 +1,16 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "livingentity",
   "definition": {
     "mobName": "First Executioner(1 strip)",
     "mobLabel": "",
     "mobModelName": "Modelpalach",
     "mobModelTexture": "palach1.png",
-    "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false
     },
+    "modelLayers": [],
+    "animations": [],
     "modelWidth": 0.6,
     "modelHeight": 2.0,
     "modelShadowSize": 0.5,
@@ -23,9 +24,11 @@
       "value": -13434880,
       "falpha": 0.0
     },
-    "creativeTab": {
-      "value": "MISC"
-    },
+    "creativeTabs": [
+      {
+        "value": "MISC"
+      }
+    ],
     "isBoss": true,
     "bossBarColor": "RED",
     "bossBarType": "PROGRESS",
@@ -60,8 +63,10 @@
     "health": 600,
     "xpAmount": 100,
     "waterMob": false,
+    "pushedByFluids": {
+      "fixedValue": true
+    },
     "flyingMob": false,
-    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,
@@ -96,6 +101,7 @@
     "stepSound": {
       "value": ""
     },
+    "entityDataEntries": [],
     "onInitialSpawn": {
       "name": "FirstExecutionerPriNachalnomPrizyvieSushchnosti"
     },
@@ -126,6 +132,15 @@
         "value": "the_end"
       }
     ],
-    "spawnInDungeons": false
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ]
   }
 }

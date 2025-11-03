@@ -1,6 +1,7 @@
 {
   "parent": "block/template_fence_gate",
   "textures": {
+    "particle": "doz_in_maincraft:block/crystalline_planks",
     "texture": "doz_in_maincraft:block/crystalline_planks"
   },
   "render_type": "solid"

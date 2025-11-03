@@ -33,6 +33,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
+import net.minecraft.network.chat.Component;
 
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModItems;
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModEntities;
@@ -44,7 +45,7 @@ public class ForesterHunterEntity extends Villager implements RangedAttackMob {
 
 	public ForesterHunterEntity(EntityType<ForesterHunterEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 5;
 		setNoAi(false);
 		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(DozInMaincraftModItems.BOW_FORESTERS.get()));
@@ -53,6 +54,11 @@ public class ForesterHunterEntity extends Villager implements RangedAttackMob {
 	@Override
 	public Packet<ClientGamePacketListener> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
+	}
+
+	@Override
+	protected Component getTypeName() {
+		return this.getType().getDescription();
 	}
 
 	@Override
@@ -93,12 +99,12 @@ public class ForesterHunterEntity extends Villager implements RangedAttackMob {
 
 	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
-		Arrow entityarrow = new Arrow(this.level, this);
+		Arrow entityarrow = new Arrow(this.level(), this);
 		double d0 = target.getY() + target.getEyeHeight() - 1.1;
 		double d1 = target.getX() - this.getX();
 		double d3 = target.getZ() - this.getZ();
 		entityarrow.shoot(d1, d0 - entityarrow.getY() + Math.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1.6F, 12.0F);
-		level.addFreshEntity(entityarrow);
+		this.level().addFreshEntity(entityarrow);
 	}
 
 	public static void init() {

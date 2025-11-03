@@ -41,7 +41,7 @@ public class DsdMenu extends AbstractContainerMenu implements Supplier<Map<Integ
 	public DsdMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
 		super(DozInMaincraftModMenus.DSD.get(), id);
 		this.entity = inv.player;
-		this.world = inv.player.level;
+		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(4);
 		BlockPos pos = null;
 		if (extraData != null) {
@@ -79,15 +79,23 @@ public class DsdMenu extends AbstractContainerMenu implements Supplier<Map<Integ
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 52, 17) {
 			private final int slot = 0;
+			private int x = DsdMenu.this.x;
+			private int y = DsdMenu.this.y;
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 70, 17) {
 			private final int slot = 1;
+			private int x = DsdMenu.this.x;
+			private int y = DsdMenu.this.y;
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 88, 17) {
 			private final int slot = 2;
+			private int x = DsdMenu.this.x;
+			private int y = DsdMenu.this.y;
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 70, 62) {
 			private final int slot = 3;
+			private int x = DsdMenu.this.x;
+			private int y = DsdMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {

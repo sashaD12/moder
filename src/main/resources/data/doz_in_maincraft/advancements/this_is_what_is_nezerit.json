@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "this_is_what_is_nezerit": {
+    "this_is_what_is_nezerit_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

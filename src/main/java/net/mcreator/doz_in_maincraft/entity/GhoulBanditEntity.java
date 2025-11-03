@@ -34,7 +34,7 @@ public class GhoulBanditEntity extends Monster {
 
 	public GhoulBanditEntity(EntityType<GhoulBanditEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 4;
 		setNoAi(false);
 		setPersistenceRequired();

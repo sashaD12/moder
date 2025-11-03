@@ -13,13 +13,8 @@ public class ForestSporesMobEffect extends MobEffect {
 	}
 
 	@Override
-	public String getDescriptionId() {
-		return "effect.doz_in_maincraft.forest_spores";
-	}
-
-	@Override
 	public void applyEffectTick(LivingEntity entity, int amplifier) {
-		ForestSporesKazhdyiTikVoVriemiaEffiektaProcedure.execute(entity);
+		ForestSporesKazhdyiTikVoVriemiaEffiektaProcedure.execute(entity.level(), entity);
 	}
 
 	@Override

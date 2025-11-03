@@ -40,7 +40,7 @@ public class ObjectDiodeEntity extends Zombie {
 
 	public ObjectDiodeEntity(EntityType<ObjectDiodeEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.8f;
+		setMaxUpStep(0.8f);
 		xpReward = 200;
 		setNoAi(false);
 		setPersistenceRequired();

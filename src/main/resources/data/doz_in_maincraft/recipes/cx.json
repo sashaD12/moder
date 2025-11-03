@@ -2,30 +2,27 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "  8"
+    "abc",
+    "ded",
+    "  f"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "doz_in_maincraft:steel_barrel"
     },
-    "1": {
+    "b": {
       "item": "doz_in_maincraft:revolver_drum"
     },
-    "2": {
+    "c": {
       "item": "minecraft:iron_ingot"
     },
-    "3": {
+    "d": {
       "item": "doz_in_maincraft:steal_ingot"
     },
-    "4": {
+    "e": {
       "item": "minecraft:gunpowder"
     },
-    "5": {
-      "item": "doz_in_maincraft:steal_ingot"
-    },
-    "8": {
+    "f": {
       "tag": "minecraft:logs"
     }
   },

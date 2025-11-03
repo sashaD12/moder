@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "i_wonder_if_vashkevich_will_be_saved_from_farting": {
+    "i_wonder_if_vashkevich_will_be_saved_from_farting_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

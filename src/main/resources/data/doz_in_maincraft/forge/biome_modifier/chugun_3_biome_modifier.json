@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "doz_in_maincraft:creek_forest",
-  "features": "doz_in_maincraft:chugun_3",
-  "step": "surface_structures"
-}

@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "block",
   "definition": {
     "texture": "bronik",
@@ -33,15 +33,20 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Armorer's Workbench",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.4000000000000001,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
@@ -98,7 +103,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 4,
+    "vanillaToolTier": "DIAMOND",
     "isBonemealable": false,
     "hasInventory": true,
     "guiBoundTo": "Hf",
@@ -120,7 +125,7 @@
     "onTickUpdate": {
       "name": "Ikshchtf"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

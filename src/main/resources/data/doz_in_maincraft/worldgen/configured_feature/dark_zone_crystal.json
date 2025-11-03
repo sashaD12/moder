@@ -1,5 +1,5 @@
 {
-  "type": "doz_in_maincraft:dark_zone_crystal",
+  "type": "minecraft:random_patch",
   "config": {
     "tries": 18,
     "feature": {

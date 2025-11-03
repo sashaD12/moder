@@ -44,6 +44,8 @@ public class DozInMaincraftModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> AUTO_MINER = register("auto_miner", DozInMaincraftModBlocks.AUTO_MINER, AutoMinerBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> AIRDROP_OPEN = register("airdrop_open", DozInMaincraftModBlocks.AIRDROP_OPEN, AirdropOpenBlockEntity::new);
 
+	// Start of user code block custom block entities
+	// End of user code block custom block entities
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
 	}

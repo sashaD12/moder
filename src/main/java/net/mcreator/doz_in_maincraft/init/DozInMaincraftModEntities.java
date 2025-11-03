@@ -16,16 +16,16 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.doz_in_maincraft.entity.TTSimbiotEntity;
-import net.mcreator.doz_in_maincraft.entity.TTEntity;
-import net.mcreator.doz_in_maincraft.entity.SPAS12Entity;
+import net.mcreator.doz_in_maincraft.entity.TTSimbiotProjectileEntity;
+import net.mcreator.doz_in_maincraft.entity.TTProjectileEntity;
+import net.mcreator.doz_in_maincraft.entity.SPAS12ProjectileEntity;
 import net.mcreator.doz_in_maincraft.entity.RisingExecutionerEntity;
-import net.mcreator.doz_in_maincraft.entity.PP19BizonEntity;
+import net.mcreator.doz_in_maincraft.entity.PP19BizonProjectileEntity;
 import net.mcreator.doz_in_maincraft.entity.ObjectStokerEntity;
 import net.mcreator.doz_in_maincraft.entity.ObjectDiodeEntity;
-import net.mcreator.doz_in_maincraft.entity.MagnumEntity;
-import net.mcreator.doz_in_maincraft.entity.MGLEntity;
-import net.mcreator.doz_in_maincraft.entity.L96A1Entity;
+import net.mcreator.doz_in_maincraft.entity.MagnumProjectileEntity;
+import net.mcreator.doz_in_maincraft.entity.MGLProjectileEntity;
+import net.mcreator.doz_in_maincraft.entity.L96A1ProjectileEntity;
 import net.mcreator.doz_in_maincraft.entity.GhoulRaiderEntity;
 import net.mcreator.doz_in_maincraft.entity.GhoulBullEntity;
 import net.mcreator.doz_in_maincraft.entity.GhoulBanditEntity;
@@ -40,7 +40,7 @@ import net.mcreator.doz_in_maincraft.entity.FirstExecutioner2Entity;
 import net.mcreator.doz_in_maincraft.entity.FirstExecutioner1Entity;
 import net.mcreator.doz_in_maincraft.entity.FdgdEntity;
 import net.mcreator.doz_in_maincraft.entity.BrigadierGhulEntity;
-import net.mcreator.doz_in_maincraft.entity.BowForestersEntity;
+import net.mcreator.doz_in_maincraft.entity.BowForestersProjectileEntity;
 import net.mcreator.doz_in_maincraft.entity.BloodyClawEntity;
 import net.mcreator.doz_in_maincraft.entity.BloodyCarcassEntity;
 import net.mcreator.doz_in_maincraft.entity.BeastForestEntity;
@@ -61,8 +61,6 @@ public class DozInMaincraftModEntities {
 			EntityType.Builder.<ForrsterHunter2Entity>of(ForrsterHunter2Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ForrsterHunter2Entity::new)
 
 					.sized(1f, 2f));
-	public static final RegistryObject<EntityType<BowForestersEntity>> BOW_FORESTERS = register("projectile_bow_foresters",
-			EntityType.Builder.<BowForestersEntity>of(BowForestersEntity::new, MobCategory.MISC).setCustomClientFactory(BowForestersEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<ForresterHunter3Entity>> FORRESTER_HUNTER_3 = register("forrester_hunter_3",
 			EntityType.Builder.<ForresterHunter3Entity>of(ForresterHunter3Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ForresterHunter3Entity::new)
 
@@ -75,14 +73,6 @@ public class DozInMaincraftModEntities {
 			EntityType.Builder.<ForesterHunter5Entity>of(ForesterHunter5Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ForesterHunter5Entity::new)
 
 					.sized(1f, 2f));
-	public static final RegistryObject<EntityType<MGLEntity>> MGL = register("projectile_mgl",
-			EntityType.Builder.<MGLEntity>of(MGLEntity::new, MobCategory.MISC).setCustomClientFactory(MGLEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<L96A1Entity>> L_96_A_1 = register("projectile_l_96_a_1",
-			EntityType.Builder.<L96A1Entity>of(L96A1Entity::new, MobCategory.MISC).setCustomClientFactory(L96A1Entity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<MagnumEntity>> MAGNUM = register("projectile_magnum",
-			EntityType.Builder.<MagnumEntity>of(MagnumEntity::new, MobCategory.MISC).setCustomClientFactory(MagnumEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<PP19BizonEntity>> PP_19_BIZON = register("projectile_pp_19_bizon",
-			EntityType.Builder.<PP19BizonEntity>of(PP19BizonEntity::new, MobCategory.MISC).setCustomClientFactory(PP19BizonEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<BeastForestEntity>> BEAST_FOREST = register("beast_forest",
 			EntityType.Builder.<BeastForestEntity>of(BeastForestEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BeastForestEntity::new)
 
@@ -103,12 +93,6 @@ public class DozInMaincraftModEntities {
 			EntityType.Builder.<BeastForest1Entity>of(BeastForest1Entity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BeastForest1Entity::new)
 
 					.sized(0.8f, 2.2f));
-	public static final RegistryObject<EntityType<TTEntity>> TT = register("projectile_tt",
-			EntityType.Builder.<TTEntity>of(TTEntity::new, MobCategory.MISC).setCustomClientFactory(TTEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<TTSimbiotEntity>> TT_SIMBIOT = register("projectile_tt_simbiot",
-			EntityType.Builder.<TTSimbiotEntity>of(TTSimbiotEntity::new, MobCategory.MISC).setCustomClientFactory(TTSimbiotEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<SPAS12Entity>> SPAS_12 = register("projectile_spas_12",
-			EntityType.Builder.<SPAS12Entity>of(SPAS12Entity::new, MobCategory.MISC).setCustomClientFactory(SPAS12Entity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<GhoulBanditEntity>> GHOUL_BANDIT = register("ghoul_bandit",
 			EntityType.Builder.<GhoulBanditEntity>of(GhoulBanditEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GhoulBanditEntity::new)
 
@@ -163,7 +147,25 @@ public class DozInMaincraftModEntities {
 			EntityType.Builder.<ObjectDiodeEntity>of(ObjectDiodeEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ObjectDiodeEntity::new)
 
 					.sized(0.8f, 2f));
+	public static final RegistryObject<EntityType<BowForestersProjectileEntity>> BOW_FORESTERS_PROJECTILE = register("bow_foresters_projectile", EntityType.Builder.<BowForestersProjectileEntity>of(BowForestersProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(BowForestersProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<L96A1ProjectileEntity>> L_96_A_1_PROJECTILE = register("l_96_a_1_projectile", EntityType.Builder.<L96A1ProjectileEntity>of(L96A1ProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(L96A1ProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<MGLProjectileEntity>> MGL_PROJECTILE = register("mgl_projectile",
+			EntityType.Builder.<MGLProjectileEntity>of(MGLProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(MGLProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<MagnumProjectileEntity>> MAGNUM_PROJECTILE = register("magnum_projectile", EntityType.Builder.<MagnumProjectileEntity>of(MagnumProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(MagnumProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<PP19BizonProjectileEntity>> PP_19_BIZON_PROJECTILE = register("pp_19_bizon_projectile", EntityType.Builder.<PP19BizonProjectileEntity>of(PP19BizonProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(PP19BizonProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<TTProjectileEntity>> TT_PROJECTILE = register("tt_projectile",
+			EntityType.Builder.<TTProjectileEntity>of(TTProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(TTProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<TTSimbiotProjectileEntity>> TT_SIMBIOT_PROJECTILE = register("tt_simbiot_projectile", EntityType.Builder.<TTSimbiotProjectileEntity>of(TTSimbiotProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(TTSimbiotProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<SPAS12ProjectileEntity>> SPAS_12_PROJECTILE = register("spas_12_projectile", EntityType.Builder.<SPAS12ProjectileEntity>of(SPAS12ProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(SPAS12ProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
+	// Start of user code block custom entities
+	// End of user code block custom entities
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
 	}

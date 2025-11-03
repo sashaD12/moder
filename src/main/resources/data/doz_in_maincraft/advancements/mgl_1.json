@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "mgl_1": {
+    "mgl_1_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

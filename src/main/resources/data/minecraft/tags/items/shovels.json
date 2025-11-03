@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "doz_in_maincraft:steal_shovel",
+    "doz_in_maincraft:aluminum_shovel",
+    "doz_in_maincraft:copper_shovel"
+  ]
+}

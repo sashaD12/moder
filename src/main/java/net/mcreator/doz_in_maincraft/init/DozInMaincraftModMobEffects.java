@@ -17,7 +17,7 @@ import net.mcreator.doz_in_maincraft.DozInMaincraftMod;
 
 public class DozInMaincraftModMobEffects {
 	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, DozInMaincraftMod.MODID);
-	public static final RegistryObject<MobEffect> DEEP_WOUNDS = REGISTRY.register("deep_wounds", () -> new DeepWoundsMobEffect());
 	public static final RegistryObject<MobEffect> FOREST_SPORES = REGISTRY.register("forest_spores", () -> new ForestSporesMobEffect());
+	public static final RegistryObject<MobEffect> DEEP_WOUNDS = REGISTRY.register("deep_wounds", () -> new DeepWoundsMobEffect());
 	public static final RegistryObject<MobEffect> TY = REGISTRY.register("ty", () -> new TyMobEffect());
 }

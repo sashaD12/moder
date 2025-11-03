@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
@@ -17,17 +17,37 @@
     "fluidBlock": {
       "value": "Blocks.AIR"
     },
+    "seaLevel": 0,
+    "generateOreVeins": false,
+    "generateAquifers": false,
+    "horizontalNoiseSize": 2,
+    "verticalNoiseSize": 1,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": false,
+    "cloudHeight": 192.0,
+    "skyType": "NONE",
     "airColor": {
       "value": -15334109,
       "falpha": 0.0
     },
+    "sunHeightAffectsFog": false,
     "canRespawnHere": false,
     "hasFog": true,
-    "isDark": false,
+    "ambientLight": 0.5,
     "doesWaterVaporize": false,
-    "sleepResult": "BED_EXPLODES",
+    "hasFixedTime": false,
+    "fixedTimeValue": 0,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "bedWorks": false,
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
+    "piglinSafe": true,
+    "hasRaids": false,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 7,
+    "monsterSpawnBlockLightLimit": 0,
     "portalFrame": {
       "value": "CUSTOM:EnergyFramework"
     },
@@ -40,10 +60,15 @@
     },
     "enableIgniter": true,
     "igniterName": "portal catalyst",
-    "specialInfo": [],
-    "igniterTab": {
-      "value": "CUSTOM:Sad"
+    "igniterRarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
     },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "texture": "adaadd",
     "portalTexture": "sd",
     "enablePortal": true

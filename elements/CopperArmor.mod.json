@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,18 +10,28 @@
     "textureLeggings": "copper_leggings",
     "enableBoots": true,
     "textureBoots": "copper_boots",
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "armorTextureFile": "copper",
     "helmetName": "Copper Helmet",
     "bodyName": "Copper Chestplate",
     "leggingsName": "Copper Leggings",
     "bootsName": "Copper Boots",
-    "helmetSpecialInfo": [],
-    "bodySpecialInfo": [],
-    "leggingsSpecialInfo": [],
-    "bootsSpecialInfo": [],
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

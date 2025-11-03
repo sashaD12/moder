@@ -10,7 +10,7 @@ public class FirstExecutionerPriNachalnomPrizyvieSushchnostiProcedure {
 		if (entity == null)
 			return;
 		if (!((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.BEDROCK)) {
-			if (!entity.level.isClientSide())
+			if (!entity.level().isClientSide())
 				entity.discard();
 		}
 	}

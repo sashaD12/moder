@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -25,7 +25,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 132,
-          "y": 8
+          "y": 8,
+          "locked": false
         }
       },
       {
@@ -43,7 +44,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 168,
-          "y": 26
+          "y": 26,
+          "locked": false
         }
       },
       {
@@ -61,7 +63,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 168,
-          "y": 8
+          "y": 8,
+          "locked": false
         }
       },
       {
@@ -79,7 +82,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 186,
-          "y": 8
+          "y": 8,
+          "locked": false
         }
       },
       {
@@ -97,7 +101,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 204,
-          "y": 8
+          "y": 8,
+          "locked": false
         }
       },
       {
@@ -115,7 +120,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 222,
-          "y": 8
+          "y": 8,
+          "locked": false
         }
       },
       {
@@ -133,7 +139,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 258,
-          "y": 8
+          "y": 8,
+          "locked": false
         }
       },
       {
@@ -151,7 +158,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 240,
-          "y": 8
+          "y": 8,
+          "locked": false
         }
       },
       {
@@ -169,7 +177,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 276,
-          "y": 8
+          "y": 8,
+          "locked": false
         }
       },
       {
@@ -187,7 +196,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 222,
-          "y": 80
+          "y": 80,
+          "locked": false
         }
       },
       {
@@ -205,7 +215,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 150,
-          "y": 26
+          "y": 26,
+          "locked": false
         }
       },
       {
@@ -223,7 +234,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 150,
-          "y": 8
+          "y": 8,
+          "locked": false
         }
       },
       {
@@ -241,7 +253,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 186,
-          "y": 26
+          "y": 26,
+          "locked": false
         }
       },
       {
@@ -259,7 +272,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 204,
-          "y": 26
+          "y": 26,
+          "locked": false
         }
       },
       {
@@ -277,7 +291,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 222,
-          "y": 26
+          "y": 26,
+          "locked": false
         }
       },
       {
@@ -295,7 +310,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 240,
-          "y": 26
+          "y": 26,
+          "locked": false
         }
       },
       {
@@ -313,7 +329,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 258,
-          "y": 26
+          "y": 26,
+          "locked": false
         }
       },
       {
@@ -331,7 +348,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 276,
-          "y": 26
+          "y": 26,
+          "locked": false
         }
       },
       {
@@ -349,7 +367,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 132,
-          "y": 44
+          "y": 44,
+          "locked": false
         }
       },
       {
@@ -367,7 +386,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 132,
-          "y": 62
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -385,7 +405,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 132,
-          "y": 80
+          "y": 80,
+          "locked": false
         }
       },
       {
@@ -403,7 +424,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 132,
-          "y": 98
+          "y": 98,
+          "locked": false
         }
       },
       {
@@ -421,7 +443,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 150,
-          "y": 44
+          "y": 44,
+          "locked": false
         }
       },
       {
@@ -439,7 +462,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 168,
-          "y": 44
+          "y": 44,
+          "locked": false
         }
       },
       {
@@ -457,7 +481,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 186,
-          "y": 44
+          "y": 44,
+          "locked": false
         }
       },
       {
@@ -475,7 +500,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 204,
-          "y": 44
+          "y": 44,
+          "locked": false
         }
       },
       {
@@ -493,7 +519,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 222,
-          "y": 44
+          "y": 44,
+          "locked": false
         }
       },
       {
@@ -511,7 +538,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 240,
-          "y": 44
+          "y": 44,
+          "locked": false
         }
       },
       {
@@ -529,7 +557,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 258,
-          "y": 44
+          "y": 44,
+          "locked": false
         }
       },
       {
@@ -547,7 +576,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 276,
-          "y": 44
+          "y": 44,
+          "locked": false
         }
       },
       {
@@ -565,7 +595,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 150,
-          "y": 62
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -583,7 +614,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 168,
-          "y": 62
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -601,7 +633,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 186,
-          "y": 62
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -619,7 +652,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 204,
-          "y": 62
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -637,7 +671,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 222,
-          "y": 62
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -655,7 +690,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 258,
-          "y": 80
+          "y": 80,
+          "locked": false
         }
       },
       {
@@ -673,7 +709,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 258,
-          "y": 62
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -691,7 +728,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 276,
-          "y": 62
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -709,7 +747,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 150,
-          "y": 80
+          "y": 80,
+          "locked": false
         }
       },
       {
@@ -727,7 +766,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 168,
-          "y": 80
+          "y": 80,
+          "locked": false
         }
       },
       {
@@ -745,7 +785,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 186,
-          "y": 80
+          "y": 80,
+          "locked": false
         }
       },
       {
@@ -763,7 +804,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 204,
-          "y": 80
+          "y": 80,
+          "locked": false
         }
       },
       {
@@ -781,7 +823,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 240,
-          "y": 80
+          "y": 80,
+          "locked": false
         }
       },
       {
@@ -799,7 +842,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 132,
-          "y": 26
+          "y": 26,
+          "locked": false
         }
       },
       {
@@ -817,7 +861,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 240,
-          "y": 62
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -835,7 +880,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 276,
-          "y": 80
+          "y": 80,
+          "locked": false
         }
       },
       {
@@ -853,7 +899,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 150,
-          "y": 98
+          "y": 98,
+          "locked": false
         }
       },
       {
@@ -871,7 +918,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 168,
-          "y": 98
+          "y": 98,
+          "locked": false
         }
       },
       {
@@ -889,7 +937,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 186,
-          "y": 98
+          "y": 98,
+          "locked": false
         }
       },
       {
@@ -907,7 +956,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 204,
-          "y": 98
+          "y": 98,
+          "locked": false
         }
       },
       {
@@ -925,7 +975,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 222,
-          "y": 98
+          "y": 98,
+          "locked": false
         }
       },
       {
@@ -943,7 +994,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 240,
-          "y": 98
+          "y": 98,
+          "locked": false
         }
       },
       {
@@ -961,7 +1013,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 258,
-          "y": 98
+          "y": 98,
+          "locked": false
         }
       },
       {
@@ -979,7 +1032,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 276,
-          "y": 98
+          "y": 98,
+          "locked": false
         }
       }
     ],

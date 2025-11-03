@@ -7,8 +7,6 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -17,7 +15,6 @@ import net.minecraft.world.level.block.EntityBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
@@ -31,17 +28,13 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.doz_in_maincraft.world.inventory.Tier4Menu;
-import net.mcreator.doz_in_maincraft.init.DozInMaincraftModItems;
 import net.mcreator.doz_in_maincraft.block.entity.BoxLevel4BlockEntity;
-
-import java.util.List;
-import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
 
 public class BoxLevel4Block extends Block implements EntityBlock {
 	public BoxLevel4Block() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -57,14 +50,6 @@ public class BoxLevel4Block extends Block implements EntityBlock {
 	@Override
 	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return Shapes.empty();
-	}
-
-	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-		if (!dropsOriginal.isEmpty())
-			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(DozInMaincraftModItems.CASE_SHOOTING_RANGE_4.get()));
 	}
 
 	@Override

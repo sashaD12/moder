@@ -2,33 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0 2",
-    "345",
-    "678"
+    "a a",
+    "aaa",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "doz_in_maincraft:copper_ingot"
-    },
-    "2": {
-      "item": "doz_in_maincraft:copper_ingot"
-    },
-    "3": {
-      "item": "doz_in_maincraft:copper_ingot"
-    },
-    "4": {
-      "item": "doz_in_maincraft:copper_ingot"
-    },
-    "5": {
-      "item": "doz_in_maincraft:copper_ingot"
-    },
-    "6": {
-      "item": "doz_in_maincraft:copper_ingot"
-    },
-    "7": {
-      "item": "doz_in_maincraft:copper_ingot"
-    },
-    "8": {
+    "a": {
       "item": "doz_in_maincraft:copper_ingot"
     }
   },

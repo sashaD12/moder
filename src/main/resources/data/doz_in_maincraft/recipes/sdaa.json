@@ -2,37 +2,22 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "cdc",
+    "aba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:oak_log"
     },
-    "1": {
+    "b": {
       "item": "doz_in_maincraft:iron_plates"
     },
-    "2": {
-      "item": "minecraft:oak_log"
-    },
-    "3": {
+    "c": {
       "item": "doz_in_maincraft:bolts"
     },
-    "4": {
+    "d": {
       "item": "doz_in_maincraft:case_shooting_range_2"
-    },
-    "5": {
-      "item": "doz_in_maincraft:bolts"
-    },
-    "6": {
-      "item": "minecraft:oak_log"
-    },
-    "7": {
-      "item": "doz_in_maincraft:iron_plates"
-    },
-    "8": {
-      "item": "minecraft:oak_log"
     }
   },
   "result": {

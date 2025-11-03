@@ -2,8 +2,8 @@
   "replace": false,
   "values": [
     "doz_in_maincraft:forest_roots",
-    "doz_in_maincraft:magic_pine_log",
     "doz_in_maincraft:magic_pine_leaves",
+    "doz_in_maincraft:magic_pine_log",
     "doz_in_maincraft:crystalline_log",
     "doz_in_maincraft:crystalline_leaves"
   ]

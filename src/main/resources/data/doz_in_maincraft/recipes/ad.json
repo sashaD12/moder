@@ -2,37 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "aca",
+    "aba"
   ],
   "key": {
-    "0": {
+    "a": {
       "tag": "minecraft:planks"
     },
-    "1": {
+    "b": {
       "item": "minecraft:iron_nugget"
     },
-    "2": {
-      "tag": "minecraft:planks"
-    },
-    "3": {
-      "tag": "minecraft:planks"
-    },
-    "4": {
+    "c": {
       "item": "minecraft:oak_log"
-    },
-    "5": {
-      "tag": "minecraft:planks"
-    },
-    "6": {
-      "tag": "minecraft:planks"
-    },
-    "7": {
-      "item": "minecraft:iron_nugget"
-    },
-    "8": {
-      "tag": "minecraft:planks"
     }
   },
   "result": {

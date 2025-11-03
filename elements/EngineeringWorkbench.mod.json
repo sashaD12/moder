@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "block",
   "definition": {
     "texture": "verstak",
@@ -33,15 +33,20 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Engineering Workbench",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -98,7 +103,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "hasInventory": true,
     "guiBoundTo": "Sdss",
@@ -120,7 +125,7 @@
     "onTickUpdate": {
       "name": "EngineeringWorkbenchObnovitTakt"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

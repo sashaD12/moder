@@ -2,23 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "3 5"
+    "aaa",
+    "a a"
   ],
   "key": {
-    "0": {
-      "item": "doz_in_maincraft:aluminum_ingot"
-    },
-    "1": {
-      "item": "doz_in_maincraft:aluminum_ingot"
-    },
-    "2": {
-      "item": "doz_in_maincraft:aluminum_ingot"
-    },
-    "3": {
-      "item": "doz_in_maincraft:aluminum_ingot"
-    },
-    "5": {
+    "a": {
       "item": "doz_in_maincraft:aluminum_ingot"
     }
   },

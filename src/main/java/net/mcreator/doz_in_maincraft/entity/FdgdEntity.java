@@ -11,6 +11,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
@@ -37,6 +38,7 @@ import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AreaEffectCloud;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageTypes;
@@ -55,8 +57,6 @@ import net.mcreator.doz_in_maincraft.procedures.FdgdPriStolknovieniiIghrokaSSush
 import net.mcreator.doz_in_maincraft.procedures.FdgdPriObnovlieniiTikaSushchnostiProcedure;
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModEntities;
 
-import java.util.List;
-
 public class FdgdEntity extends TamableAnimal implements RangedAttackMob {
 	public FdgdEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(DozInMaincraftModEntities.DRON.get(), world);
@@ -64,7 +64,7 @@ public class FdgdEntity extends TamableAnimal implements RangedAttackMob {
 
 	public FdgdEntity(EntityType<FdgdEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 0;
 		setNoAi(false);
 		setPersistenceRequired();
@@ -137,48 +137,51 @@ public class FdgdEntity extends TamableAnimal implements RangedAttackMob {
 	}
 
 	@Override
-	public boolean hurt(DamageSource source, float amount) {
-		if (source.is(DamageTypes.IN_FIRE))
+	public boolean hurt(DamageSource damagesource, float amount) {
+		if (damagesource.is(DamageTypes.IN_FIRE))
 			return false;
-		if (source.getDirectEntity() instanceof AbstractArrow)
+		if (damagesource.getDirectEntity() instanceof AbstractArrow)
 			return false;
-		if (source.getDirectEntity() instanceof ThrownPotion || source.getDirectEntity() instanceof AreaEffectCloud)
+		if (damagesource.getDirectEntity() instanceof ThrownPotion || damagesource.getDirectEntity() instanceof AreaEffectCloud)
 			return false;
-		if (source.is(DamageTypes.FALL))
+		if (damagesource.is(DamageTypes.FALL))
 			return false;
-		if (source.is(DamageTypes.CACTUS))
+		if (damagesource.is(DamageTypes.CACTUS))
 			return false;
-		if (source.is(DamageTypes.DROWN))
+		if (damagesource.is(DamageTypes.DROWN))
 			return false;
-		if (source.is(DamageTypes.DRAGON_BREATH))
+		if (damagesource.is(DamageTypes.DRAGON_BREATH))
 			return false;
-		if (source.is(DamageTypes.WITHER))
+		if (damagesource.is(DamageTypes.WITHER) || damagesource.is(DamageTypes.WITHER_SKULL))
 			return false;
-		if (source.is(DamageTypes.WITHER_SKULL))
-			return false;
-		return super.hurt(source, amount);
+		return super.hurt(damagesource, amount);
+	}
+
+	@Override
+	public boolean fireImmune() {
+		return true;
 	}
 
 	@Override
 	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
 		ItemStack itemstack = sourceentity.getItemInHand(hand);
-		InteractionResult retval = InteractionResult.sidedSuccess(this.level.isClientSide());
+		InteractionResult retval = InteractionResult.sidedSuccess(this.level().isClientSide());
 		Item item = itemstack.getItem();
 		if (itemstack.getItem() instanceof SpawnEggItem) {
 			retval = super.mobInteract(sourceentity, hand);
-		} else if (this.level.isClientSide()) {
-			retval = (this.isTame() && this.isOwnedBy(sourceentity) || this.isFood(itemstack)) ? InteractionResult.sidedSuccess(this.level.isClientSide()) : InteractionResult.PASS;
+		} else if (this.level().isClientSide()) {
+			retval = (this.isTame() && this.isOwnedBy(sourceentity) || this.isFood(itemstack)) ? InteractionResult.sidedSuccess(this.level().isClientSide()) : InteractionResult.PASS;
 		} else {
 			if (this.isTame()) {
 				if (this.isOwnedBy(sourceentity)) {
 					if (item.isEdible() && this.isFood(itemstack) && this.getHealth() < this.getMaxHealth()) {
 						this.usePlayerItem(sourceentity, hand, itemstack);
 						this.heal((float) item.getFoodProperties().getNutrition());
-						retval = InteractionResult.sidedSuccess(this.level.isClientSide());
+						retval = InteractionResult.sidedSuccess(this.level().isClientSide());
 					} else if (this.isFood(itemstack) && this.getHealth() < this.getMaxHealth()) {
 						this.usePlayerItem(sourceentity, hand, itemstack);
 						this.heal(4);
-						retval = InteractionResult.sidedSuccess(this.level.isClientSide());
+						retval = InteractionResult.sidedSuccess(this.level().isClientSide());
 					} else {
 						retval = super.mobInteract(sourceentity, hand);
 					}
@@ -187,12 +190,12 @@ public class FdgdEntity extends TamableAnimal implements RangedAttackMob {
 				this.usePlayerItem(sourceentity, hand, itemstack);
 				if (this.random.nextInt(3) == 0 && !net.minecraftforge.event.ForgeEventFactory.onAnimalTame(this, sourceentity)) {
 					this.tame(sourceentity);
-					this.level.broadcastEntityEvent(this, (byte) 7);
+					this.level().broadcastEntityEvent(this, (byte) 7);
 				} else {
-					this.level.broadcastEntityEvent(this, (byte) 6);
+					this.level().broadcastEntityEvent(this, (byte) 6);
 				}
 				this.setPersistenceRequired();
-				retval = InteractionResult.sidedSuccess(this.level.isClientSide());
+				retval = InteractionResult.sidedSuccess(this.level().isClientSide());
 			} else {
 				retval = super.mobInteract(sourceentity, hand);
 				if (retval == InteractionResult.SUCCESS || retval == InteractionResult.CONSUME)
@@ -205,7 +208,7 @@ public class FdgdEntity extends TamableAnimal implements RangedAttackMob {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		FdgdPriObnovlieniiTikaSushchnostiProcedure.execute(this);
+		FdgdPriObnovlieniiTikaSushchnostiProcedure.execute(this.level(), this);
 	}
 
 	@Override
@@ -216,7 +219,7 @@ public class FdgdEntity extends TamableAnimal implements RangedAttackMob {
 
 	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
-		PP19BizonEntity.shoot(this, target);
+		PP19BizonProjectileEntity.shoot(this, target);
 	}
 
 	@Override
@@ -228,12 +231,7 @@ public class FdgdEntity extends TamableAnimal implements RangedAttackMob {
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return List.of(Blocks.BEDROCK.asItem()).contains(stack.getItem());
-	}
-
-	@Override
-	public boolean canBreatheUnderwater() {
-		return true;
+		return Ingredient.of(new ItemStack(Blocks.BEDROCK)).test(stack);
 	}
 
 	@Override
@@ -242,8 +240,13 @@ public class FdgdEntity extends TamableAnimal implements RangedAttackMob {
 	}
 
 	@Override
-	public boolean isPushedByFluid() {
-		return false;
+	public boolean canBreatheUnderwater() {
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Level world = this.level();
+		Entity entity = this;
+		return true;
 	}
 
 	@Override

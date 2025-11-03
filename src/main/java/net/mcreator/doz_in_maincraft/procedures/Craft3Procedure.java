@@ -46,7 +46,7 @@ public class Craft3Procedure {
 				BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 				if (_ent != null) {
 					final int _slotid = 3;
-					final ItemStack _setstack = new ItemStack(DozInMaincraftModItems.STEEL_PLATE.get());
+					final ItemStack _setstack = new ItemStack(DozInMaincraftModItems.STEEL_PLATE.get()).copy();
 					_setstack.setCount((int) (new Object() {
 						public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 							AtomicInteger _retval = new AtomicInteger(0);

@@ -20,7 +20,8 @@ public class MoltenSteelFluidType extends FluidType {
 	@Override
 	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
 		consumer.accept(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("doz_in_maincraft:block/vb"), FLOWING_TEXTURE = new ResourceLocation("doz_in_maincraft:block/vb");
+			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("doz_in_maincraft:block/vb");
+			private static final ResourceLocation FLOWING_TEXTURE = new ResourceLocation("doz_in_maincraft:block/vb");
 
 			@Override
 			public ResourceLocation getStillTexture() {

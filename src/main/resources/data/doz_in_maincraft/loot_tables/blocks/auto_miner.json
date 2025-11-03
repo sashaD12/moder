@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "doz_in_maincraft:blocks/auto_miner",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "doz_in_maincraft:auto_miner"
+        }
+      ]
+    }
+  ]
+}

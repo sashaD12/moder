@@ -2,36 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "cbc",
+    "dbd"
   ],
   "key": {
-    "0": {
+    "a": {
       "tag": "forge:stained_glass_panes"
     },
-    "1": {
+    "b": {
       "item": "doz_in_maincraft:symbiotic_ulcer"
     },
-    "2": {
-      "tag": "forge:stained_glass_panes"
-    },
-    "3": {
+    "c": {
       "item": "minecraft:stone_button"
     },
-    "4": {
-      "item": "doz_in_maincraft:symbiotic_ulcer"
-    },
-    "5": {
-      "item": "minecraft:stone_button"
-    },
-    "6": {
-      "item": "doz_in_maincraft:steel_plate"
-    },
-    "7": {
-      "item": "doz_in_maincraft:symbiotic_ulcer"
-    },
-    "8": {
+    "d": {
       "item": "doz_in_maincraft:steel_plate"
     }
   },

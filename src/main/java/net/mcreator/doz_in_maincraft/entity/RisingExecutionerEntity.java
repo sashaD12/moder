@@ -38,7 +38,7 @@ public class RisingExecutionerEntity extends Zombie {
 
 	public RisingExecutionerEntity(EntityType<RisingExecutionerEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 10;
 		setNoAi(false);
 		setPersistenceRequired();

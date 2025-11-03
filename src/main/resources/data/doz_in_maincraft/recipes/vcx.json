@@ -2,34 +2,28 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    " 78"
+    "abb",
+    "cde",
+    " fa"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:gold_nugget"
     },
-    "1": {
+    "b": {
       "item": "minecraft:iron_nugget"
     },
-    "2": {
-      "item": "minecraft:iron_nugget"
-    },
-    "3": {
+    "c": {
       "item": "minecraft:compass"
     },
-    "4": {
+    "d": {
       "item": "minecraft:redstone"
     },
-    "5": {
+    "e": {
       "item": "doz_in_maincraft:aluminum_ingot"
     },
-    "7": {
+    "f": {
       "item": "doz_in_maincraft:copper_ingot"
-    },
-    "8": {
-      "item": "minecraft:gold_nugget"
     }
   },
   "result": {

@@ -3,6 +3,7 @@ package net.mcreator.doz_in_maincraft.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.player.Player;
@@ -13,7 +14,7 @@ import net.mcreator.doz_in_maincraft.block.DarkZonePortalBlock;
 
 public class DarkZoneItem extends Item {
 	public DarkZoneItem() {
-		super(new Item.Properties().durability(64));
+		super(new Item.Properties().rarity(Rarity.COMMON).durability(64));
 	}
 
 	@Override

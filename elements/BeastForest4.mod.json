@@ -1,15 +1,23 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "livingentity",
   "definition": {
     "mobName": "Beast Forest(4 strip)",
     "mobLabel": "",
     "mobModelName": "Modelfak",
     "mobModelTexture": "zvery_lesa.png",
-    "mobModelGlowTexture": "zvery_lesa.png",
     "solidBoundingBox": {
       "fixedValue": false
     },
+    "modelLayers": [
+      {
+        "model": "Default",
+        "texture": "zvery_lesa.png",
+        "disableHurtOverlay": false,
+        "glow": true
+      }
+    ],
+    "animations": [],
     "modelWidth": 0.8,
     "modelHeight": 2.2,
     "modelShadowSize": 0.6,
@@ -23,9 +31,7 @@
       "value": -10092442,
       "falpha": 0.0
     },
-    "creativeTab": {
-      "value": "No creative tab entry"
-    },
+    "creativeTabs": [],
     "isBoss": true,
     "bossBarColor": "PURPLE",
     "bossBarType": "PROGRESS",
@@ -60,8 +66,10 @@
     "health": 300,
     "xpAmount": 0,
     "waterMob": false,
+    "pushedByFluids": {
+      "fixedValue": true
+    },
     "flyingMob": false,
-    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,
@@ -96,6 +104,7 @@
     "stepSound": {
       "value": ""
     },
+    "entityDataEntries": [],
     "whenMobDies": {
       "name": "BeastForest4KoghdaSushchnostUmiraiet"
     },
@@ -112,7 +121,7 @@
     "rangedAttackItem": {
       "value": ""
     },
-    "rangedItemType": "L96A1",
+    "rangedItemType": "L96A1Projectile",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
     "spawnThisMob": false,
@@ -126,6 +135,15 @@
         "value": "void"
       }
     ],
-    "spawnInDungeons": true
+    "spawnInDungeons": true,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ]
   }
 }

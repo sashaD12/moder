@@ -20,7 +20,8 @@ public class FLUEDGLASSFluidType extends FluidType {
 	@Override
 	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
 		consumer.accept(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("doz_in_maincraft:block/dssss"), FLOWING_TEXTURE = new ResourceLocation("doz_in_maincraft:block/dssss");
+			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("doz_in_maincraft:block/dssss");
+			private static final ResourceLocation FLOWING_TEXTURE = new ResourceLocation("doz_in_maincraft:block/dssss");
 
 			@Override
 			public ResourceLocation getStillTexture() {

@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -25,7 +25,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 132,
-          "y": 62
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -43,7 +44,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 150,
-          "y": 62
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -61,7 +63,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 168,
-          "y": 62
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -79,7 +82,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 177,
-          "y": 98
+          "y": 98,
+          "locked": false
         }
       },
       {
@@ -88,7 +92,8 @@
           "image": "rrrrrrrrrrrrrrrrrrrrrr.png",
           "use1Xscale": false,
           "x": 204,
-          "y": 62
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -103,7 +108,8 @@
             "falpha": 0.0
           },
           "x": 141,
-          "y": 101
+          "y": 101,
+          "locked": false
         }
       },
       {
@@ -121,7 +127,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 186,
-          "y": 62
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -133,7 +140,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 222,
-          "y": 62
+          "y": 62,
+          "locked": false
         }
       },
       {
@@ -148,7 +156,8 @@
             "falpha": 0.0
           },
           "x": 168,
-          "y": 44
+          "y": 44,
+          "locked": false
         }
       }
     ],

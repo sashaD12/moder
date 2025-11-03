@@ -10,7 +10,7 @@ import net.mcreator.doz_in_maincraft.client.model.Modelpalach;
 
 public class RisingExecutionerRenderer extends MobRenderer<RisingExecutionerEntity, Modelpalach<RisingExecutionerEntity>> {
 	public RisingExecutionerRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelpalach(context.bakeLayer(Modelpalach.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelpalach<RisingExecutionerEntity>(context.bakeLayer(Modelpalach.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

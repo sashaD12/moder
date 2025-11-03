@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "well_why_dont_you_have_a_chest": {
+    "well_why_dont_you_have_a_chest_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

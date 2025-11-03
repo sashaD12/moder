@@ -29,6 +29,8 @@ import java.util.Map;
 import java.util.List;
 import java.util.Collections;
 
+import com.google.common.collect.Iterables;
+
 public abstract class GasgasMaskItem extends ArmorItem {
 	public GasgasMaskItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
@@ -98,9 +100,9 @@ public abstract class GasgasMaskItem extends ArmorItem {
 		}
 
 		@Override
-		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
-			super.appendHoverText(itemstack, world, list, flag);
-			list.add(Component.literal("\u0434\u043B\u044F \u0437\u0430\u0448\u0456\u0442\u0438\u043E\u0442 \u043D\u0454 \u0436\u0435\u043B\u0430\u0442\u0454\u043B\u044C\u043D\u0438\u0445 \u0435\u0444\u0454\u043A\u0442\u043E\u0432"));
+		public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
+			super.appendHoverText(itemstack, level, list, flag);
+			list.add(Component.translatable("item.doz_in_maincraft.gas_mask_helmet.description_0"));
 		}
 
 		@Override
@@ -109,8 +111,11 @@ public abstract class GasgasMaskItem extends ArmorItem {
 		}
 
 		@Override
-		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			GasgasMaskSobytiieTaktovShliemaProcedure.execute(entity);
+		public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			if (entity instanceof Player player && Iterables.contains(player.getArmorSlots(), itemstack)) {
+				GasgasMaskSobytiieTaktovShliemaProcedure.execute(entity);
+			}
 		}
 	}
 }

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "doz_in_maincraft:steal_hoe",
+    "doz_in_maincraft:aluminum_hoe",
+    "doz_in_maincraft:copper_hoe"
+  ]
+}

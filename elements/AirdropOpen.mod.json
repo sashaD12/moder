@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "block",
   "definition": {
     "texture": "drop",
@@ -33,15 +33,20 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Airdrop",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 4.3999999999999995,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
@@ -98,7 +103,7 @@
     },
     "luminance": 0,
     "unbreakable": true,
-    "breakHarvestLevel": 3,
+    "vanillaToolTier": "DIAMOND",
     "isBonemealable": false,
     "hasInventory": true,
     "guiBoundTo": "Sf",
@@ -120,7 +125,7 @@
     "onBlockAdded": {
       "name": "AirdropOpenPriDobavlieniiBloka"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

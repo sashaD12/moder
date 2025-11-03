@@ -2,24 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "01",
-    "23",
-    " 5"
+    "aa",
+    "ab",
+    " b"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "doz_in_maincraft:aluminum_ingot"
     },
-    "1": {
-      "item": "doz_in_maincraft:aluminum_ingot"
-    },
-    "2": {
-      "item": "doz_in_maincraft:aluminum_ingot"
-    },
-    "3": {
-      "item": "minecraft:stick"
-    },
-    "5": {
+    "b": {
       "item": "minecraft:stick"
     }
   },

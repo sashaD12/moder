@@ -6,6 +6,7 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.doz_in_maincraft.world.inventory.FyvMenu;
 import net.mcreator.doz_in_maincraft.procedures.A9Procedure;
@@ -29,7 +30,6 @@ import net.mcreator.doz_in_maincraft.procedures.A10Procedure;
 
 import java.util.HashMap;
 
-import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
 public class FyvScreen extends AbstractContainerScreen<FyvMenu> {
@@ -52,103 +52,80 @@ public class FyvScreen extends AbstractContainerScreen<FyvMenu> {
 	private static final ResourceLocation texture = new ResourceLocation("doz_in_maincraft:textures/screens/fyv.png");
 
 	@Override
-	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(ms);
-		super.render(ms, mouseX, mouseY, partialTicks);
-		this.renderTooltip(ms, mouseX, mouseY);
+	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
+		this.renderBackground(guiGraphics);
+		super.render(guiGraphics, mouseX, mouseY, partialTicks);
+		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
 
 	@Override
-	protected void renderBg(PoseStack ms, float partialTicks, int gx, int gy) {
+	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int gx, int gy) {
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-		RenderSystem.setShaderTexture(0, texture);
-		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/safs.png"));
-		this.blit(ms, this.leftPos + -1, this.topPos + -2, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/safs.png"), this.leftPos + -2, this.topPos + -2, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/safs.png"));
-		this.blit(ms, this.leftPos + 162, this.topPos + -2, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/safs.png"), this.leftPos + 162, this.topPos + -2, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/safs.png"));
-		this.blit(ms, this.leftPos + -1, this.topPos + 71, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/safs.png"), this.leftPos + -2, this.topPos + 71, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/safs.png"));
-		this.blit(ms, this.leftPos + 161, this.topPos + 71, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/safs.png"), this.leftPos + 161, this.topPos + 71, 0, 0, 16, 16, 16, 16);
 
 		if (A1Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/addaa.png"));
-			this.blit(ms, this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
+			guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/addaa.png"), this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
 		}
 		if (A2Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/a1.png"));
-			this.blit(ms, this.leftPos + 55, this.topPos + 60, 0, 0, 64, 5, 64, 5);
+			guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/a1.png"), this.leftPos + 55, this.topPos + 60, 0, 0, 64, 5, 64, 5);
 		}
 		if (A3Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/a2.png"));
-			this.blit(ms, this.leftPos + 55, this.topPos + 60, 0, 0, 64, 5, 64, 5);
+			guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/a2.png"), this.leftPos + 55, this.topPos + 60, 0, 0, 64, 5, 64, 5);
 		}
 		if (A4Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/a3.png"));
-			this.blit(ms, this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
+			guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/a3.png"), this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
 		}
 		if (A5Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/a4.png"));
-			this.blit(ms, this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
+			guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/a4.png"), this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
 		}
 		if (A6Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/a5.png"));
-			this.blit(ms, this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
+			guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/a5.png"), this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
 		}
 		if (A7Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/a6.png"));
-			this.blit(ms, this.leftPos + 55, this.topPos + 60, 0, 0, 64, 5, 64, 5);
+			guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/a6.png"), this.leftPos + 55, this.topPos + 60, 0, 0, 64, 5, 64, 5);
 		}
 		if (A8Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/a7.png"));
-			this.blit(ms, this.leftPos + 55, this.topPos + 60, 0, 0, 64, 5, 64, 5);
+			guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/a7.png"), this.leftPos + 55, this.topPos + 60, 0, 0, 64, 5, 64, 5);
 		}
 		if (A9Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/a8.png"));
-			this.blit(ms, this.leftPos + 55, this.topPos + 60, 0, 0, 64, 5, 64, 5);
+			guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/a8.png"), this.leftPos + 55, this.topPos + 60, 0, 0, 64, 5, 64, 5);
 		}
 		if (A10Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/a9.png"));
-			this.blit(ms, this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
+			guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/a9.png"), this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
 		}
 		if (A11Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/a10.png"));
-			this.blit(ms, this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
+			guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/a10.png"), this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
 		}
 		if (A12Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/a11.png"));
-			this.blit(ms, this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
+			guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/a11.png"), this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
 		}
 		if (A13Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/a12.png"));
-			this.blit(ms, this.leftPos + 55, this.topPos + 60, 0, 0, 64, 5, 64, 5);
+			guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/a12.png"), this.leftPos + 55, this.topPos + 60, 0, 0, 64, 5, 64, 5);
 		}
 		if (A14Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/a13.png"));
-			this.blit(ms, this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
+			guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/a13.png"), this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
 		}
 		if (A15Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/a14.png"));
-			this.blit(ms, this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
+			guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/a14.png"), this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
 		}
 		if (A16Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/a15.png"));
-			this.blit(ms, this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
+			guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/a15.png"), this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
 		}
 		if (A17Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/a16.png"));
-			this.blit(ms, this.leftPos + 55, this.topPos + 60, 0, 0, 64, 5, 64, 5);
+			guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/a16.png"), this.leftPos + 55, this.topPos + 60, 0, 0, 64, 5, 64, 5);
 		}
 		if (A18Procedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("doz_in_maincraft:textures/screens/a17.png"));
-			this.blit(ms, this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
+			guiGraphics.blit(new ResourceLocation("doz_in_maincraft:textures/screens/a17.png"), this.leftPos + 54, this.topPos + 60, 0, 0, 64, 5, 64, 5);
 		}
 		RenderSystem.disableBlend();
 	}
@@ -163,18 +140,8 @@ public class FyvScreen extends AbstractContainerScreen<FyvMenu> {
 	}
 
 	@Override
-	public void containerTick() {
-		super.containerTick();
-	}
-
-	@Override
-	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, Component.translatable("gui.doz_in_maincraft.fyv.label_auto_miner"), 60, 7, -12829636);
-	}
-
-	@Override
-	public void onClose() {
-		super.onClose();
+	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font, Component.translatable("gui.doz_in_maincraft.fyv.label_auto_miner"), 60, 7, -12829636, false);
 	}
 
 	@Override

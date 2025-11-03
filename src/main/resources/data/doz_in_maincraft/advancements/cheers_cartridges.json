@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "cheers_cartridges": {
+    "cheers_cartridges_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

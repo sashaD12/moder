@@ -21,7 +21,7 @@ public class AluminumSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 1f;
+				return -1f;
 			}
 
 			public int getLevel() {

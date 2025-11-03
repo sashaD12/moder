@@ -27,31 +27,31 @@ public class ProtgasPriNazhatiiKlavishiProcedure {
 		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == DozInMaincraftModItems.GAS_MASK_HELMET.get()) {
 			if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getOrCreateTag().getDouble("protgas") <= 7200
 					&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getOrCreateTag().getDouble("protgas") >= 6000) {
-				if (entity instanceof Player _player && !_player.level.isClientSide())
+				if (entity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(Component.literal(("minutes/" + "6")), true);
 			} else if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getOrCreateTag().getDouble("protgas") <= 6000
 					&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getOrCreateTag().getDouble("protgas") >= 4800) {
-				if (entity instanceof Player _player && !_player.level.isClientSide())
+				if (entity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(Component.literal(("minutes/" + "5")), true);
 			} else if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getOrCreateTag().getDouble("protgas") <= 4800
 					&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getOrCreateTag().getDouble("protgas") >= 3600) {
-				if (entity instanceof Player _player && !_player.level.isClientSide())
+				if (entity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(Component.literal(("minutes/" + "4")), true);
 			} else if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getOrCreateTag().getDouble("protgas") <= 3600
 					&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getOrCreateTag().getDouble("protgas") >= 2400) {
-				if (entity instanceof Player _player && !_player.level.isClientSide())
+				if (entity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(Component.literal(("minutes/" + "3")), true);
 			} else if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getOrCreateTag().getDouble("protgas") <= 2400
 					&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getOrCreateTag().getDouble("protgas") >= 1200) {
-				if (entity instanceof Player _player && !_player.level.isClientSide())
+				if (entity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(Component.literal(("minutes/" + "2")), true);
 			} else if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getOrCreateTag().getDouble("protgas") <= 1200
 					&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getOrCreateTag().getDouble("protgas") >= 1) {
-				if (entity instanceof Player _player && !_player.level.isClientSide())
+				if (entity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(Component.literal(("minutes/" + "1")), true);
 			} else if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getOrCreateTag().getDouble("protgas") == 0
 					&& (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getOrCreateTag().getDouble("protgas") == 0) {
-				if (entity instanceof Player _player && !_player.level.isClientSide())
+				if (entity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(Component.literal(("minutes/" + "no time")), true);
 			}
 		}

@@ -41,7 +41,7 @@ public class SfMenu extends AbstractContainerMenu implements Supplier<Map<Intege
 	public SfMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
 		super(DozInMaincraftModMenus.SF.get(), id);
 		this.entity = inv.player;
-		this.world = inv.player.level;
+		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(12);
 		BlockPos pos = null;
 		if (extraData != null) {
@@ -79,6 +79,8 @@ public class SfMenu extends AbstractContainerMenu implements Supplier<Map<Intege
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 34, 17) {
 			private final int slot = 0;
+			private int x = SfMenu.this.x;
+			private int y = SfMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -87,6 +89,8 @@ public class SfMenu extends AbstractContainerMenu implements Supplier<Map<Intege
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 52, 17) {
 			private final int slot = 1;
+			private int x = SfMenu.this.x;
+			private int y = SfMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -95,6 +99,8 @@ public class SfMenu extends AbstractContainerMenu implements Supplier<Map<Intege
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 70, 17) {
 			private final int slot = 2;
+			private int x = SfMenu.this.x;
+			private int y = SfMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -103,6 +109,8 @@ public class SfMenu extends AbstractContainerMenu implements Supplier<Map<Intege
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 88, 17) {
 			private final int slot = 3;
+			private int x = SfMenu.this.x;
+			private int y = SfMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -111,6 +119,8 @@ public class SfMenu extends AbstractContainerMenu implements Supplier<Map<Intege
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 106, 17) {
 			private final int slot = 4;
+			private int x = SfMenu.this.x;
+			private int y = SfMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -119,6 +129,8 @@ public class SfMenu extends AbstractContainerMenu implements Supplier<Map<Intege
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 124, 17) {
 			private final int slot = 5;
+			private int x = SfMenu.this.x;
+			private int y = SfMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -127,6 +139,8 @@ public class SfMenu extends AbstractContainerMenu implements Supplier<Map<Intege
 		}));
 		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 34, 35) {
 			private final int slot = 6;
+			private int x = SfMenu.this.x;
+			private int y = SfMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -135,6 +149,8 @@ public class SfMenu extends AbstractContainerMenu implements Supplier<Map<Intege
 		}));
 		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 52, 35) {
 			private final int slot = 7;
+			private int x = SfMenu.this.x;
+			private int y = SfMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -143,6 +159,8 @@ public class SfMenu extends AbstractContainerMenu implements Supplier<Map<Intege
 		}));
 		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 70, 35) {
 			private final int slot = 8;
+			private int x = SfMenu.this.x;
+			private int y = SfMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -151,6 +169,8 @@ public class SfMenu extends AbstractContainerMenu implements Supplier<Map<Intege
 		}));
 		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 88, 35) {
 			private final int slot = 9;
+			private int x = SfMenu.this.x;
+			private int y = SfMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -159,6 +179,8 @@ public class SfMenu extends AbstractContainerMenu implements Supplier<Map<Intege
 		}));
 		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 106, 35) {
 			private final int slot = 10;
+			private int x = SfMenu.this.x;
+			private int y = SfMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -167,6 +189,8 @@ public class SfMenu extends AbstractContainerMenu implements Supplier<Map<Intege
 		}));
 		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 124, 35) {
 			private final int slot = 11;
+			private int x = SfMenu.this.x;
+			private int y = SfMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {

@@ -2,34 +2,22 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "3 5",
-    "678"
+    "abc",
+    "b b",
+    "dba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:red_dye"
     },
-    "1": {
+    "b": {
       "item": "doz_in_maincraft:aluminum_plate"
     },
-    "2": {
+    "c": {
       "item": "minecraft:lever"
     },
-    "3": {
-      "item": "doz_in_maincraft:aluminum_plate"
-    },
-    "5": {
-      "item": "doz_in_maincraft:aluminum_plate"
-    },
-    "6": {
+    "d": {
       "item": "doz_in_maincraft:aluminum_ingot"
-    },
-    "7": {
-      "item": "doz_in_maincraft:aluminum_plate"
-    },
-    "8": {
-      "item": "minecraft:red_dye"
     }
   },
   "result": {

@@ -2,18 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    "a",
+    "a",
+    "b"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:copper_ingot"
     },
-    "1": {
-      "item": "minecraft:copper_ingot"
-    },
-    "2": {
+    "b": {
       "item": "minecraft:stick"
     }
   },

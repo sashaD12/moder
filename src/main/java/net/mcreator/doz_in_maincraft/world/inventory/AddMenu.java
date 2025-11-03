@@ -41,7 +41,7 @@ public class AddMenu extends AbstractContainerMenu implements Supplier<Map<Integ
 	public AddMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
 		super(DozInMaincraftModMenus.ADD.get(), id);
 		this.entity = inv.player;
-		this.world = inv.player.level;
+		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(6);
 		BlockPos pos = null;
 		if (extraData != null) {
@@ -79,21 +79,33 @@ public class AddMenu extends AbstractContainerMenu implements Supplier<Map<Integ
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 34, 53) {
 			private final int slot = 0;
+			private int x = AddMenu.this.x;
+			private int y = AddMenu.this.y;
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 7, 17) {
 			private final int slot = 1;
+			private int x = AddMenu.this.x;
+			private int y = AddMenu.this.y;
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 25, 17) {
 			private final int slot = 2;
+			private int x = AddMenu.this.x;
+			private int y = AddMenu.this.y;
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 43, 17) {
 			private final int slot = 3;
+			private int x = AddMenu.this.x;
+			private int y = AddMenu.this.y;
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 61, 17) {
 			private final int slot = 4;
+			private int x = AddMenu.this.x;
+			private int y = AddMenu.this.y;
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 133, 17) {
 			private final int slot = 5;
+			private int x = AddMenu.this.x;
+			private int y = AddMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {

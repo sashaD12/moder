@@ -21,7 +21,7 @@ public class AluminumHoeItem extends HoeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 1f;
+				return 2f;
 			}
 
 			public int getLevel() {

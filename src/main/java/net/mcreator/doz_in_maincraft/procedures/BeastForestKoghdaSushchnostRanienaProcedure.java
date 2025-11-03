@@ -10,11 +10,11 @@ public class BeastForestKoghdaSushchnostRanienaProcedure {
 		if (entity == null || sourceentity == null)
 			return;
 		if (Math.random() < 0.25) {
-			if (sourceentity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+			if (sourceentity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.WITHER, 60, 1));
 		}
 		if (Math.random() < 0.1) {
-			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 60, 1));
 		}
 	}

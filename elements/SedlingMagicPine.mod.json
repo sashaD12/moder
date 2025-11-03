@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "block",
   "definition": {
     "texture": "sdf",
@@ -33,15 +33,16 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Sedling Magic Pine",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 0.1,
     "resistance": 1.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "No creative tab entry"
-    },
+    "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": "CUSTOM:SeedlingMagicPine"
@@ -98,10 +99,9 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "hasInventory": false,
-    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -126,7 +126,7 @@
     "onTickUpdate": {
       "name": "SedlingMagicPineObnovitTakt"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

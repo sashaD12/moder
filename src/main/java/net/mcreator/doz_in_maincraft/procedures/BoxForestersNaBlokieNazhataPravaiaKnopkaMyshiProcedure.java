@@ -6,7 +6,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.MobSpawnType;
-import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
@@ -14,7 +13,6 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModItems;
 import net.mcreator.doz_in_maincraft.init.DozInMaincraftModEntities;
-import net.mcreator.doz_in_maincraft.entity.ForesterHunterEntity;
 
 public class BoxForestersNaBlokieNazhataPravaiaKnopkaMyshiProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -29,32 +27,28 @@ public class BoxForestersNaBlokieNazhataPravaiaKnopkaMyshiProcedure {
 					_level.addFreshEntity(entityToSpawn);
 				}
 				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = new ForesterHunterEntity(DozInMaincraftModEntities.FORESTER_HUNTER.get(), _level);
-					entityToSpawn.moveTo((x + 2), y, z, world.getRandom().nextFloat() * 360F, 0);
-					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, _level.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-					_level.addFreshEntity(entityToSpawn);
+					Entity entityToSpawn = DozInMaincraftModEntities.FORESTER_HUNTER.get().spawn(_level, BlockPos.containing(x + 2, y, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+						entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+					}
 				}
 				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = new ForesterHunterEntity(DozInMaincraftModEntities.FORESTER_HUNTER.get(), _level);
-					entityToSpawn.moveTo(x, y, (z + 2), world.getRandom().nextFloat() * 360F, 0);
-					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, _level.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-					_level.addFreshEntity(entityToSpawn);
+					Entity entityToSpawn = DozInMaincraftModEntities.FORESTER_HUNTER.get().spawn(_level, BlockPos.containing(x, y, z + 2), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+						entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+					}
 				}
 				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = new ForesterHunterEntity(DozInMaincraftModEntities.FORESTER_HUNTER.get(), _level);
-					entityToSpawn.moveTo((x - 2), y, z, world.getRandom().nextFloat() * 360F, 0);
-					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, _level.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-					_level.addFreshEntity(entityToSpawn);
+					Entity entityToSpawn = DozInMaincraftModEntities.FORESTER_HUNTER.get().spawn(_level, BlockPos.containing(x - 2, y, z), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+						entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+					}
 				}
 				if (world instanceof ServerLevel _level) {
-					Entity entityToSpawn = new ForesterHunterEntity(DozInMaincraftModEntities.FORESTER_HUNTER.get(), _level);
-					entityToSpawn.moveTo(x, y, (z - 2), world.getRandom().nextFloat() * 360F, 0);
-					if (entityToSpawn instanceof Mob _mobToSpawn)
-						_mobToSpawn.finalizeSpawn(_level, _level.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-					_level.addFreshEntity(entityToSpawn);
+					Entity entityToSpawn = DozInMaincraftModEntities.FORESTER_HUNTER.get().spawn(_level, BlockPos.containing(x, y, z - 2), MobSpawnType.MOB_SUMMONED);
+					if (entityToSpawn != null) {
+						entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+					}
 				}
 				if (entity instanceof Player _player) {
 					ItemStack _stktoremove = new ItemStack(DozInMaincraftModItems.PICKLOCK.get());

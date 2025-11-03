@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "we_will_repair_everything": {
+    "we_will_repair_everything_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

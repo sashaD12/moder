@@ -17,22 +17,22 @@ public class SurvivorArmorSetPriShchielchkiePKMPoBlokuProcedure {
 			_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 		}
 		if (entity instanceof Player _player) {
-			ItemStack _setstack = new ItemStack(DozInMaincraftModItems.SURVIVORS_ARMOR_HELMET.get());
+			ItemStack _setstack = new ItemStack(DozInMaincraftModItems.SURVIVORS_ARMOR_HELMET.get()).copy();
 			_setstack.setCount(1);
 			ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 		}
 		if (entity instanceof Player _player) {
-			ItemStack _setstack = new ItemStack(DozInMaincraftModItems.SURVIVORS_ARMOR_CHESTPLATE.get());
+			ItemStack _setstack = new ItemStack(DozInMaincraftModItems.SURVIVORS_ARMOR_CHESTPLATE.get()).copy();
 			_setstack.setCount(1);
 			ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 		}
 		if (entity instanceof Player _player) {
-			ItemStack _setstack = new ItemStack(DozInMaincraftModItems.SURVIVORS_ARMOR_LEGGINGS.get());
+			ItemStack _setstack = new ItemStack(DozInMaincraftModItems.SURVIVORS_ARMOR_LEGGINGS.get()).copy();
 			_setstack.setCount(1);
 			ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 		}
 		if (entity instanceof Player _player) {
-			ItemStack _setstack = new ItemStack(DozInMaincraftModItems.SURVIVORS_ARMOR_BOOTS.get());
+			ItemStack _setstack = new ItemStack(DozInMaincraftModItems.SURVIVORS_ARMOR_BOOTS.get()).copy();
 			_setstack.setCount(1);
 			ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 		}

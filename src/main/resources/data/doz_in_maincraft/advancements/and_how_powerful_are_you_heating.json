@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "and_how_powerful_are_you_heating": {
+    "and_how_powerful_are_you_heating_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

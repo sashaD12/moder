@@ -41,7 +41,7 @@ public class Tier3Menu extends AbstractContainerMenu implements Supplier<Map<Int
 	public Tier3Menu(int id, Inventory inv, FriendlyByteBuf extraData) {
 		super(DozInMaincraftModMenus.TIER_3.get(), id);
 		this.entity = inv.player;
-		this.world = inv.player.level;
+		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(54);
 		BlockPos pos = null;
 		if (extraData != null) {
@@ -79,165 +79,273 @@ public class Tier3Menu extends AbstractContainerMenu implements Supplier<Map<Int
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 6) {
 			private final int slot = 0;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 43, 24) {
 			private final int slot = 1;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 6) {
 			private final int slot = 2;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 61, 6) {
 			private final int slot = 3;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 79, 6) {
 			private final int slot = 4;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 97, 6) {
 			private final int slot = 5;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 133, 6) {
 			private final int slot = 6;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 115, 6) {
 			private final int slot = 7;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 151, 6) {
 			private final int slot = 8;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 97, 78) {
 			private final int slot = 9;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 25, 24) {
 			private final int slot = 10;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 25, 6) {
 			private final int slot = 11;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 61, 24) {
 			private final int slot = 12;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 79, 24) {
 			private final int slot = 13;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 97, 24) {
 			private final int slot = 14;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 115, 24) {
 			private final int slot = 15;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 133, 24) {
 			private final int slot = 16;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 151, 24) {
 			private final int slot = 17;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(18, this.addSlot(new SlotItemHandler(internal, 18, 7, 42) {
 			private final int slot = 18;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(19, this.addSlot(new SlotItemHandler(internal, 19, 7, 60) {
 			private final int slot = 19;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(20, this.addSlot(new SlotItemHandler(internal, 20, 7, 78) {
 			private final int slot = 20;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(21, this.addSlot(new SlotItemHandler(internal, 21, 7, 96) {
 			private final int slot = 21;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(22, this.addSlot(new SlotItemHandler(internal, 22, 25, 42) {
 			private final int slot = 22;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(23, this.addSlot(new SlotItemHandler(internal, 23, 43, 42) {
 			private final int slot = 23;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(24, this.addSlot(new SlotItemHandler(internal, 24, 61, 42) {
 			private final int slot = 24;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(25, this.addSlot(new SlotItemHandler(internal, 25, 79, 42) {
 			private final int slot = 25;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(26, this.addSlot(new SlotItemHandler(internal, 26, 97, 42) {
 			private final int slot = 26;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(27, this.addSlot(new SlotItemHandler(internal, 27, 115, 42) {
 			private final int slot = 27;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(28, this.addSlot(new SlotItemHandler(internal, 28, 133, 42) {
 			private final int slot = 28;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(29, this.addSlot(new SlotItemHandler(internal, 29, 151, 42) {
 			private final int slot = 29;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(30, this.addSlot(new SlotItemHandler(internal, 30, 25, 60) {
 			private final int slot = 30;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(31, this.addSlot(new SlotItemHandler(internal, 31, 43, 60) {
 			private final int slot = 31;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(32, this.addSlot(new SlotItemHandler(internal, 32, 61, 60) {
 			private final int slot = 32;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(33, this.addSlot(new SlotItemHandler(internal, 33, 79, 60) {
 			private final int slot = 33;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(34, this.addSlot(new SlotItemHandler(internal, 34, 97, 60) {
 			private final int slot = 34;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(35, this.addSlot(new SlotItemHandler(internal, 35, 133, 78) {
 			private final int slot = 35;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(36, this.addSlot(new SlotItemHandler(internal, 36, 133, 60) {
 			private final int slot = 36;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(37, this.addSlot(new SlotItemHandler(internal, 37, 151, 60) {
 			private final int slot = 37;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(38, this.addSlot(new SlotItemHandler(internal, 38, 25, 78) {
 			private final int slot = 38;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(39, this.addSlot(new SlotItemHandler(internal, 39, 43, 78) {
 			private final int slot = 39;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(40, this.addSlot(new SlotItemHandler(internal, 40, 61, 78) {
 			private final int slot = 40;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(41, this.addSlot(new SlotItemHandler(internal, 41, 79, 78) {
 			private final int slot = 41;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(42, this.addSlot(new SlotItemHandler(internal, 42, 115, 78) {
 			private final int slot = 42;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(43, this.addSlot(new SlotItemHandler(internal, 43, 7, 24) {
 			private final int slot = 43;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(44, this.addSlot(new SlotItemHandler(internal, 44, 115, 60) {
 			private final int slot = 44;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(45, this.addSlot(new SlotItemHandler(internal, 45, 151, 78) {
 			private final int slot = 45;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(46, this.addSlot(new SlotItemHandler(internal, 46, 25, 96) {
 			private final int slot = 46;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(47, this.addSlot(new SlotItemHandler(internal, 47, 43, 96) {
 			private final int slot = 47;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(48, this.addSlot(new SlotItemHandler(internal, 48, 61, 96) {
 			private final int slot = 48;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(49, this.addSlot(new SlotItemHandler(internal, 49, 79, 96) {
 			private final int slot = 49;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(50, this.addSlot(new SlotItemHandler(internal, 50, 97, 96) {
 			private final int slot = 50;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(51, this.addSlot(new SlotItemHandler(internal, 51, 115, 96) {
 			private final int slot = 51;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(52, this.addSlot(new SlotItemHandler(internal, 52, 133, 96) {
 			private final int slot = 52;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		this.customSlots.put(53, this.addSlot(new SlotItemHandler(internal, 53, 151, 96) {
 			private final int slot = 53;
+			private int x = Tier3Menu.this.x;
+			private int y = Tier3Menu.this.y;
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)

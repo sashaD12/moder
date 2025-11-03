@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "pp_19": {
+    "pp_19_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

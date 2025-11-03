@@ -2,37 +2,31 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "abc",
+    "def",
+    "gda"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:redstone"
     },
-    "1": {
+    "b": {
       "item": "doz_in_maincraft:stabilizer_gemini"
     },
-    "2": {
+    "c": {
       "item": "doz_in_maincraft:stabilizer_stoker"
     },
-    "3": {
+    "d": {
       "item": "doz_in_maincraft:chugun"
     },
-    "4": {
+    "e": {
       "item": "minecraft:red_dye"
     },
-    "5": {
+    "f": {
       "item": "doz_in_maincraft:stabilizer_diode"
     },
-    "6": {
+    "g": {
       "item": "minecraft:blue_dye"
-    },
-    "7": {
-      "item": "doz_in_maincraft:chugun"
-    },
-    "8": {
-      "item": "minecraft:redstone"
     }
   },
   "result": {

@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 73,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,18 +10,28 @@
     "textureLeggings": "photo_2023-10-24_13-09-50",
     "enableBoots": true,
     "textureBoots": "photo_2023-10-24_13-09-49",
-    "creativeTab": {
-      "value": "CUSTOM:Sad"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
     "armorTextureFile": "xc",
     "helmetName": "Шлем Armor Fortress",
     "bodyName": "Нагрудник Armor Fortress",
     "leggingsName": "Поножи Armor Fortress",
     "bootsName": "Ботинки Armor Fortress",
-    "helmetSpecialInfo": [],
-    "bodySpecialInfo": [],
-    "leggingsSpecialInfo": [],
-    "bootsSpecialInfo": [],
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
     "helmetModelName": "Modeloplot_head",
     "helmetModelPart": "Head",
     "helmetModelTexture": "oplot.png",

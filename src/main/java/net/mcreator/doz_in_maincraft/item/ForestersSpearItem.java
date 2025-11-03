@@ -18,7 +18,7 @@ public class ForestersSpearItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 11.6f;
+				return 9.6f;
 			}
 
 			public int getLevel() {

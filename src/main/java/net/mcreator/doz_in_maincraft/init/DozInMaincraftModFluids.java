@@ -29,7 +29,7 @@ public class DozInMaincraftModFluids {
 	public static final RegistryObject<FlowingFluid> FLOWING_MOLTEN_STEEL = REGISTRY.register("flowing_molten_steel", () -> new MoltenSteelFluid.Flowing());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-	public static class ClientSideHandler {
+	public static class FluidsClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			ItemBlockRenderTypes.setRenderLayer(FLUEDGLASS.get(), RenderType.translucent());
