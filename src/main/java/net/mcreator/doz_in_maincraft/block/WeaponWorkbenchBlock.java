@@ -3,6 +3,9 @@ package net.mcreator.doz_in_maincraft.block;
 
 import net.minecraftforge.network.NetworkHooks;
 
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.Shapes;
+import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -28,14 +31,13 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.doz_in_maincraft.world.inventory.AddMenu;
 import net.mcreator.doz_in_maincraft.procedures.WeaponWorkbenchObnovitTaktProcedure;
-import net.mcreator.doz_in_maincraft.procedures.WeaponWorkbenchKoghdaBlokDobavlienProcedure;
 import net.mcreator.doz_in_maincraft.block.entity.WeaponWorkbenchBlockEntity;
 
 import io.netty.buffer.Unpooled;
 
 public class WeaponWorkbenchBlock extends Block implements EntityBlock {
 	public WeaponWorkbenchBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -49,10 +51,19 @@ public class WeaponWorkbenchBlock extends Block implements EntityBlock {
 	}
 
 	@Override
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return box(-2, 0, 0, 27, 32, 16);
+	}
+
+	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
 		world.scheduleTick(pos, this, 10);
-		WeaponWorkbenchKoghdaBlokDobavlienProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override

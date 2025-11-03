@@ -2,9 +2,9 @@
   "_fv": 73,
   "_type": "item",
   "definition": {
-    "renderType": 1,
-    "texture": "patron",
-    "customModelName": "sad:default",
+    "renderType": 0,
+    "texture": "10mm",
+    "customModelName": "Normal",
     "customProperties": {},
     "states": [],
     "name": "Patron 1 0mm",
@@ -31,11 +31,17 @@
     "specialInformation": {
       "fixedValue": []
     },
+    "glowCondition": {
+      "fixedValue": false
+    },
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:BowForestersProjectile"
+    },
     "projectileDisableAmmoCheck": false,
     "isFood": false,
     "nutritionalValue": 4,
@@ -47,6 +53,10 @@
     "isAlwaysEdible": false,
     "animation": "none",
     "isMusicDisc": false,
+    "musicDiscMusic": {
+      "value": ""
+    },
+    "musicDiscDescription": "",
     "musicDiscLengthInTicks": 0,
     "musicDiscAnalogOutput": 0
   }

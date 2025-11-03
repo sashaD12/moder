@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS"
+      },
+      {
+        "value": "Blocks.REDSTONE_LAMP"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Lamp"
+    },
+    "name": "svet_kr",
+    "namespace": "mod"
+  }
+}

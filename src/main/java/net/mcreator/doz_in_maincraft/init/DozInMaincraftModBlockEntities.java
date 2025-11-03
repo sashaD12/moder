@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.doz_in_maincraft.block.entity.WeaponWorkbenchBlockEntity;
 import net.mcreator.doz_in_maincraft.block.entity.MetalFormingMachineBlockEntity;
+import net.mcreator.doz_in_maincraft.block.entity.FirstAidKitOppenBlockEntity;
 import net.mcreator.doz_in_maincraft.block.entity.EngineeringWorkbenchBlockEntity;
 import net.mcreator.doz_in_maincraft.block.entity.CreativeCellBlockEntity;
 import net.mcreator.doz_in_maincraft.block.entity.BurntBloodyHoleBlockEntity;
@@ -43,6 +44,7 @@ public class DozInMaincraftModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> ARMORERS_WORKBENCH = register("armorers_workbench", DozInMaincraftModBlocks.ARMORERS_WORKBENCH, ArmorersWorkbenchBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> AUTO_MINER = register("auto_miner", DozInMaincraftModBlocks.AUTO_MINER, AutoMinerBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> AIRDROP_OPEN = register("airdrop_open", DozInMaincraftModBlocks.AIRDROP_OPEN, AirdropOpenBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> FIRST_AID_KIT_OPPEN = register("first_aid_kit_oppen", DozInMaincraftModBlocks.FIRST_AID_KIT_OPPEN, FirstAidKitOppenBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities

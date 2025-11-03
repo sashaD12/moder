@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "doz_in_maincraft:stabilizer_diode"
+    },
+    "title": {
+      "translate": "advancements.diods_heart.title"
+    },
+    "description": {
+      "translate": "advancements.diods_heart.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "diods_heart_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "doz_in_maincraft:stabilizer_diode"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "doz_in_maincraft:this_is_what_is_nezerit"
+}

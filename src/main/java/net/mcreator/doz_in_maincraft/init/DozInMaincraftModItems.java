@@ -38,14 +38,13 @@ import net.mcreator.doz_in_maincraft.item.StabilizerStokerItem;
 import net.mcreator.doz_in_maincraft.item.StabilizerGeminiItem;
 import net.mcreator.doz_in_maincraft.item.StabilizerDiodeItem;
 import net.mcreator.doz_in_maincraft.item.SpecialForcesCommunicatorItem;
-import net.mcreator.doz_in_maincraft.item.Sleeve762Item;
-import net.mcreator.doz_in_maincraft.item.Sleeve10MmItem;
 import net.mcreator.doz_in_maincraft.item.SekretArmorItem;
 import net.mcreator.doz_in_maincraft.item.SeedlingMagicPineItem;
+import net.mcreator.doz_in_maincraft.item.ScarHfullItem;
+import net.mcreator.doz_in_maincraft.item.ScarHItem;
+import net.mcreator.doz_in_maincraft.item.ScarHAmmoItem;
 import net.mcreator.doz_in_maincraft.item.SPAS12Item;
 import net.mcreator.doz_in_maincraft.item.RevolverDrumItem;
-import net.mcreator.doz_in_maincraft.item.RevolverClipItem;
-import net.mcreator.doz_in_maincraft.item.RevolverClip1Item;
 import net.mcreator.doz_in_maincraft.item.RescueBeaconItem;
 import net.mcreator.doz_in_maincraft.item.PressureRegulatorItem;
 import net.mcreator.doz_in_maincraft.item.PrecisionToolItem;
@@ -53,6 +52,7 @@ import net.mcreator.doz_in_maincraft.item.PlateShapeItem;
 import net.mcreator.doz_in_maincraft.item.PlasmaCableItem;
 import net.mcreator.doz_in_maincraft.item.PieceTinItem;
 import net.mcreator.doz_in_maincraft.item.PicklockItem;
+import net.mcreator.doz_in_maincraft.item.Patron556Item;
 import net.mcreator.doz_in_maincraft.item.Patron10mmItem;
 import net.mcreator.doz_in_maincraft.item.PP19BizonItem;
 import net.mcreator.doz_in_maincraft.item.P762atronItem;
@@ -86,6 +86,7 @@ import net.mcreator.doz_in_maincraft.item.EmptyBalloonItem;
 import net.mcreator.doz_in_maincraft.item.ElectricalTapeItem;
 import net.mcreator.doz_in_maincraft.item.DrumShapeItem;
 import net.mcreator.doz_in_maincraft.item.DoubleBloodyTearItem;
+import net.mcreator.doz_in_maincraft.item.DfgdItem;
 import net.mcreator.doz_in_maincraft.item.DetailSpecialAKMItem;
 import net.mcreator.doz_in_maincraft.item.DetailSpas12Item;
 import net.mcreator.doz_in_maincraft.item.DetailSkarHItem;
@@ -134,7 +135,10 @@ import net.mcreator.doz_in_maincraft.item.AluminumIngotItem;
 import net.mcreator.doz_in_maincraft.item.AluminumHoeItem;
 import net.mcreator.doz_in_maincraft.item.AluminumAxeItem;
 import net.mcreator.doz_in_maincraft.item.AluminumArmorItem;
+import net.mcreator.doz_in_maincraft.item.Ak47fullItem;
+import net.mcreator.doz_in_maincraft.item.Ak47ammoItem;
 import net.mcreator.doz_in_maincraft.item.AddedAromaticSpicesItem;
+import net.mcreator.doz_in_maincraft.item.AK47Item;
 import net.mcreator.doz_in_maincraft.DozInMaincraftMod;
 
 public class DozInMaincraftModItems {
@@ -229,7 +233,6 @@ public class DozInMaincraftModItems {
 	public static final RegistryObject<Item> NEZERITE_DUST = REGISTRY.register("nezerite_dust", () -> new NezeriteDustItem());
 	public static final RegistryObject<Item> NEZERITE_ORE = block(DozInMaincraftModBlocks.NEZERITE_ORE);
 	public static final RegistryObject<Item> METAL_FORMING_MACHINE = block(DozInMaincraftModBlocks.METAL_FORMING_MACHINE);
-	public static final RegistryObject<Item> REVOLVER_CLIP = REGISTRY.register("revolver_clip", () -> new RevolverClipItem());
 	public static final RegistryObject<Item> EXECUTIONER_HEART = REGISTRY.register("executioner_heart", () -> new ExecutionerHeartItem());
 	public static final RegistryObject<Item> GAS_MASK_HELMET = REGISTRY.register("gas_mask_helmet", () -> new GasgasMaskItem.Helmet());
 	public static final RegistryObject<Item> GAS_MASK_CRAHET_HELMET = REGISTRY.register("gas_mask_crahet_helmet", () -> new GasMaskCrahetItem.Helmet());
@@ -327,9 +330,6 @@ public class DozInMaincraftModItems {
 	public static final RegistryObject<Item> STABILIZER_STOKER = REGISTRY.register("stabilizer_stoker", () -> new StabilizerStokerItem());
 	public static final RegistryObject<Item> STABILIZER_GEMINI = REGISTRY.register("stabilizer_gemini", () -> new StabilizerGeminiItem());
 	public static final RegistryObject<Item> STABILIZER_DIODE = REGISTRY.register("stabilizer_diode", () -> new StabilizerDiodeItem());
-	public static final RegistryObject<Item> SLEEVE_10_MM = REGISTRY.register("sleeve_10_mm", () -> new Sleeve10MmItem());
-	public static final RegistryObject<Item> SLEEVE_762 = REGISTRY.register("sleeve_762", () -> new Sleeve762Item());
-	public static final RegistryObject<Item> REVOLVER_CLIP_1 = REGISTRY.register("revolver_clip_1", () -> new RevolverClip1Item());
 	public static final RegistryObject<Item> P_762ATRON = REGISTRY.register("p_762atron", () -> new P762atronItem());
 	public static final RegistryObject<Item> CLIP_1 = REGISTRY.register("clip_1", () -> new Clip1Item());
 	public static final RegistryObject<Item> CLIP_2 = REGISTRY.register("clip_2", () -> new Clip2Item());
@@ -372,6 +372,19 @@ public class DozInMaincraftModItems {
 	public static final RegistryObject<Item> TT = REGISTRY.register("tt", () -> new TTItem());
 	public static final RegistryObject<Item> TT_SIMBIOT = REGISTRY.register("tt_simbiot", () -> new TTSimbiotItem());
 	public static final RegistryObject<Item> SPAS_12 = REGISTRY.register("spas_12", () -> new SPAS12Item());
+	public static final RegistryObject<Item> LAMP = block(DozInMaincraftModBlocks.LAMP);
+	public static final RegistryObject<Item> REFUELING_INSTALLATION = block(DozInMaincraftModBlocks.REFUELING_INSTALLATION);
+	public static final RegistryObject<Item> FIRST_AID_KIT = block(DozInMaincraftModBlocks.FIRST_AID_KIT);
+	public static final RegistryObject<Item> ELECTRICAL_ANOMALY = block(DozInMaincraftModBlocks.ELECTRICAL_ANOMALY);
+	public static final RegistryObject<Item> AK_47 = REGISTRY.register("ak_47", () -> new AK47Item());
+	public static final RegistryObject<Item> AK_47AMMO = REGISTRY.register("ak_47ammo", () -> new Ak47ammoItem());
+	public static final RegistryObject<Item> AK_47FULL = REGISTRY.register("ak_47full", () -> new Ak47fullItem());
+	public static final RegistryObject<Item> SCAR_H = REGISTRY.register("scar_h", () -> new ScarHItem());
+	public static final RegistryObject<Item> SCAR_H_AMMO = REGISTRY.register("scar_h_ammo", () -> new ScarHAmmoItem());
+	public static final RegistryObject<Item> SCAR_HFULL = REGISTRY.register("scar_hfull", () -> new ScarHfullItem());
+	public static final RegistryObject<Item> PATRON_556 = REGISTRY.register("patron_556", () -> new Patron556Item());
+	public static final RegistryObject<Item> FIRST_AID_KIT_OPPEN = block(DozInMaincraftModBlocks.FIRST_AID_KIT_OPPEN);
+	public static final RegistryObject<Item> DFGD = REGISTRY.register("dfgd", () -> new DfgdItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

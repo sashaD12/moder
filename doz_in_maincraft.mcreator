@@ -82,13 +82,13 @@
       "registry_name": "fluedglass",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/FLUEDGLASSItem.java",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/FLUEDGLASSBlock.java",
-          "src/main/java/net/mcreator/doz_in_maincraft/fluid/types/FLUEDGLASSFluidType.java",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/fluedglass.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/fluedglass.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/fluedglass_bucket.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/fluid/FLUEDGLASSFluid.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/fluid/FLUEDGLASSFluid.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/FLUEDGLASSItem.java",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/fluedglass.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/fluid/types/FLUEDGLASSFluidType.java",
+          "src/main/resources/assets/doz_in_maincraft/models/block/fluedglass.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/FLUEDGLASSBlock.java"
         ]
       }
     },
@@ -113,11 +113,11 @@
       "registry_name": "magic_pine_wood",
       "metadata": {
         "files": [
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/magic_pine_wood.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_wood.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_wood.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/MagicPineWoodBlock.java",
           "src/main/resources/assets/doz_in_maincraft/models/item/magic_pine_wood.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_wood.json"
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/magic_pine_wood.json"
         ]
       }
     },
@@ -129,11 +129,11 @@
       "registry_name": "magic_pine_log",
       "metadata": {
         "files": [
+          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_log.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/MagicPineLogBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_log.json",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/magic_pine_log.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/magic_pine_log.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_log.json"
+          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_log.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/magic_pine_log.json"
         ]
       }
     },
@@ -145,11 +145,11 @@
       "registry_name": "magic_pine_planks",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/block/MagicPinePlanksBlock.java",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/magic_pine_planks.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/magic_pine_planks.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_planks.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_planks.json"
+          "src/main/java/net/mcreator/doz_in_maincraft/block/MagicPinePlanksBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_planks.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/magic_pine_planks.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_planks.json"
         ]
       }
     },
@@ -162,9 +162,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/magic_pine_leaves.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_leaves.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/magic_pine_leaves.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_leaves.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_leaves.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/MagicPineLeavesBlock.java"
         ]
       }
@@ -177,13 +177,13 @@
       "registry_name": "magic_pine_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/magic_pine_stairs.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_stairs.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_stairs.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_stairs_outer.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/MagicPineStairsBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_stairs.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_stairs.json",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/magic_pine_stairs.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_stairs_inner.json"
+          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_stairs_inner.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/magic_pine_stairs.json"
         ]
       }
     },
@@ -196,12 +196,12 @@
       "metadata": {
         "files": [
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/magic_pine_slab.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/magic_pine_slab.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_slab_full.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_slab.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_slab_top.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/MagicPineSlabBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_slab.json"
+          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_slab_top.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_slab.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_slab.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_slab_full.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/magic_pine_slab.json"
         ]
       }
     },
@@ -213,13 +213,13 @@
       "registry_name": "magic_pine_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_fence.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_fence.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/magic_pine_fence.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/magic_pine_fence.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/MagicPineFenceBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_fence.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_fence_post.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_fence_inventory.json"
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/magic_pine_fence.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/MagicPineFenceBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_fence_inventory.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_fence.json"
         ]
       }
     },
@@ -232,13 +232,13 @@
       "metadata": {
         "files": [
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/magic_pine_fence_gate.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_fence_gate.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/MagicPineFenceGateBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_fence_gate_wall_open.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/magic_pine_fence_gate.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/MagicPineFenceGateBlock.java",
           "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_fence_gate_wall.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_fence_gate_open.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_fence_gate.json"
+          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_fence_gate.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_fence_gate.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_fence_gate_open.json"
         ]
       }
     },
@@ -251,11 +251,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/doz_in_maincraft/block/MagicPinePressurePlateBlock.java",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/magic_pine_pressure_plate.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_pressure_plate.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_pressure_plate.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_pressure_plate_down.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/magic_pine_pressure_plate.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_pressure_plate_down.json"
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/magic_pine_pressure_plate.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_pressure_plate.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_pressure_plate.json"
         ]
       }
     },
@@ -267,13 +267,13 @@
       "registry_name": "magic_pine_button",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/block/MagicPineButtonBlock.java",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/magic_pine_button.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_button_pressed.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_button_inventory.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/magic_pine_button.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_button_inventory.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/MagicPineButtonBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_button.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_button_pressed.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/magic_pine_button.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/magic_pine_button.json"
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/magic_pine_button.json"
         ]
       }
     },
@@ -406,8 +406,8 @@
       "registry_name": "dfs",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/DfsMenu.java",
-          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/DfsScreen.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/DfsScreen.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/DfsMenu.java"
         ]
       }
     },
@@ -419,8 +419,8 @@
       "registry_name": "empty_stimulant",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/EmptyStimulantItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/empty_stimulant.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/empty_stimulant.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/EmptyStimulantItem.java"
         ]
       }
     },
@@ -469,8 +469,8 @@
       "registry_name": "filler",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/filler.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/FillerItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/FillerItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/filler.json"
         ]
       }
     },
@@ -494,8 +494,8 @@
       "registry_name": "seedling_magic_pine",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/seedling_magic_pine.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/SeedlingMagicPineItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/SeedlingMagicPineItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/seedling_magic_pine.json"
         ]
       }
     },
@@ -508,9 +508,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/doz_in_maincraft/block/SedlingMagicPineBlock.java",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/sedling_magic_pine.json",
           "src/main/resources/assets/doz_in_maincraft/blockstates/sedling_magic_pine.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/sedling_magic_pine.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/sedling_magic_pine.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/sedling_magic_pine.json"
         ]
       }
@@ -687,11 +687,11 @@
       "registry_name": "sddd",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/block/sddd.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/sddd.json",
           "src/main/resources/assets/doz_in_maincraft/blockstates/sddd.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/sddd.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/SdddBlock.java",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/sddd.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/SdddBlock.java"
+          "src/main/resources/assets/doz_in_maincraft/models/item/sddd.json"
         ]
       }
     },
@@ -716,10 +716,10 @@
       "registry_name": "forester_hunter",
       "metadata": {
         "files": [
-          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/forester_hunter_biome_modifier.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/entity/ForesterHunterEntity.java",
           "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/ForesterHunterRenderer.java",
           "src/main/resources/assets/doz_in_maincraft/models/item/forester_hunter_spawn_egg.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/entity/ForesterHunterEntity.java"
+          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/forester_hunter_biome_modifier.json"
         ]
       }
     },
@@ -732,8 +732,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/creek_forest_tree.json",
-          "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/creek_forest_tree.json",
-          "src/main/resources/data/doz_in_maincraft/worldgen/biome/creek_forest.json"
+          "src/main/resources/data/doz_in_maincraft/worldgen/biome/creek_forest.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/creek_forest_tree.json"
         ]
       }
     },
@@ -745,11 +745,11 @@
       "registry_name": "box_foresters",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/block/BoxForestersBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/box_foresters.json",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/box_foresters.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/box_foresters.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/box_foresters.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/box_foresters.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/box_foresters.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/BoxForestersBlock.java"
         ]
       }
     },
@@ -761,10 +761,10 @@
       "registry_name": "forest_roots",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/blockstates/forest_roots.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/forest_roots.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/forest_roots.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/ForestRootsBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/forest_roots.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/forest_roots.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/forest_roots.json"
         ]
       }
@@ -790,14 +790,14 @@
       "registry_name": "copper_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/copper_ore.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/copper_ore.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/copper_ore.json",
           "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/copper_ore.json",
-          "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/copper_ore.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/copper_ore.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/CopperOreBlock.java",
+          "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/copper_ore.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/copper_ore.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/copper_ore.json",
           "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/copper_ore_biome_modifier.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/copper_ore.json"
+          "src/main/resources/assets/doz_in_maincraft/models/block/copper_ore.json"
         ]
       }
     },
@@ -809,11 +809,11 @@
       "registry_name": "copper_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/block/CopperBlockBlock.java",
           "src/main/resources/assets/doz_in_maincraft/models/item/copper_block.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/copper_block.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/CopperBlockBlock.java",
           "src/main/resources/assets/doz_in_maincraft/blockstates/copper_block.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/copper_block.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/copper_block.json"
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/copper_block.json"
         ]
       }
     },
@@ -874,8 +874,8 @@
       "registry_name": "copper_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/copper_axe.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/CopperAxeItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/CopperAxeItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/copper_axe.json"
         ]
       }
     },
@@ -900,8 +900,8 @@
       "registry_name": "copper_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/copper_shovel.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/CopperShovelItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/CopperShovelItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/copper_shovel.json"
         ]
       }
     },
@@ -913,8 +913,8 @@
       "registry_name": "copper_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/copper_hoe.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/CopperHoeItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/CopperHoeItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/copper_hoe.json"
         ]
       }
     },
@@ -986,11 +986,11 @@
       "registry_name": "copper_armor",
       "metadata": {
         "files": [
+          "src/main/resources/assets/doz_in_maincraft/models/item/copper_armor_chestplate.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/CopperArmorItem.java",
           "src/main/resources/assets/doz_in_maincraft/models/item/copper_armor_leggings.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/copper_armor_helmet.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/copper_armor_boots.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/CopperArmorItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/copper_armor_chestplate.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/copper_armor_boots.json"
         ]
       }
     },
@@ -1063,14 +1063,14 @@
       "registry_name": "aluminum_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/aluminum_ore.json",
           "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/aluminum_ore.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/aluminum_ore.json",
-          "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/aluminum_ore.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/aluminum_ore.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/aluminum_ore.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/aluminum_ore.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/AluminumOreBlock.java",
-          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/aluminum_ore_biome_modifier.json"
+          "src/main/resources/assets/doz_in_maincraft/blockstates/aluminum_ore.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/aluminum_ore.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/aluminum_ore.json",
+          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/aluminum_ore_biome_modifier.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/aluminum_ore.json"
         ]
       }
     },
@@ -1082,11 +1082,11 @@
       "registry_name": "aluminum_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/block/AluminumBlockBlock.java",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/aluminum_block.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/aluminum_block.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/aluminum_block.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/aluminum_block.json"
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/aluminum_block.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/aluminum_block.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/AluminumBlockBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/aluminum_block.json"
         ]
       }
     },
@@ -1134,8 +1134,8 @@
       "registry_name": "aluminum_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/AluminumPickaxeItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/aluminum_pickaxe.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/aluminum_pickaxe.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/AluminumPickaxeItem.java"
         ]
       }
     },
@@ -1160,8 +1160,8 @@
       "registry_name": "aluminum_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/AluminumSwordItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/aluminum_sword.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/aluminum_sword.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/AluminumSwordItem.java"
         ]
       }
     },
@@ -1173,8 +1173,8 @@
       "registry_name": "aluminum_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/AluminumShovelItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/aluminum_shovel.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/aluminum_shovel.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/AluminumShovelItem.java"
         ]
       }
     },
@@ -1259,10 +1259,10 @@
       "registry_name": "aluminum_armor",
       "metadata": {
         "files": [
+          "src/main/resources/assets/doz_in_maincraft/models/item/aluminum_armor_chestplate.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/aluminum_armor_boots.json",
           "src/main/java/net/mcreator/doz_in_maincraft/item/AluminumArmorItem.java",
           "src/main/resources/assets/doz_in_maincraft/models/item/aluminum_armor_helmet.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/aluminum_armor_chestplate.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/aluminum_armor_leggings.json"
         ]
       }
@@ -1336,14 +1336,14 @@
       "registry_name": "lead_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/lead_ore.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/lead_ore.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/lead_ore.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/lead_ore.json",
           "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/lead_ore_biome_modifier.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/lead_ore.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/lead_ore.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/LeadOreBlock.java",
-          "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/lead_ore.json"
+          "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/lead_ore.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/lead_ore.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/lead_ore.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/lead_ore.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/lead_ore.json"
         ]
       }
     },
@@ -1355,11 +1355,11 @@
       "registry_name": "lead_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/blockstates/lead_block.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/LeadBlockBlock.java",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/lead_block.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/lead_block.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/lead_block.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/lead_block.json"
+          "src/main/java/net/mcreator/doz_in_maincraft/block/LeadBlockBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/lead_block.json"
         ]
       }
     },
@@ -1407,8 +1407,8 @@
       "registry_name": "grt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/GrtScreen.java",
-          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/GrtMenu.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/GrtMenu.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/GrtScreen.java"
         ]
       }
     },
@@ -1421,9 +1421,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/doz_in_maincraft/block/entity/BoxForestersOpenBlockEntity.java",
-          "src/main/resources/assets/doz_in_maincraft/models/block/box_foresters_open.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/box_foresters_open.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/BoxForestersOpenBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/box_foresters_open.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/box_foresters_open.json",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/box_foresters_open.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/box_foresters_open.json"
         ]
@@ -1437,8 +1437,8 @@
       "registry_name": "tin_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/TinIngotItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/tin_ingot.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/tin_ingot.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/TinIngotItem.java"
         ]
       }
     },
@@ -1450,14 +1450,14 @@
       "registry_name": "tin_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/tin_ore.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/TinOreBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/models/block/tin_ore.json",
-          "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/tin_ore.json",
-          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/tin_ore_biome_modifier.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/tin_ore.json",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/tin_ore.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/tin_ore.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/tin_ore.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/tin_ore.json",
+          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/tin_ore_biome_modifier.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/tin_ore.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/TinOreBlock.java",
+          "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/tin_ore.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/tin_ore.json"
         ]
       }
     },
@@ -1469,11 +1469,11 @@
       "registry_name": "tin_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/block/tin_block.json",
           "src/main/resources/assets/doz_in_maincraft/blockstates/tin_block.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/tin_block.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/TinBlockBlock.java",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/tin_block.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/tin_block.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/TinBlockBlock.java"
+          "src/main/resources/assets/doz_in_maincraft/models/item/tin_block.json"
         ]
       }
     },
@@ -1521,8 +1521,8 @@
       "registry_name": "picklock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/picklock.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/PicklockItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/PicklockItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/picklock.json"
         ]
       }
     },
@@ -1679,8 +1679,8 @@
       "registry_name": "load_foresters",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/load_foresters.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/LoadForestersItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/LoadForestersItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/load_foresters.json"
         ]
       }
     },
@@ -1692,8 +1692,8 @@
       "registry_name": "cooling_mechanism",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/cooling_mechanism.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/CoolingMechanismItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/CoolingMechanismItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/cooling_mechanism.json"
         ]
       }
     },
@@ -1729,8 +1729,8 @@
       "registry_name": "steal_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/StealIngotItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/steal_ingot.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/steal_ingot.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/StealIngotItem.java"
         ]
       }
     },
@@ -1743,10 +1743,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/doz_in_maincraft/models/item/steal_block.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/steal_block.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/StealBlockBlock.java",
           "src/main/resources/assets/doz_in_maincraft/models/block/steal_block.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/steal_block.json"
+          "src/main/resources/assets/doz_in_maincraft/blockstates/steal_block.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/steal_block.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/StealBlockBlock.java"
         ]
       }
     },
@@ -1795,8 +1795,8 @@
       "registry_name": "steal_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/steal_axe.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/StealAxeItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/StealAxeItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/steal_axe.json"
         ]
       }
     },
@@ -1834,8 +1834,8 @@
       "registry_name": "steal_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/steal_hoe.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/StealHoeItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/StealHoeItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/steal_hoe.json"
         ]
       }
     },
@@ -1907,11 +1907,11 @@
       "registry_name": "steal_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/steal_armor_helmet.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/steal_armor_leggings.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/steal_armor_boots.json",
           "src/main/java/net/mcreator/doz_in_maincraft/item/StealArmorItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/steal_armor_chestplate.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/steal_armor_helmet.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/steal_armor_chestplate.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/steal_armor_leggings.json"
         ]
       }
     },
@@ -2091,8 +2091,8 @@
       "registry_name": "revolver_drum",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/revolver_drum.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/RevolverDrumItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/RevolverDrumItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/revolver_drum.json"
         ]
       }
     },
@@ -2104,8 +2104,8 @@
       "registry_name": "steel_barrel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/SteelBarrelItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/steel_barrel.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/steel_barrel.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/SteelBarrelItem.java"
         ]
       }
     },
@@ -2147,12 +2147,12 @@
       "registry_name": "molten_steel",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/block/MoltenSteelBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/molten_steel_bucket.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/molten_steel.json",
           "src/main/java/net/mcreator/doz_in_maincraft/item/MoltenSteelItem.java",
           "src/main/java/net/mcreator/doz_in_maincraft/fluid/types/MoltenSteelFluidType.java",
           "src/main/resources/assets/doz_in_maincraft/blockstates/molten_steel.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/molten_steel.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/MoltenSteelBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/molten_steel_bucket.json",
           "src/main/java/net/mcreator/doz_in_maincraft/fluid/MoltenSteelFluid.java"
         ]
       }
@@ -2190,8 +2190,8 @@
       "registry_name": "pressure_regulator",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/PressureRegulatorItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/pressure_regulator.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/pressure_regulator.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/PressureRegulatorItem.java"
         ]
       }
     },
@@ -2233,12 +2233,12 @@
       "registry_name": "arc_furnace",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/block/arc_furnace.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/ArcFurnaceBlock.java",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/entity/ArcFurnaceBlockEntity.java",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/arc_furnace.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/arc_furnace.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/arc_furnace.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/arc_furnace.json"
+          "src/main/java/net/mcreator/doz_in_maincraft/block/entity/ArcFurnaceBlockEntity.java",
+          "src/main/resources/assets/doz_in_maincraft/models/block/arc_furnace.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/arc_furnace.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/ArcFurnaceBlock.java"
         ]
       }
     },
@@ -2280,8 +2280,8 @@
       "registry_name": "gas",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/GasItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/gas.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/gas.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/GasItem.java"
         ]
       }
     },
@@ -2293,8 +2293,8 @@
       "registry_name": "dfg",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/DfgMenu.java",
-          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/DfgScreen.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/DfgScreen.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/DfgMenu.java"
         ]
       }
     },
@@ -2390,10 +2390,10 @@
       "registry_name": "forrster_hunter_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/ForrsterHunter2Renderer.java",
           "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/forrster_hunter_2_biome_modifier.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/entity/ForrsterHunter2Entity.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/forrster_hunter_2_spawn_egg.json"
+          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/ForrsterHunter2Renderer.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/forrster_hunter_2_spawn_egg.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/entity/ForrsterHunter2Entity.java"
         ]
       }
     },
@@ -2405,10 +2405,10 @@
       "registry_name": "forrester_hunter_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/forrester_hunter_3_spawn_egg.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/ForresterHunter3Renderer.java",
+          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/forrester_hunter_3_biome_modifier.json",
           "src/main/java/net/mcreator/doz_in_maincraft/entity/ForresterHunter3Entity.java",
-          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/forrester_hunter_3_biome_modifier.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/forrester_hunter_3_spawn_egg.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/ForresterHunter3Renderer.java"
         ]
       }
     },
@@ -2420,9 +2420,9 @@
       "registry_name": "forester_hunter_4",
       "metadata": {
         "files": [
-          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/forester_hunter_4_biome_modifier.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/entity/ForesterHunter4Entity.java",
           "src/main/resources/assets/doz_in_maincraft/models/item/forester_hunter_4_spawn_egg.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/entity/ForesterHunter4Entity.java",
+          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/forester_hunter_4_biome_modifier.json",
           "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/ForesterHunter4Renderer.java"
         ]
       }
@@ -2435,8 +2435,8 @@
       "registry_name": "foresters_spear",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/ForestersSpearItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/foresters_spear.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/foresters_spear.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/ForestersSpearItem.java"
         ]
       }
     },
@@ -2449,9 +2449,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/doz_in_maincraft/models/item/forester_hunter_5_spawn_egg.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/entity/ForesterHunter5Entity.java",
           "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/forester_hunter_5_biome_modifier.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/ForesterHunter5Renderer.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/ForesterHunter5Renderer.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/entity/ForesterHunter5Entity.java"
         ]
       }
     },
@@ -2488,8 +2488,8 @@
       "registry_name": "aluminum_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/aluminum_plate.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/AluminumPlateItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/AluminumPlateItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/aluminum_plate.json"
         ]
       }
     },
@@ -2550,14 +2550,14 @@
       "registry_name": "nezerite_ore",
       "metadata": {
         "files": [
+          "src/main/resources/assets/doz_in_maincraft/models/item/nezerite_ore.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/NezeriteOreBlock.java",
+          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/nezerite_ore_biome_modifier.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/nezerite_ore.json",
           "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/nezerite_ore.json",
           "src/main/resources/assets/doz_in_maincraft/blockstates/nezerite_ore.json",
-          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/nezerite_ore_biome_modifier.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/NezeriteOreBlock.java",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/nezerite_ore.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/nezerite_ore.json",
           "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/nezerite_ore.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/nezerite_ore.json"
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/nezerite_ore.json"
         ]
       }
     },
@@ -2666,11 +2666,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/doz_in_maincraft/block/entity/MetalFormingMachineBlockEntity.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/MetalFormingMachineBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/metal_forming_machine.json",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/metal_forming_machine.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/metal_forming_machine.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/metal_forming_machine.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/MetalFormingMachineBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/metal_forming_machine.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/metal_forming_machine.json"
         ]
       }
     },
@@ -2705,19 +2705,6 @@
       }
     },
     {
-      "name": "RevolverClip",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "revolver_clip",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/RevolverClipItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/revolver_clip.json"
-        ]
-      }
-    },
-    {
       "name": "ExecutionerHeart",
       "type": "item",
       "compiles": true,
@@ -2725,8 +2712,8 @@
       "registry_name": "executioner_heart",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/executioner_heart.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/ExecutionerHeartItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/ExecutionerHeartItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/executioner_heart.json"
         ]
       }
     },
@@ -2891,8 +2878,8 @@
       "registry_name": "tolkach",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/TolkachItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/tolkach.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/tolkach.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/TolkachItem.java"
         ]
       }
     },
@@ -2904,8 +2891,8 @@
       "registry_name": "clip_bison",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/clip_bison.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/ClipBisonItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/ClipBisonItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/clip_bison.json"
         ]
       }
     },
@@ -3202,9 +3189,9 @@
       "registry_name": "beast_forest",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/BeastForestRenderer.java",
           "src/main/resources/assets/doz_in_maincraft/models/item/beast_forest_spawn_egg.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/entity/BeastForestEntity.java",
-          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/BeastForestRenderer.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/entity/BeastForestEntity.java"
         ]
       }
     },
@@ -3216,9 +3203,9 @@
       "registry_name": "beast_forest_4",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/entity/BeastForest4Entity.java",
           "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/BeastForest4Renderer.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/beast_forest_4_spawn_egg.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/entity/BeastForest4Entity.java"
+          "src/main/resources/assets/doz_in_maincraft/models/item/beast_forest_4_spawn_egg.json"
         ]
       }
     },
@@ -3230,9 +3217,9 @@
       "registry_name": "beast_forest_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/entity/BeastForest3Entity.java",
           "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/BeastForest3Renderer.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/beast_forest_3_spawn_egg.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/beast_forest_3_spawn_egg.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/entity/BeastForest3Entity.java"
         ]
       }
     },
@@ -3244,8 +3231,8 @@
       "registry_name": "beast_forest_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/beast_forest_2_spawn_egg.json",
           "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/BeastForest2Renderer.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/beast_forest_2_spawn_egg.json",
           "src/main/java/net/mcreator/doz_in_maincraft/entity/BeastForest2Entity.java"
         ]
       }
@@ -3258,9 +3245,9 @@
       "registry_name": "beast_forest_1",
       "metadata": {
         "files": [
+          "src/main/resources/assets/doz_in_maincraft/models/item/beast_forest_1_spawn_egg.json",
           "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/BeastForest1Renderer.java",
-          "src/main/java/net/mcreator/doz_in_maincraft/entity/BeastForest1Entity.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/beast_forest_1_spawn_egg.json"
+          "src/main/java/net/mcreator/doz_in_maincraft/entity/BeastForest1Entity.java"
         ]
       }
     },
@@ -3452,10 +3439,10 @@
       "registry_name": "beast_summon_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/beast_summon_block.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/BeastSummonBlockBlock.java",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/beast_summon_block.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/BeastSummonBlockBlock.java",
           "src/main/resources/assets/doz_in_maincraft/models/block/beast_summon_block.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/beast_summon_block.json",
           "src/main/resources/assets/doz_in_maincraft/blockstates/beast_summon_block.json"
         ]
       }
@@ -3502,11 +3489,11 @@
       "registry_name": "hozmag_brick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/blockstates/hozmag_brick.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/hozmag_brick.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/HozmagBrickBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/hozmag_brick.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/hozmag_brick.json",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/hozmag_brick.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/hozmag_brick.json"
+          "src/main/resources/assets/doz_in_maincraft/models/block/hozmag_brick.json"
         ]
       }
     },
@@ -3707,8 +3694,8 @@
       "registry_name": "caliber_12",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/caliber_12.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/Caliber12Item.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/Caliber12Item.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/caliber_12.json"
         ]
       }
     },
@@ -3734,8 +3721,8 @@
       "registry_name": "ghoul_bull",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/entity/GhoulBullEntity.java",
           "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/GhoulBullRenderer.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/entity/GhoulBullEntity.java",
           "src/main/resources/assets/doz_in_maincraft/models/item/ghoul_bull_spawn_egg.json"
         ]
       }
@@ -3748,9 +3735,9 @@
       "registry_name": "brigadier_ghul",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/entity/BrigadierGhulEntity.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/BrigadierGhulRenderer.java",
           "src/main/resources/assets/doz_in_maincraft/models/item/brigadier_ghul_spawn_egg.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/BrigadierGhulRenderer.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/entity/BrigadierGhulEntity.java"
         ]
       }
     },
@@ -3776,9 +3763,9 @@
       "registry_name": "ghoul_raider",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/entity/GhoulRaiderEntity.java",
           "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/GhoulRaiderRenderer.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/ghoul_raider_spawn_egg.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/ghoul_raider_spawn_egg.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/entity/GhoulRaiderEntity.java"
         ]
       }
     },
@@ -3790,10 +3777,10 @@
       "registry_name": "burnt_blood_hole_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/block/burnt_blood_hole_block.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/burnt_blood_hole_block.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/BurntBloodHoleBlockBlock.java",
           "src/main/resources/assets/doz_in_maincraft/blockstates/burnt_blood_hole_block.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/burnt_blood_hole_block.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/BurntBloodHoleBlockBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/burnt_blood_hole_block.json",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/burnt_blood_hole_block.json"
         ]
       }
@@ -3840,11 +3827,11 @@
       "registry_name": "blood_hole_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/blockstates/blood_hole_block.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/BloodHoleBlockBlock.java",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/blood_hole_block.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/blood_hole_block.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/blood_hole_block.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/blood_hole_block.json"
+          "src/main/java/net/mcreator/doz_in_maincraft/block/BloodHoleBlockBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/blood_hole_block.json"
         ]
       }
     },
@@ -3890,11 +3877,11 @@
       "registry_name": "burnt_bloody_hole",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/blockstates/burnt_bloody_hole.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/entity/BurntBloodyHoleBlockEntity.java",
-          "src/main/resources/assets/doz_in_maincraft/models/block/burnt_bloody_hole.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/burnt_bloody_hole.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/BurntBloodyHoleBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/burnt_bloody_hole.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/burnt_bloody_hole.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/burnt_bloody_hole.json",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/burnt_bloody_hole.json"
         ]
       }
@@ -3907,11 +3894,11 @@
       "registry_name": "bloody_hole",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/block/bloody_hole.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/BloodyHoleBlock.java",
           "src/main/resources/assets/doz_in_maincraft/blockstates/bloody_hole.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/bloody_hole.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/bloody_hole.json"
+          "src/main/java/net/mcreator/doz_in_maincraft/block/BloodyHoleBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/models/block/bloody_hole.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/bloody_hole.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/bloody_hole.json"
         ]
       }
     },
@@ -3924,8 +3911,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/FirstExecutionerRenderer.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/first_executioner_spawn_egg.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/entity/FirstExecutionerEntity.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/entity/FirstExecutionerEntity.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/first_executioner_spawn_egg.json"
         ]
       }
     },
@@ -3937,8 +3924,8 @@
       "registry_name": "first_executioner_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/FirstExecutioner2Renderer.java",
           "src/main/java/net/mcreator/doz_in_maincraft/entity/FirstExecutioner2Entity.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/FirstExecutioner2Renderer.java",
           "src/main/resources/assets/doz_in_maincraft/models/item/first_executioner_2_spawn_egg.json"
         ]
       }
@@ -3951,8 +3938,8 @@
       "registry_name": "first_executioner_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/FirstExecutioner1Renderer.java",
           "src/main/java/net/mcreator/doz_in_maincraft/entity/FirstExecutioner1Entity.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/FirstExecutioner1Renderer.java",
           "src/main/resources/assets/doz_in_maincraft/models/item/first_executioner_1_spawn_egg.json"
         ]
       }
@@ -4025,9 +4012,9 @@
       "registry_name": "rising_executioner",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/RisingExecutionerRenderer.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/rising_executioner_spawn_egg.json",
           "src/main/java/net/mcreator/doz_in_maincraft/entity/RisingExecutionerEntity.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/rising_executioner_spawn_egg.json"
+          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/RisingExecutionerRenderer.java"
         ]
       }
     },
@@ -4040,10 +4027,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/doz_in_maincraft/block/PalachPRBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/models/block/palach_pr.json",
           "src/main/resources/assets/doz_in_maincraft/blockstates/palach_pr.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/palach_pr.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/palach_pr.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/palach_pr.json"
+          "src/main/resources/assets/doz_in_maincraft/models/block/palach_pr.json"
         ]
       }
     },
@@ -4145,9 +4132,9 @@
       "registry_name": "bloody_claw",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/BloodyClawRenderer.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/bloody_claw_spawn_egg.json",
           "src/main/java/net/mcreator/doz_in_maincraft/entity/BloodyClawEntity.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/bloody_claw_spawn_egg.json"
+          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/BloodyClawRenderer.java"
         ]
       }
     },
@@ -4160,8 +4147,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/doz_in_maincraft/models/item/bloody_carcass_spawn_egg.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/entity/BloodyCarcassEntity.java",
-          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/BloodyCarcassRenderer.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/BloodyCarcassRenderer.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/entity/BloodyCarcassEntity.java"
         ]
       }
     },
@@ -4173,8 +4160,8 @@
       "registry_name": "double_bloody_tear",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/double_bloody_tear.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/DoubleBloodyTearItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/DoubleBloodyTearItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/double_bloody_tear.json"
         ]
       }
     },
@@ -4199,8 +4186,8 @@
       "registry_name": "bloody_tear",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/BloodyTearItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/bloody_tear.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/bloody_tear.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/BloodyTearItem.java"
         ]
       }
     },
@@ -4255,8 +4242,8 @@
       "registry_name": "symbiotic_pieces",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/symbiotic_pieces.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/SymbioticPiecesItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/SymbioticPiecesItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/symbiotic_pieces.json"
         ]
       }
     },
@@ -4268,8 +4255,8 @@
       "registry_name": "symbiotic_ulcer",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/SymbioticUlcerItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/symbiotic_ulcer.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/symbiotic_ulcer.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/SymbioticUlcerItem.java"
         ]
       }
     },
@@ -4286,18 +4273,6 @@
       }
     },
     {
-      "name": "Cv",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cv",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/recipes/cv.json"
-        ]
-      }
-    },
-    {
       "name": "BoxLevel2",
       "type": "block",
       "compiles": true,
@@ -4305,12 +4280,12 @@
       "registry_name": "box_level_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/block/box_level_2.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/box_level_2.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/box_level_2.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/box_level_2.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/BoxLevel2Block.java",
           "src/main/java/net/mcreator/doz_in_maincraft/block/entity/BoxLevel2BlockEntity.java",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/box_level_2.json"
+          "src/main/resources/assets/doz_in_maincraft/models/block/box_level_2.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/box_level_2.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/box_level_2.json"
         ]
       }
     },
@@ -4322,8 +4297,8 @@
       "registry_name": "tier_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/Tier2Menu.java",
-          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/Tier2Screen.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/Tier2Screen.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/Tier2Menu.java"
         ]
       }
     },
@@ -4335,12 +4310,12 @@
       "registry_name": "box_level_3",
       "metadata": {
         "files": [
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/box_level_3.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/box_level_3.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/entity/BoxLevel3BlockEntity.java",
           "src/main/resources/assets/doz_in_maincraft/blockstates/box_level_3.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/BoxLevel3Block.java",
-          "src/main/resources/assets/doz_in_maincraft/models/block/box_level_3.json"
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/box_level_3.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/box_level_3.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/box_level_3.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/BoxLevel3Block.java"
         ]
       }
     },
@@ -4352,8 +4327,8 @@
       "registry_name": "tier_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/Tier3Screen.java",
-          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/Tier3Menu.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/Tier3Menu.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/Tier3Screen.java"
         ]
       }
     },
@@ -4365,12 +4340,12 @@
       "registry_name": "box_level_4",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/blockstates/box_level_4.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/box_level_4.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/BoxLevel4Block.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/box_level_4.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/entity/BoxLevel4BlockEntity.java",
+          "src/main/resources/assets/doz_in_maincraft/models/block/box_level_4.json",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/box_level_4.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/box_level_4.json"
+          "src/main/resources/assets/doz_in_maincraft/blockstates/box_level_4.json"
         ]
       }
     },
@@ -4429,8 +4404,8 @@
       "registry_name": "case_shooting_range_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/CaseShootingRange1Item.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/case_shooting_range_1.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/case_shooting_range_1.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/CaseShootingRange1Item.java"
         ]
       }
     },
@@ -4442,8 +4417,8 @@
       "registry_name": "case_shooting_range_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/CaseShootingRange2Item.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/case_shooting_range_2.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/case_shooting_range_2.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/CaseShootingRange2Item.java"
         ]
       }
     },
@@ -4489,8 +4464,8 @@
       "registry_name": "case_shooting_range_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/CaseShootingRange3Item.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/case_shooting_range_3.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/case_shooting_range_3.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/CaseShootingRange3Item.java"
         ]
       }
     },
@@ -4607,8 +4582,8 @@
       "registry_name": "bolts",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/BoltsItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/bolts.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/bolts.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/BoltsItem.java"
         ]
       }
     },
@@ -4620,8 +4595,8 @@
       "registry_name": "box_detail",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/box_detail.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/BoxDetailItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/BoxDetailItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/box_detail.json"
         ]
       }
     },
@@ -4633,8 +4608,8 @@
       "registry_name": "iron_plates",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/IronPlatesItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/iron_plates.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/iron_plates.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/IronPlatesItem.java"
         ]
       }
     },
@@ -4670,8 +4645,8 @@
       "registry_name": "steel_plate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/SteelPlateItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/steel_plate.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/steel_plate.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/SteelPlateItem.java"
         ]
       }
     },
@@ -4806,8 +4781,8 @@
         "files": [
           "src/main/resources/assets/doz_in_maincraft/models/item/polka_1.json",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/polka_1.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/polka_1.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/polka_1.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/polka_1.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/Polka1Block.java"
         ]
       }
@@ -4820,11 +4795,11 @@
       "registry_name": "polka_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/block/Polka2Block.java",
-          "src/main/resources/assets/doz_in_maincraft/models/block/polka_2.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/polka_2.json",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/polka_2.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/polka_2.json"
+          "src/main/resources/assets/doz_in_maincraft/models/block/polka_2.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/polka_2.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/Polka2Block.java",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/polka_2.json"
         ]
       }
     },
@@ -4836,11 +4811,11 @@
       "registry_name": "polka_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/polka_3.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/polka_3.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/polka_3.json",
           "src/main/resources/assets/doz_in_maincraft/blockstates/polka_3.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/Polka3Block.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/block/Polka3Block.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/polka_3.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/polka_3.json"
         ]
       }
     },
@@ -4852,11 +4827,11 @@
       "registry_name": "polka_4",
       "metadata": {
         "files": [
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/polka_4.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/Polka4Block.java",
           "src/main/resources/assets/doz_in_maincraft/models/item/polka_4.json",
           "src/main/resources/assets/doz_in_maincraft/blockstates/polka_4.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/Polka4Block.java",
-          "src/main/resources/assets/doz_in_maincraft/models/block/polka_4.json"
+          "src/main/resources/assets/doz_in_maincraft/models/block/polka_4.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/polka_4.json"
         ]
       }
     },
@@ -4890,11 +4865,11 @@
       "registry_name": "bloody_moss",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/block/BloodyMossBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/bloody_moss.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/bloody_moss.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/bloody_moss.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/bloody_moss.json"
+          "src/main/java/net/mcreator/doz_in_maincraft/block/BloodyMossBlock.java",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/bloody_moss.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/bloody_moss.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/bloody_moss.json"
         ]
       }
     },
@@ -5014,8 +4989,8 @@
       "registry_name": "fww",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/fww.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/FwwItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/FwwItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/fww.json"
         ]
       }
     },
@@ -5089,8 +5064,8 @@
       "registry_name": "detail_akm",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/detail_akm.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/DetailAKMItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/DetailAKMItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/detail_akm.json"
         ]
       }
     },
@@ -5115,11 +5090,11 @@
       "registry_name": "engineering_workbench",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/block/entity/EngineeringWorkbenchBlockEntity.java",
           "src/main/java/net/mcreator/doz_in_maincraft/block/EngineeringWorkbenchBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/models/block/engineering_workbench.json",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/engineering_workbench.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/engineering_workbench.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/entity/EngineeringWorkbenchBlockEntity.java",
+          "src/main/resources/assets/doz_in_maincraft/models/block/engineering_workbench.json",
           "src/main/resources/assets/doz_in_maincraft/blockstates/engineering_workbench.json"
         ]
       }
@@ -5158,8 +5133,8 @@
       "registry_name": "detail_special_akm",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/DetailSpecialAKMItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/detail_special_akm.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/detail_special_akm.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/DetailSpecialAKMItem.java"
         ]
       }
     },
@@ -5171,8 +5146,8 @@
       "registry_name": "battery",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/battery.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/BatteryItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/BatteryItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/battery.json"
         ]
       }
     },
@@ -5184,8 +5159,8 @@
       "registry_name": "plasma_cable",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/PlasmaCableItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/plasma_cable.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/plasma_cable.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/PlasmaCableItem.java"
         ]
       }
     },
@@ -5210,8 +5185,8 @@
       "registry_name": "detail_pph",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/DetailPPHItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/detail_pph.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/detail_pph.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/DetailPPHItem.java"
         ]
       }
     },
@@ -5262,8 +5237,8 @@
       "registry_name": "large_box_from_hozmag",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/large_box_from_hozmag.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/LargeBoxFromHozmagItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/LargeBoxFromHozmagItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/large_box_from_hozmag.json"
         ]
       }
     },
@@ -5275,8 +5250,8 @@
       "registry_name": "huge_box_from_hozmag",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/HugeBoxFromHozmagItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/huge_box_from_hozmag.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/huge_box_from_hozmag.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/HugeBoxFromHozmagItem.java"
         ]
       }
     },
@@ -5352,8 +5327,8 @@
       "registry_name": "sdss",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/SdssScreen.java",
-          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/SdssMenu.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/SdssMenu.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/SdssScreen.java"
         ]
       }
     },
@@ -5455,12 +5430,12 @@
       "registry_name": "weapon_workbench",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/blockstates/weapon_workbench.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/weapon_workbench.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/entity/WeaponWorkbenchBlockEntity.java",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/weapon_workbench.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/weapon_workbench.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/weapon_workbench.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/WeaponWorkbenchBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/models/block/weapon_workbench.json"
+          "src/main/resources/assets/doz_in_maincraft/blockstates/weapon_workbench.json"
         ]
       }
     },
@@ -5472,8 +5447,8 @@
       "registry_name": "add",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/AddMenu.java",
-          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/AddScreen.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/AddScreen.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/AddMenu.java"
         ]
       }
     },
@@ -5659,8 +5634,8 @@
       "registry_name": "chugun",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/ChugunItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/chugun.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/chugun.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/ChugunItem.java"
         ]
       }
     },
@@ -5673,10 +5648,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/doz_in_maincraft/block/CrystallineWoodBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/crystalline_wood.json",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystalline_wood.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_wood.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/crystalline_wood.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/crystalline_wood.json"
+          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_wood.json"
         ]
       }
     },
@@ -5688,11 +5663,11 @@
       "registry_name": "crystalline_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/blockstates/crystalline_log.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystalline_log.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/crystalline_log.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/CrystallineLogBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_log.json"
+          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_log.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/crystalline_log.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystalline_log.json"
         ]
       }
     },
@@ -5704,11 +5679,11 @@
       "registry_name": "crystalline_planks",
       "metadata": {
         "files": [
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystalline_planks.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/crystalline_planks.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_planks.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/crystalline_planks.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/CrystallinePlanksBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_planks.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/crystalline_planks.json"
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystalline_planks.json"
         ]
       }
     },
@@ -5720,10 +5695,10 @@
       "registry_name": "crystalline_leaves",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/block/CrystallineLeavesBlock.java",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystalline_leaves.json",
           "src/main/resources/assets/doz_in_maincraft/blockstates/crystalline_leaves.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_leaves.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystalline_leaves.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/CrystallineLeavesBlock.java",
           "src/main/resources/assets/doz_in_maincraft/models/item/crystalline_leaves.json"
         ]
       }
@@ -5736,13 +5711,13 @@
       "registry_name": "crystalline_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_slab.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_slab_top.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_slab_full.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/crystalline_slab.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystalline_slab.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/crystalline_slab.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/CrystallineSlabBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/crystalline_slab.json"
+          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_slab_top.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_slab.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/crystalline_slab.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_slab_full.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystalline_slab.json"
         ]
       }
     },
@@ -5754,13 +5729,13 @@
       "registry_name": "crystalline_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/crystalline_fence.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_fence.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_fence_inventory.json",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystalline_fence.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/CrystallineFenceBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_fence.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_fence_post.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/crystalline_fence.json"
+          "src/main/java/net/mcreator/doz_in_maincraft/block/CrystallineFenceBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/crystalline_fence.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/crystalline_fence.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_fence_inventory.json"
         ]
       }
     },
@@ -5772,14 +5747,14 @@
       "registry_name": "crystalline_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_fence_gate.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/CrystallineFenceGateBlock.java",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystalline_fence_gate.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/crystalline_fence_gate.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_fence_gate_wall.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_fence_gate_wall_open.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_fence_gate.json",
           "src/main/resources/assets/doz_in_maincraft/blockstates/crystalline_fence_gate.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/CrystallineFenceGateBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_fence_gate_open.json"
+          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_fence_gate_open.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_fence_gate_wall.json"
         ]
       }
     },
@@ -5791,12 +5766,12 @@
       "registry_name": "crystalline_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/crystalline_pressure_plate.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_pressure_plate.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystalline_pressure_plate.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_pressure_plate_down.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/CrystallinePressurePlateBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/crystalline_pressure_plate.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/crystalline_pressure_plate.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystalline_pressure_plate.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/crystalline_pressure_plate.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_pressure_plate.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_pressure_plate_down.json"
         ]
       }
     },
@@ -5808,13 +5783,13 @@
       "registry_name": "crystalline_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_button.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/CrystallineButtonBlock.java",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystalline_button.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_button_inventory.json",
           "src/main/resources/assets/doz_in_maincraft/blockstates/crystalline_button.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_button.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/crystalline_button.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystalline_button.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_button_pressed.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/crystalline_button_inventory.json"
+          "src/main/java/net/mcreator/doz_in_maincraft/block/CrystallineButtonBlock.java"
         ]
       }
     },
@@ -5826,11 +5801,11 @@
       "registry_name": "crystal_ground",
       "metadata": {
         "files": [
+          "src/main/resources/assets/doz_in_maincraft/models/item/crystal_ground.json",
           "src/main/resources/assets/doz_in_maincraft/blockstates/crystal_ground.json",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystal_ground.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/CrystalGroundBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/crystal_ground.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/crystal_ground.json"
+          "src/main/resources/assets/doz_in_maincraft/models/block/crystal_ground.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/CrystalGroundBlock.java"
         ]
       }
     },
@@ -5842,10 +5817,10 @@
       "registry_name": "crystal_stone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/blockstates/crystal_stone.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/crystal_stone.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystal_stone.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/crystal_stone.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/crystal_stone.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/crystal_stone.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystal_stone.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/CrystalStoneBlock.java"
         ]
       }
@@ -5859,10 +5834,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/doz_in_maincraft/block/CrystalCobblestoneBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/crystal_cobblestone.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystal_cobblestone.json",
           "src/main/resources/assets/doz_in_maincraft/blockstates/crystal_cobblestone.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/crystal_cobblestone.json"
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystal_cobblestone.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/crystal_cobblestone.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/crystal_cobblestone.json"
         ]
       }
     },
@@ -5875,10 +5850,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/doz_in_maincraft/block/CrystalEarthBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/crystal_earth.json",
           "src/main/resources/assets/doz_in_maincraft/blockstates/crystal_earth.json",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/crystal_earth.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/crystal_earth.json"
+          "src/main/resources/assets/doz_in_maincraft/models/block/crystal_earth.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/crystal_earth.json"
         ]
       }
     },
@@ -5905,8 +5880,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/crystal_forest_tree.json",
-          "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/crystal_forest_tree.json",
-          "src/main/resources/data/doz_in_maincraft/worldgen/biome/crystal_forest.json"
+          "src/main/resources/data/doz_in_maincraft/worldgen/biome/crystal_forest.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/crystal_forest_tree.json"
         ]
       }
     },
@@ -5918,17 +5893,17 @@
       "registry_name": "dark_zone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/world/dimension/DarkZoneDimension.java",
+          "src/main/resources/assets/doz_in_maincraft/models/block/dark_zone_portal_ew.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/dark_zone.json",
           "src/main/java/net/mcreator/doz_in_maincraft/world/teleporter/DarkZoneTeleporter.java",
-          "src/main/resources/data/doz_in_maincraft/dimension_type/dark_zone.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/DarkZonePortalBlock.java",
-          "src/main/resources/data/doz_in_maincraft/dimension/dark_zone.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/dark_zone_portal_ns.json",
           "src/main/java/net/mcreator/doz_in_maincraft/item/DarkZoneItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/block/dark_zone_portal_ew.json",
           "src/main/java/net/mcreator/doz_in_maincraft/world/teleporter/DarkZonePortalShape.java",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/dark_zone_portal.json"
+          "src/main/resources/assets/doz_in_maincraft/blockstates/dark_zone_portal.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/dark_zone_portal_ns.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/world/dimension/DarkZoneDimension.java",
+          "src/main/resources/data/doz_in_maincraft/dimension/dark_zone.json",
+          "src/main/resources/data/doz_in_maincraft/dimension_type/dark_zone.json"
         ]
       }
     },
@@ -5942,9 +5917,9 @@
         "files": [
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/energy_framework.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/energy_framework.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/energy_framework.json",
           "src/main/resources/assets/doz_in_maincraft/blockstates/energy_framework.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/EnergyFrameworkBlock.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/block/EnergyFrameworkBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/energy_framework.json"
         ]
       }
     },
@@ -5956,12 +5931,12 @@
       "registry_name": "creative_cell",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/block/CreativeCellBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/models/block/creative_cell.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/creative_cell.json",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/creative_cell.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/creative_cell.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/entity/CreativeCellBlockEntity.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/block/CreativeCellBlock.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/entity/CreativeCellBlockEntity.java",
+          "src/main/resources/assets/doz_in_maincraft/models/block/creative_cell.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/creative_cell.json"
         ]
       }
     },
@@ -6013,12 +5988,12 @@
       "registry_name": "ammunition_press",
       "metadata": {
         "files": [
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/ammunition_press.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/AmmunitionPressBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/ammunition_press.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/entity/AmmunitionPressBlockEntity.java",
           "src/main/resources/assets/doz_in_maincraft/models/block/ammunition_press.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/ammunition_press.json"
+          "src/main/java/net/mcreator/doz_in_maincraft/block/entity/AmmunitionPressBlockEntity.java",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/ammunition_press.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/ammunition_press.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/ammunition_press.json"
         ]
       }
     },
@@ -6030,11 +6005,11 @@
       "registry_name": "pile_cast_iron",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/block/pile_cast_iron.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/pile_cast_iron.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/pile_cast_iron.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/pile_cast_iron.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/PileCastIronBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/pile_cast_iron.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/pile_cast_iron.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/pile_cast_iron.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/pile_cast_iron.json"
         ]
       }
     },
@@ -6076,11 +6051,11 @@
       "registry_name": "chugunn_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/block/chugunn_block.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/chugunn_block.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/chugunn_block.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/chugunn_block.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/ChugunnBlockBlock.java",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/chugunn_block.json"
+          "src/main/resources/assets/doz_in_maincraft/blockstates/chugunn_block.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/chugunn_block.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/chugunn_block.json"
         ]
       }
     },
@@ -6116,8 +6091,8 @@
       "registry_name": "stabilizer_stoker",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/StabilizerStokerItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/stabilizer_stoker.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/stabilizer_stoker.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/StabilizerStokerItem.java"
         ]
       }
     },
@@ -6129,8 +6104,8 @@
       "registry_name": "stabilizer_gemini",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/StabilizerGeminiItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/stabilizer_gemini.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/stabilizer_gemini.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/StabilizerGeminiItem.java"
         ]
       }
     },
@@ -6179,8 +6154,9 @@
       "registry_name": "dsd",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/DsdMenu.java",
-          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/DsdScreen.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/network/DsdButtonMessage.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/DsdScreen.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/DsdMenu.java"
         ]
       }
     },
@@ -6215,32 +6191,6 @@
       }
     },
     {
-      "name": "Sleeve10Mm",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sleeve_10_mm",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/sleeve_10_mm.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/Sleeve10MmItem.java"
-        ]
-      }
-    },
-    {
-      "name": "Sleeve762",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sleeve_762",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/sleeve_762.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/Sleeve762Item.java"
-        ]
-      }
-    },
-    {
       "name": "Patron1",
       "type": "procedure",
       "compiles": true,
@@ -6267,55 +6217,6 @@
             "name": "world",
             "type": "world"
           }
-        ]
-      }
-    },
-    {
-      "name": "RevolverClip1",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "revolver_clip_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/RevolverClip1Item.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/revolver_clip_1.json"
-        ]
-      }
-    },
-    {
-      "name": "Dfgss",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dfgss",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/doz_in_maincraft/recipes/dfgss.json"
-        ]
-      }
-    },
-    {
-      "name": "Dfggd",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dfggd",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/doz_in_maincraft/recipes/dfggd.json"
-        ]
-      }
-    },
-    {
-      "name": "Dgdd",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dgdd",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/doz_in_maincraft/recipes/dgdd.json"
         ]
       }
     },
@@ -6357,8 +6258,8 @@
       "registry_name": "p_762atron",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/p_762atron.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/P762atronItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/P762atronItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/p_762atron.json"
         ]
       }
     },
@@ -6389,18 +6290,6 @@
             "name": "world",
             "type": "world"
           }
-        ]
-      }
-    },
-    {
-      "name": "Sfsf",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sfsf",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/doz_in_maincraft/recipes/sfsf.json"
         ]
       }
     },
@@ -6528,18 +6417,6 @@
       }
     },
     {
-      "name": "Sdfssfsfs",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sdfssfsfs",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/doz_in_maincraft/recipes/sdfssfsfs.json"
-        ]
-      }
-    },
-    {
       "name": "ArmorFortress",
       "type": "armor",
       "compiles": true,
@@ -6547,10 +6424,10 @@
       "registry_name": "armor_fortress",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/armor_fortress_helmet.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/armor_fortress_chestplate.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/armor_fortress_leggings.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/armor_fortress_helmet.json",
           "src/main/java/net/mcreator/doz_in_maincraft/item/ArmorFortressItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/armor_fortress_chestplate.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/armor_fortress_boots.json"
         ]
       }
@@ -6563,8 +6440,8 @@
       "registry_name": "hf",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/HfMenu.java",
-          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/HfScreen.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/HfScreen.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/HfMenu.java"
         ]
       }
     },
@@ -6576,8 +6453,8 @@
       "registry_name": "fortress_armor_set",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/FortressArmorSetItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/fortress_armor_set.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/fortress_armor_set.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/FortressArmorSetItem.java"
         ]
       }
     },
@@ -6607,11 +6484,11 @@
       "registry_name": "armorers_workbench",
       "metadata": {
         "files": [
+          "src/main/resources/assets/doz_in_maincraft/models/item/armorers_workbench.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/entity/ArmorersWorkbenchBlockEntity.java",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/armorers_workbench.json",
           "src/main/resources/assets/doz_in_maincraft/blockstates/armorers_workbench.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/armorers_workbench.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/entity/ArmorersWorkbenchBlockEntity.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/armorers_workbench.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/ArmorersWorkbenchBlock.java"
         ]
       }
@@ -6685,10 +6562,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/doz_in_maincraft/models/item/survivors_armor_boots.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/survivors_armor_leggings.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/survivors_armor_chestplate.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/survivors_armor_helmet.json",
           "src/main/java/net/mcreator/doz_in_maincraft/item/SurvivorsArmorItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/survivors_armor_helmet.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/survivors_armor_leggings.json"
         ]
       }
     },
@@ -6700,8 +6577,8 @@
       "registry_name": "survivor_armor_set",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/survivor_armor_set.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/SurvivorArmorSetItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/SurvivorArmorSetItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/survivor_armor_set.json"
         ]
       }
     },
@@ -6990,8 +6867,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/ObjectStokerRenderer.java",
-          "src/main/java/net/mcreator/doz_in_maincraft/entity/ObjectStokerEntity.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/object_stoker_spawn_egg.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/object_stoker_spawn_egg.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/entity/ObjectStokerEntity.java"
         ]
       }
     },
@@ -7003,11 +6880,11 @@
       "registry_name": "stocer",
       "metadata": {
         "files": [
+          "src/main/resources/assets/doz_in_maincraft/models/item/stocer.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/StocerBlock.java",
           "src/main/resources/assets/doz_in_maincraft/blockstates/stocer.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/stocer.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/stocer.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/stocer.json"
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/stocer.json"
         ]
       }
     },
@@ -7049,8 +6926,8 @@
       "registry_name": "fyv",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/FyvScreen.java",
-          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/FyvMenu.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/FyvMenu.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/FyvScreen.java"
         ]
       }
     },
@@ -7092,12 +6969,12 @@
       "registry_name": "auto_miner",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/block/AutoMinerBlock.java",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/auto_miner.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/auto_miner.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/auto_miner.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/auto_miner.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/auto_miner.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/entity/AutoMinerBlockEntity.java",
           "src/main/resources/assets/doz_in_maincraft/blockstates/auto_miner.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/entity/AutoMinerBlockEntity.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/block/AutoMinerBlock.java"
         ]
       }
     },
@@ -7122,18 +6999,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/doz_in_maincraft/recipes/chfvfv.json"
-        ]
-      }
-    },
-    {
-      "name": "Ffff",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ffff",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/doz_in_maincraft/recipes/ffff.json"
         ]
       }
     },
@@ -7794,8 +7659,8 @@
       "registry_name": "apaa",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/ApaaScreen.java",
-          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/ApaaMenu.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/ApaaMenu.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/ApaaScreen.java"
         ]
       }
     },
@@ -7841,11 +7706,11 @@
       "registry_name": "bet",
       "metadata": {
         "files": [
+          "src/main/resources/assets/doz_in_maincraft/models/block/bet.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/BetBlock.java",
           "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/bet.json",
           "src/main/resources/assets/doz_in_maincraft/blockstates/bet.json",
-          "src/main/resources/assets/doz_in_maincraft/models/item/bet.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/block/BetBlock.java",
-          "src/main/resources/assets/doz_in_maincraft/models/block/bet.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/bet.json"
         ]
       }
     },
@@ -7857,11 +7722,11 @@
       "registry_name": "sekret_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/sekret_armor_leggings.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/sekret_armor_helmet.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/sekret_armor_chestplate.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/sekret_armor_boots.json",
           "src/main/java/net/mcreator/doz_in_maincraft/item/SekretArmorItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/sekret_armor_helmet.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/sekret_armor_leggings.json"
         ]
       }
     },
@@ -7873,8 +7738,8 @@
       "registry_name": "kevlar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/kevlar.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/KevlarItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/KevlarItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/kevlar.json"
         ]
       }
     },
@@ -7929,9 +7794,9 @@
       "registry_name": "dron",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/FdgdRenderer.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/dron_spawn_egg.json",
           "src/main/java/net/mcreator/doz_in_maincraft/entity/FdgdEntity.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/dron_spawn_egg.json"
+          "src/main/java/net/mcreator/doz_in_maincraft/client/renderer/FdgdRenderer.java"
         ]
       }
     },
@@ -8147,8 +8012,8 @@
       "registry_name": "rescue_beacon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/RescueBeaconItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/rescue_beacon.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/rescue_beacon.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/RescueBeaconItem.java"
         ]
       }
     },
@@ -8186,9 +8051,9 @@
         "files": [
           "src/main/java/net/mcreator/doz_in_maincraft/block/AirdropBlock.java",
           "src/main/resources/assets/doz_in_maincraft/models/item/airdrop.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/airdrop.json",
           "src/main/resources/assets/doz_in_maincraft/models/block/airdrop.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/airdrop.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/airdrop.json"
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/airdrop.json"
         ]
       }
     },
@@ -8200,11 +8065,11 @@
       "registry_name": "airdrop_open",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/block/entity/AirdropOpenBlockEntity.java",
           "src/main/resources/assets/doz_in_maincraft/blockstates/airdrop_open.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/airdrop_open.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/airdrop_open.json",
           "src/main/java/net/mcreator/doz_in_maincraft/block/AirdropOpenBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/models/block/airdrop_open.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/entity/AirdropOpenBlockEntity.java",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/airdrop_open.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/airdrop_open.json"
         ]
       }
@@ -8317,14 +8182,14 @@
       "registry_name": "dark_zone_crystal",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/block/DarkZoneCrystalBlock.java",
-          "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/dark_zone_crystal.json",
           "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/dark_zone_crystal_biome_modifier.json",
-          "src/main/resources/assets/doz_in_maincraft/models/block/dark_zone_crystal.json",
-          "src/main/resources/assets/doz_in_maincraft/blockstates/dark_zone_crystal.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/dark_zone_crystal.json",
           "src/main/resources/assets/doz_in_maincraft/models/item/dark_zone_crystal.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/dark_zone_crystal.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/dark_zone_crystal.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/dark_zone_crystal.json",
           "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/dark_zone_crystal.json",
-          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/dark_zone_crystal.json"
+          "src/main/java/net/mcreator/doz_in_maincraft/block/DarkZoneCrystalBlock.java"
         ]
       }
     },
@@ -8411,8 +8276,8 @@
       "registry_name": "special_forces_communicator",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/special_forces_communicator.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/SpecialForcesCommunicatorItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/SpecialForcesCommunicatorItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/special_forces_communicator.json"
         ]
       }
     },
@@ -8477,9 +8342,9 @@
       "registry_name": "fds_feature",
       "metadata": {
         "files": [
+          "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/fds_feature.json",
           "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/fds_feature.json",
-          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/fds_feature_biome_modifier.json",
-          "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/fds_feature.json"
+          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/fds_feature_biome_modifier.json"
         ],
         "has_nbt_structure": true
       }
@@ -8504,8 +8369,8 @@
       "registry_name": "bow_foresters",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/BowForestersItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/bow_foresters.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/bow_foresters.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/BowForestersItem.java"
         ]
       }
     },
@@ -8529,8 +8394,8 @@
       "registry_name": "l_96_a_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/l_96_a_1.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/L96A1Item.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/L96A1Item.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/l_96_a_1.json"
         ]
       }
     },
@@ -8554,8 +8419,8 @@
       "registry_name": "mgl",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/MGLItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/mgl.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/mgl.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/MGLItem.java"
         ]
       }
     },
@@ -8604,39 +8469,9 @@
       "registry_name": "pp_19_bizon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/doz_in_maincraft/item/PP19BizonItem.java",
-          "src/main/resources/assets/doz_in_maincraft/models/item/pp_19_bizon.json"
+          "src/main/resources/assets/doz_in_maincraft/models/item/pp_19_bizon.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/PP19BizonItem.java"
         ]
-      }
-    },
-    {
-      "name": "DFFFSFeature",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dfffs_feature",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/dfffs_feature.json",
-          "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/dfffs_feature.json",
-          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/dfffs_feature_biome_modifier.json"
-        ],
-        "has_nbt_structure": true
-      }
-    },
-    {
-      "name": "DfssFeature",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dfss_feature",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/dfss_feature.json",
-          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/dfss_feature_biome_modifier.json",
-          "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/dfss_feature.json"
-        ],
-        "has_nbt_structure": true
       }
     },
     {
@@ -8659,8 +8494,8 @@
       "registry_name": "tt",
       "metadata": {
         "files": [
-          "src/main/resources/assets/doz_in_maincraft/models/item/tt.json",
-          "src/main/java/net/mcreator/doz_in_maincraft/item/TTItem.java"
+          "src/main/java/net/mcreator/doz_in_maincraft/item/TTItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/tt.json"
         ]
       }
     },
@@ -8715,21 +8550,6 @@
       }
     },
     {
-      "name": "HozmagFeature",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hozmag_feature",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/hozmag_feature.json",
-          "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/hozmag_feature.json",
-          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/hozmag_feature_biome_modifier.json"
-        ],
-        "has_nbt_structure": true
-      }
-    },
-    {
       "name": "Chugun1Feature",
       "type": "feature",
       "compiles": true,
@@ -8752,9 +8572,9 @@
       "registry_name": "chugun_2_feature",
       "metadata": {
         "files": [
-          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/chugun_2_feature_biome_modifier.json",
           "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/chugun_2_feature.json",
-          "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/chugun_2_feature.json"
+          "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/chugun_2_feature.json",
+          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/chugun_2_feature_biome_modifier.json"
         ],
         "has_nbt_structure": true
       }
@@ -8767,26 +8587,933 @@
       "registry_name": "chugun_3_feature",
       "metadata": {
         "files": [
-          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/chugun_3_feature_biome_modifier.json",
           "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/chugun_3_feature.json",
-          "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/chugun_3_feature.json"
+          "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/chugun_3_feature.json",
+          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/chugun_3_feature_biome_modifier.json"
         ],
         "has_nbt_structure": true
       }
     },
     {
-      "name": "Stocer1Feature",
-      "type": "feature",
+      "name": "St1PriObnovlieniiTika",
+      "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "stocer_1_feature",
+      "registry_name": "st_1_pri_obnovlienii_tika",
       "metadata": {
         "files": [
-          "src/main/resources/data/doz_in_maincraft/forge/biome_modifier/stocer_1_feature_biome_modifier.json",
-          "src/main/resources/data/doz_in_maincraft/worldgen/configured_feature/stocer_1_feature.json",
-          "src/main/resources/data/doz_in_maincraft/worldgen/placed_feature/stocer_1_feature.json"
+          "src/main/java/net/mcreator/doz_in_maincraft/procedures/St1PriObnovlieniiTikaProcedure.java"
         ],
-        "has_nbt_structure": true
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "St2PriObnovlieniiTika",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "st_2_pri_obnovlienii_tika",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/procedures/St2PriObnovlieniiTikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stocer1",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stocer1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/worldgen/template_pool/stocer1_up.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/structure/stocer1.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/structure_set/stocer1.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/template_pool/stocer1.json"
+        ]
+      }
+    },
+    {
+      "name": "Hazmag1",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hazmag1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/worldgen/template_pool/hazmag1_up.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/structure/hazmag1.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/structure_set/hazmag1.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/template_pool/hazmag1.json"
+        ]
+      }
+    },
+    {
+      "name": "Lesnik1",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lesnik1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/worldgen/structure/lesnik1.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/structure_set/lesnik1.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/template_pool/lesnik1.json"
+        ]
+      }
+    },
+    {
+      "name": "Chugunstructur",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chugunstructur",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/worldgen/template_pool/chugunstructur.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/structure_set/chugunstructur.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/structure/chugunstructur.json"
+        ]
+      }
+    },
+    {
+      "name": "Chugunstructure1",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chugunstructure_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/worldgen/structure_set/chugunstructure_1.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/template_pool/chugunstructure_1.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/structure/chugunstructure_1.json"
+        ]
+      }
+    },
+    {
+      "name": "HardwareStore",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardware_store",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/advancements/hardware_store.json"
+        ]
+      }
+    },
+    {
+      "name": "StokersHeart",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stokers_heart",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/advancements/stokers_heart.json"
+        ]
+      }
+    },
+    {
+      "name": "GeminisHeart",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geminis_heart",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/advancements/geminis_heart.json"
+        ]
+      }
+    },
+    {
+      "name": "DiodsHeart",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diods_heart",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/advancements/diods_heart.json"
+        ]
+      }
+    },
+    {
+      "name": "ForestOfDeadSouls",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forest_of_dead_souls",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/advancements/forest_of_dead_souls.json"
+        ]
+      }
+    },
+    {
+      "name": "Chugunplus",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chugunplus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/advancements/chugunplus.json"
+        ]
+      }
+    },
+    {
+      "name": "X3Stabilizators",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "x_3_stabilizators",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/advancements/x_3_stabilizators.json"
+        ]
+      }
+    },
+    {
+      "name": "DarkZoneHello",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_zone_hello",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/advancements/dark_zone_hello.json"
+        ]
+      }
+    },
+    {
+      "name": "DarkZoneUsloviieIspolzovaniiaPortala",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_zone_usloviie_ispolzovaniia_portala",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/procedures/DarkZoneUsloviieIspolzovaniiaPortalaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IAlwaysComeBack",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_always_come_back",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/advancements/i_always_come_back.json"
+        ]
+      }
+    },
+    {
+      "name": "DarkShit",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_shit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/advancements/dark_shit.json"
+        ]
+      }
+    },
+    {
+      "name": "Chest",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/chest.json"
+        ]
+      }
+    },
+    {
+      "name": "Lamp",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/doz_in_maincraft/models/block/lamp.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/LampBlock.java",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/lamp.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/lamp.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/lamp.json"
+        ]
+      }
+    },
+    {
+      "name": "SvetKr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "svet_kr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/recipes/svet_kr.json"
+        ]
+      }
+    },
+    {
+      "name": "RefuelingInstallation",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refueling_installation",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/doz_in_maincraft/blockstates/refueling_installation.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/refueling_installation.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/RefuelingInstallationBlock.java",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/refueling_installation.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/refueling_installation.json"
+        ]
+      }
+    },
+    {
+      "name": "EmptyBalloonPriShchielchkiePKMPoBloku",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_balloon_pri_shchielchkie_pkm_po_bloku",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/procedures/EmptyBalloonPriShchielchkiePKMPoBlokuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RefuelingInstallationPriRazrushieniiBlokaIghrokom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refueling_installation_pri_razrushienii_bloka_ighrokom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/procedures/RefuelingInstallationPriRazrushieniiBlokaIghrokomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Aptechka",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aptechka",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/client/gui/AptechkaScreen.java",
+          "src/main/java/net/mcreator/doz_in_maincraft/world/inventory/AptechkaMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "FirstAidKitPriDobavlieniiBloka",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_aid_kit_pri_dobavlienii_bloka",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/procedures/FirstAidKitPriDobavlieniiBlokaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FirstAidKit",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_aid_kit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/first_aid_kit.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/FirstAidKitBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/models/block/first_aid_kit.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/first_aid_kit.json",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/first_aid_kit.json"
+        ]
+      }
+    },
+    {
+      "name": "Azs",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "azs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/worldgen/template_pool/azs.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/structure/azs.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/template_pool/azs_two.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/structure_set/azs.json",
+          "src/main/resources/data/doz_in_maincraft/worldgen/template_pool/azs_one.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectricalAnomalyKoghdaSushchnostKhoditPoBloku",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrical_anomaly_koghda_sushchnost_khodit_po_bloku",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/procedures/ElectricalAnomalyKoghdaSushchnostKhoditPoBlokuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElectricalAnomaly",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrical_anomaly",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/doz_in_maincraft/blockstates/electrical_anomaly.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/electrical_anomaly.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/ElectricalAnomalyBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/electrical_anomaly.json",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/electrical_anomaly.json"
+        ]
+      }
+    },
+    {
+      "name": "AK47Projectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_47_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/entity/AK47ProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "AK47",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_47",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/item/AK47Item.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/ak_47.json"
+        ]
+      }
+    },
+    {
+      "name": "AK47MozhnoIspolzovatSnariad",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_47_mozhno_ispolzovat_snariad",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/procedures/AK47MozhnoIspolzovatSnariadProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AK47PriVystrielieSnariadomIzPriedmieta",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_47_pri_vystrielie_snariadom_iz_priedmieta",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/procedures/AK47PriVystrielieSnariadomIzPriedmietaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ak47ammo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_47ammo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/doz_in_maincraft/models/item/ak_47ammo.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/Ak47ammoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Ak47full",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_47full",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/doz_in_maincraft/models/item/ak_47full.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/Ak47fullItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Ak47ammocraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_47ammocraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/recipes/ak_47ammocraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Akamoocraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "akamoocraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/recipes/akamoocraft.json"
+        ]
+      }
+    },
+    {
+      "name": "ScarHProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scar_h_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/entity/ScarHProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ScarH",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scar_h",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/item/ScarHItem.java",
+          "src/main/resources/assets/doz_in_maincraft/models/item/scar_h.json"
+        ]
+      }
+    },
+    {
+      "name": "ScarHMozhnoIspolzovatSnariad",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scar_h_mozhno_ispolzovat_snariad",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/procedures/ScarHMozhnoIspolzovatSnariadProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScarHPriVystrielieSnariadomIzPriedmieta",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scar_h_pri_vystrielie_snariadom_iz_priedmieta",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/procedures/ScarHPriVystrielieSnariadomIzPriedmietaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScarHAmmo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scar_h_ammo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/doz_in_maincraft/models/item/scar_h_ammo.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/ScarHAmmoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ScarHfull",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scar_hfull",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/doz_in_maincraft/models/item/scar_hfull.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/ScarHfullItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Patron556",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patron_556",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/doz_in_maincraft/models/item/patron_556.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/Patron556Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Scarhammocraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarhammocraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/recipes/scarhammocraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Scarhcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarhcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doz_in_maincraft/recipes/scarhcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "FirstAidKitOppen",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_aid_kit_oppen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/block/entity/FirstAidKitOppenBlockEntity.java",
+          "src/main/resources/data/doz_in_maincraft/loot_tables/blocks/first_aid_kit_oppen.json",
+          "src/main/resources/assets/doz_in_maincraft/models/block/first_aid_kit_oppen.json",
+          "src/main/resources/assets/doz_in_maincraft/models/item/first_aid_kit_oppen.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/block/FirstAidKitOppenBlock.java",
+          "src/main/resources/assets/doz_in_maincraft/blockstates/first_aid_kit_oppen.json"
+        ]
+      }
+    },
+    {
+      "name": "FirstAidKitPriShchielchkiePKMPoBloku",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_aid_kit_pri_shchielchkie_pkm_po_bloku",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/procedures/FirstAidKitPriShchielchkiePKMPoBlokuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tek",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tek",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/procedures/TekProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Upammo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upammo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/procedures/UpammoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Downammo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "downammo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/procedures/DownammoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Patron4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patron_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doz_in_maincraft/procedures/Patron4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dfgd",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dfgd",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/doz_in_maincraft/models/item/dfgd.json",
+          "src/main/java/net/mcreator/doz_in_maincraft/item/DfgdItem.java"
+        ]
       }
     }
   ],
@@ -8862,13 +9589,13 @@
       "~CUSTOM:BurntBloodyHole",
       "~CUSTOM:BurntBloodHoleBlock"
     ],
-    "BLOCKS:minecraft:fences": [
-      "~CUSTOM:CrystallineFence",
-      "~CUSTOM:MagicPineFence"
-    ],
     "ITEMS:forge:magicpine_log": [
       "CUSTOM:MagicPineWood",
       "CUSTOM:MagicPineLog"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:CrystallineFence",
+      "~CUSTOM:MagicPineFence"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:StealPickaxe",
@@ -8955,8 +9682,8 @@
       "effect.doz_in_maincraft.ty": "special squad",
       "item.doz_in_maincraft.detail_special_akm": "Detail Special AKM",
       "block.doz_in_maincraft.crystalline_wood": "Crystalline Wood",
-      "item.vse.piece_tin": "Piece Tin",
       "item.doz_in_maincraft.copper_armor_boots": "Copper Boots",
+      "item.vse.piece_tin": "Piece Tin",
       "item.doz_in_maincraft.first_executioner_1_spawn_egg": "First Executioner(1 strip) Spawn Egg",
       "item.doz_in_maincraft.steal_hoe": "Steal Hoe",
       "item.doz_in_maincraft.aluminum_plate": "Aluminum Plate",
@@ -8968,6 +9695,7 @@
       "block.doz_in_maincraft.sedling_magic_pine": "Sedling Magic Pine",
       "item.doz_in_maincraft.large_box_from_hozmag": "Large Box From Hozmag",
       "item.doz_in_maincraft.load_foresters": "Load Foresters",
+      "block.doz_in_maincraft.first_aid_kit": "First Aid Kit",
       "advancements.this_is_what_is_nezerit.descr": "get nezerite dust",
       "gui.vse.dfs.label_vozdukh": "воздух",
       "item.vse.magnum": "Magnum",
@@ -8975,8 +9703,8 @@
       "item.vse.empty_stimulant": "Empty Stimulant",
       "itemGroup.tabsad": "DOZ_Survival",
       "advancements.booom.descr": "Boom",
-      "fluid.vse.fluedglass": "Flued Glass",
       "item.doz_in_maincraft.detail_gaus": "Detail Gaus",
+      "fluid.vse.fluedglass": "Flued Glass",
       "item.doz_in_maincraft.survivors_armor_chestplate": "Нагрудник Survivor\u0027s Armor",
       "entity.doz_in_maincraft.forester_hunter": "Forester Hunter",
       "block.doz_in_maincraft.crystalline_fence_gate": "Crystalline Fence Gate",
@@ -8986,8 +9714,8 @@
       "biome.doz_in_maincraft.creek_forest": "Creek Forest",
       "item.doz_in_maincraft.survivors_armor_leggings": "Поножи Survivor\u0027s Armor",
       "item.doz_in_maincraft.rising_executioner_spawn_egg": "Rising Executioner Spawn Egg",
-      "item.vse.filler": "Syringe",
       "item.doz_in_maincraft.survivors_armor_boots": "Ботинки Survivor\u0027s Armor",
+      "item.vse.filler": "Syringe",
       "gui.doz_in_maincraft.sds.label_stop_increased_danger": "STOP INCREASED DANGER",
       "block.vse.magic_pine_log": "MagicPine Log",
       "item.doz_in_maincraft.copper_ingot": "Copper",
@@ -8998,19 +9726,20 @@
       "block.vse.magic_pine_stairs": "MagicPine Stairs",
       "item.doz_in_maincraft.nylon_fabric": "Nylon Fabric",
       "block.doz_in_maincraft.magic_pine_planks": "MagicPine Planks",
+      "advancements.stokers_heart.title": "Stoker\u0027s Heart",
       "advancements.mgl_1.descr": "MGL",
       "block.doz_in_maincraft.steal_block": "Block of Steal",
       "item.vse.molten_steel_bucket": "Molten Steel Bucket",
       "advancements.cheers_weapon.descr": "get a weapon",
       "advancements.a_762.descr": "7.62",
-      "item.vse.copper_pickaxe": "Copper Pickaxe",
       "item.doz_in_maincraft.beast_forest_spawn_egg": "Beast Forest(5 strip) Spawn Egg",
-      "item.doz_in_maincraft.casting_mold": "Casting Mold of the stimulator",
+      "item.vse.copper_pickaxe": "Copper Pickaxe",
       "advancements.the_beginning_of_the_beginning.title": "The Beginning Of The Beginning",
-      "item.vse.aluminum_shovel": "Aluminum Shovel",
+      "item.doz_in_maincraft.casting_mold": "Casting Mold of the stimulator",
       "block.doz_in_maincraft.crystalline_pressure_plate": "Crystalline Pressure Plate",
-      "gui.doz_in_maincraft.apaa.label_stop_increased_danger": "STOP INCREASED DANGER",
+      "item.vse.aluminum_shovel": "Aluminum Shovel",
       "item.vse.executioner_heart": "Executioner\u0027s Heart",
+      "gui.doz_in_maincraft.apaa.label_stop_increased_danger": "STOP INCREASED DANGER",
       "item.vse.copper_armor_leggings": "Copper Leggings",
       "item.vse.foresters_spear": "Foresters Spear",
       "item.doz_in_maincraft.pressure_regulator": "Pressure Regulator",
@@ -9032,18 +9761,18 @@
       "item.vse.added_aromatic_spices": "Added Aromatic Spices",
       "advancements.well_why_dont_you_have_a_chest.descr": "make a case shooting 2",
       "fluid.doz_in_maincraft.molten_steel": "Molten Steel",
-      "item.doz_in_maincraft.first_executioner_spawn_egg": "First Executioner(3 strip) Spawn Egg",
-      "block.doz_in_maincraft.blood_hole_block": "Blood Hole Block",
       "gui.vse.dfg.label_gas": "gas",
+      "block.doz_in_maincraft.blood_hole_block": "Blood Hole Block",
+      "item.doz_in_maincraft.first_executioner_spawn_egg": "First Executioner(3 strip) Spawn Egg",
       "item.doz_in_maincraft.sekret_armor_helmet": "Шлем Sekret Armor",
+      "advancements.forest_of_dead_souls.descr": "smoke, purple smoke",
       "item.vse.nezerite_dust": "Nezerite",
       "item.vse.tin_ingot": "Tin",
       "item.doz_in_maincraft.forester_hunter_5_spawn_egg": "Forester Hunter Spawn Egg",
-      "advancements.gas_cheers.title": "Gas Cheers",
       "block.vse.magic_pine_pressure_plate": "MagicPine Pressure Plate",
+      "advancements.gas_cheers.title": "Gas Cheers",
       "advancements.cheers_cartridges.descr": "get drops",
       "block.doz_in_maincraft.molten_steel": "Molten Steel",
-      "item.doz_in_maincraft.revolver_clip_1": "Revolver Clip",
       "gui.vse.grt.label_nie_rostraiuisia": "не ростраюйся",
       "item.vse.revolver_clip": "Revolver Clip",
       "item.vse.aluminum_armor_boots": "Aluminum Boots",
@@ -9057,12 +9786,15 @@
       "entity.doz_in_maincraft.ghoul_bandit": "Ghoul Bandit",
       "item.doz_in_maincraft.titanium_plates": "Titanium Plates",
       "block.vse.lead_ore": "Lead Ore",
+      "advancements.i_always_come_back.title": "I Always Come Back",
       "block.vse.magic_pine_wood": "MagicPine Wood",
       "item.doz_in_maincraft.detail_swd": "Detail SWD",
-      "block.doz_in_maincraft.ammunition_press": "Ammunition Press",
       "advancements.and_if_he_is_pressed.descr": "create a metallurgical press",
+      "block.doz_in_maincraft.ammunition_press": "Ammunition Press",
       "item.vse.gas_mask_crahet_leggings": "Gasgas Mask Поножи",
+      "block.doz_in_maincraft.lamp": "Lamp",
       "item.doz_in_maincraft.sekret_armor_leggings": "Поножи Sekret Armor",
+      "advancements.dark_zone_hello.descr": "and how can I go back?",
       "item.doz_in_maincraft.chugun": "Chugun",
       "item.doz_in_maincraft.ghoul_bandit_spawn_egg": "Ghoul Bandit Spawn Egg",
       "advancements.the_beginning_of_the_beginning.descr": "the beginning of the beginning",
@@ -9088,6 +9820,7 @@
       "advancements.pp_19.descr": "PP 19",
       "item.doz_in_maincraft.magnum": "Magnum",
       "gui.doz_in_maincraft.grt.label_nie_rostraiuisia": "не ростраюйся",
+      "advancements.diods_heart.title": "Diod\u0027s Heart",
       "entity.doz_in_maincraft.forrester_hunter_3": "Forester Hunter",
       "item.doz_in_maincraft.gas_filter": "Gas Filter",
       "item.doz_in_maincraft.dark_zone": "portal catalyst",
@@ -9095,8 +9828,10 @@
       "biome.vse.creek_forest": "Creek Forest",
       "item.doz_in_maincraft.stabilizer_diode": "Stabilizer \"Diode\"",
       "entity.vse.forrester_hunter_3": "Forester Hunter",
+      "advancements.dark_zone_hello.title": "Dark Zone Hello",
       "item.doz_in_maincraft.copper_armor_leggings": "Copper Leggings",
       "item.doz_in_maincraft.beast_forest_4_spawn_egg": "Beast Forest(4 strip) Spawn Egg",
+      "advancements.dark_shit.descr": "crystals of darkness, but the question is what are they for?",
       "block.vse.nezerite_ore": "Nezerite Ore",
       "advancements.what_are_you_up_to.descr": "make a case shooting 3",
       "advancements.and_how_powerful_are_you_heating.descr": "make an induction oven",
@@ -9112,6 +9847,8 @@
       "item.minecraft.tipped_arrow.effect.hgfgg": "Arrow of Hgfgg",
       "item.doz_in_maincraft.iron_plates": "Iron Plates",
       "block.doz_in_maincraft.nezerite_ore": "Nezerite Ore",
+      "advancements.geminis_heart.descr": "two sisters for one me",
+      "advancements.stokers_heart.descr": "oh that was hard",
       "item.doz_in_maincraft.survivor_armor_set": "Survivor Armor Set",
       "block.doz_in_maincraft.engineering_workbench": "Engineering Workbench",
       "block.doz_in_maincraft.airdrop": "Airdrop",
@@ -9157,6 +9894,8 @@
       "item.vse.forester_hunter_5_spawn_egg": "Forester Hunter Spawn Egg",
       "item.doz_in_maincraft.object_diode_spawn_egg": "Object Stoker Spawn Egg",
       "gui.doz_in_maincraft.dfs.label_zzhatii": "зжатий",
+      "advancements.x_3_stabilizators.title": "X3 Stabilizator\u0027s",
+      "advancements.dark_shit.title": "Dark Shit",
       "item.doz_in_maincraft.unfinished_stimulant": "Unfinished Stimulant",
       "item.doz_in_maincraft.caliber_12": "Caliber 12",
       "item.vse.gas_mask_crahet_helmet": "Gasgas Mask",
@@ -9194,6 +9933,7 @@
       "item.doz_in_maincraft.detail_akm": "Detail AKM",
       "item.doz_in_maincraft.symbiotic_pieces": "Symbiotic Pieces",
       "block.doz_in_maincraft.polka_4": "Polka 4",
+      "advancements.forest_of_dead_souls.title": "Forest of dead souls",
       "item.vse.gas_mask_leggings": "Gasgas Mask Поножи",
       "block.doz_in_maincraft.polka_1": "Polka 1",
       "block.doz_in_maincraft.polka_2": "Polka 2",
@@ -9217,6 +9957,7 @@
       "gui.doz_in_maincraft.grt.label_ia_znaiu_shto_lut_ghovno": "я знаю што лут говно",
       "item.minecraft.potion.effect.hgfgg": "Potion of Hgfgg",
       "item.doz_in_maincraft.brigadier_ghul_spawn_egg": "Brigadier Ghul Spawn Egg",
+      "item.doz_in_maincraft.scar_hfull": "Scar H Ammo",
       "block.doz_in_maincraft.magic_pine_stairs": "MagicPine Stairs",
       "block.doz_in_maincraft.metal_forming_machine": "Metal Forming Machine",
       "item.vse.aluminum_plate": "Aluminum Plate",
@@ -9230,10 +9971,10 @@
       "item.doz_in_maincraft.steel_barrel": "Steel Barrel",
       "item.doz_in_maincraft.revolver_drum": "Revolver Drum",
       "item.doz_in_maincraft.aluminum_shovel": "Aluminum Shovel",
-      "item.doz_in_maincraft.sleeve_10_mm": "Sleeve 1 0 Mm",
       "item.doz_in_maincraft.armor_fortress_leggings": "Поножи Armor Fortress",
       "item.doz_in_maincraft.tt_simbiot": "Simbiot TT",
       "item.doz_in_maincraft.ghoul_arrows_spawn_egg": "ghoul arrows Spawn Egg",
+      "advancements.hardware_store.title": "Hardware Store",
       "item.doz_in_maincraft.clip_bison": "Clip Bison",
       "block.vse.metal_forming_machine": "Metal Forming Machine",
       "block.doz_in_maincraft.magic_pine_fence": "MagicPine Fence",
@@ -9242,10 +9983,10 @@
       "item.vse.steal_armor_chestplate": "Steal Chestplate",
       "item.doz_in_maincraft.gas": "Gas",
       "item.doz_in_maincraft.steal_armor_boots": "Steal Boots",
-      "item.doz_in_maincraft.revolver_clip": "Revolver Clip",
       "block.doz_in_maincraft.crystal_cobblestone": "Crystal Cobblestone",
       "advancements.i_wonder_if_vashkevich_will_be_saved_from_farting.descr": "do not get poisoned by witches",
       "item.doz_in_maincraft.sekret_armor_chestplate": "Нагрудник Sekret Armor",
+      "advancements.geminis_heart.title": "Gemini\u0027s Heart",
       "item.doz_in_maincraft.case_shooting_range_2": "Case Range 2",
       "advancements.tt_1.descr": "take TT",
       "block.doz_in_maincraft.box_level_2": "box level 2",
@@ -9256,17 +9997,23 @@
       "block.doz_in_maincraft.box_level_3": "box level 3",
       "block.vse.magic_pine_button": "MagicPine Button",
       "block.doz_in_maincraft.box_level_4": "box level 4",
+      "item.doz_in_maincraft.scar_h": "Scar-H",
       "block.doz_in_maincraft.crystalline_log": "Crystalline Log",
       "item.vse.stimulator": "Stimulator",
       "entity.vse.forester_hunter_4": "Forester Hunter",
       "advancements.and_how_powerful_are_you_heating.title": "And How Powerful Are You Heating :)",
       "entity.vse.forester_hunter_5": "Forester Hunter",
+      "block.doz_in_maincraft.refueling_installation": "Refueling Installation",
+      "block.doz_in_maincraft.electrical_anomaly": "Electrical Anomaly",
       "block.doz_in_maincraft.fluedglass": "Flued Glass",
       "advancements.aaaaaaaaa_what.title": "Aaaaaaaaa What",
       "block.vse.tin_ore": "Tin Ore",
       "block.vse.steal_block": "Block of Steal",
+      "advancements.x_3_stabilizators.descr": "after three hundred years i will see grass",
       "block.doz_in_maincraft.creative_cell": "Creative Cell",
+      "item.doz_in_maincraft.patron_556": "Patron 5.56",
       "block.vse.magic_pine_slab": "MagicPine Slab",
+      "advancements.diods_heart.descr": "the electric shock was painful",
       "item.doz_in_maincraft.forrester_hunter_3_spawn_egg": "Forester Hunter Spawn Egg",
       "item.vse.aluminum_armor_helmet": "Aluminum Helmet",
       "block.vse.aluminum_block": "Block of Aluminum",
@@ -9285,6 +10032,8 @@
       "gui.doz_in_maincraft.dfs.label_vozdukh": "воздух",
       "item.doz_in_maincraft.detail_pp_19": "Detail PP 1 9",
       "item.doz_in_maincraft.battery": "Battery",
+      "item.doz_in_maincraft.dfgd": "Dfgd",
+      "advancements.chugunplus.title": "Chugun",
       "entity.doz_in_maincraft.ghoul_bull": "Ghoul-\"bull\"",
       "block.doz_in_maincraft.crystal_ground": "Crystal Ground",
       "item.doz_in_maincraft.detail_spas_12": "Detail Spas 1 2",
@@ -9293,10 +10042,11 @@
       "item.vse.pressure_regulator": "Pressure Regulator",
       "item.vse.cooling_mechanism": "Cooling Mechanism",
       "item.doz_in_maincraft.aluminum_armor_boots": "Aluminum Boots",
-      "item.doz_in_maincraft.gas_mask_crahet_helmet": "Gasgas Mask",
+      "item.doz_in_maincraft.gas_mask_crahet_helmet": "Gas Mask",
       "gui.doz_in_maincraft.dfg.label_bnbtnumberprogress": "\u003cBNBT:number.progress\u003e%",
       "advancements.cheers_weapon.title": "Cheers Weapon",
       "item.doz_in_maincraft.steal_shovel": "Steal Shovel",
+      "item.doz_in_maincraft.ak_47": "AK-47",
       "item.doz_in_maincraft.nezerite_dust": "Nezerite",
       "item.vse.aluminum_axe": "Aluminum Axe",
       "item.doz_in_maincraft.steal_armor_helmet": "Steal Helmet",
@@ -9331,6 +10081,7 @@
       "effect.doz_in_maincraft.forest_spores": "forest spores",
       "item.vse.steal_hoe": "Steal Hoe",
       "block.doz_in_maincraft.tin_block": "Block of Tin",
+      "item.doz_in_maincraft.ak_47ammo": "Ak ammo",
       "block.doz_in_maincraft.auto_miner": "Auto Miner",
       "block.doz_in_maincraft.copper_block": "Block of Copper",
       "item.doz_in_maincraft.cooling_mechanism": "Cooling Mechanism",
@@ -9344,12 +10095,14 @@
       "gui.doz_in_maincraft.sds.label_warning1": "WARNING!!!",
       "block.vse.copper_block": "Block of Copper",
       "entity.doz_in_maincraft.object_stoker": "Object Stoker",
+      "block.doz_in_maincraft.first_aid_kit_oppen": "First Aid Kit",
       "item.doz_in_maincraft.dron_spawn_egg": "Dron Spawn Egg",
       "item.doz_in_maincraft.fww": "DOZ Survival",
       "item.vse.forrster_hunter_2_spawn_egg": "Forester Hunter Spawn Egg",
       "item.doz_in_maincraft.steal_axe": "Steal Axe",
       "block.doz_in_maincraft.crystal_earth": "Crystal Earth",
       "item.doz_in_maincraft.armor_fortress_chestplate": "Нагрудник Armor Fortress",
+      "gui.doz_in_maincraft.aptechka.label_first_aid_kit": "first aid kit",
       "item.vse.aluminum_sword": "Aluminum Sword",
       "item.vse.steal_ingot": "Steal",
       "advancements.gas_cheers.descr": "get gas",
@@ -9360,6 +10113,7 @@
       "block.doz_in_maincraft.bloody_hole": "Bloody Hole",
       "item.doz_in_maincraft.steel_plate": "Steel Plate",
       "key.doz_in_maincraft.ggg": "ulta",
+      "item.doz_in_maincraft.ak_47full": "Ak ammo",
       "effect.doz_in_maincraft.deep_wounds": "deep wounds",
       "gui.doz_in_maincraft.fyv.label_auto_miner": "auto miner",
       "item.doz_in_maincraft.average_household_box": "Average  Hozmag Box",
@@ -9379,6 +10133,7 @@
       "item.doz_in_maincraft.mgl": "MGL",
       "advancements.where_is_the_usual_chest.descr": "try crafting a chest      (spoiler you won\u0027t get anything)",
       "item.doz_in_maincraft.forester_hunter_4_spawn_egg": "Forester Hunter Spawn Egg",
+      "advancements.chugunplus.descr": "cast iron frying pan inexpensive",
       "item.doz_in_maincraft.aluminum_pickaxe": "Aluminum Pickaxe",
       "item.vse.steal_pickaxe": "Steal Pickaxe",
       "item.vse.copper_armor_chestplate": "Copper Chestplate",
@@ -9393,20 +10148,21 @@
       "item.doz_in_maincraft.gas_mask_helmet.description_0": "для зашітиот нє желатєльних ефєктов",
       "block.vse.magic_pine_planks": "MagicPine Planks",
       "block.doz_in_maincraft.armorers_workbench": "Armorer\u0027s Workbench",
-      "item.doz_in_maincraft.sleeve_762": "Sleeve 7.62",
       "block.doz_in_maincraft.forest_roots": "Forest Roots",
       "item.doz_in_maincraft.molten_steel_bucket": "Molten Steel Bucket",
       "item.vse.healing_mixture": "Healing Mixture",
       "item.doz_in_maincraft.fortress_armor_set": "Fortress Armor Set",
+      "item.doz_in_maincraft.scar_h_ammo": "Scar H Ammo",
       "item.doz_in_maincraft.clip_swd": "Clip SWD",
       "gui.doz_in_maincraft.sds.label_the_institute_is_not_responsible1": "THE INSTITUTE IS NOT RESPONSIBLE FOR DEATH OR LOSS OF THINGS",
-      "item.doz_in_maincraft.p_762atron": "Patron 7.62atron",
+      "item.doz_in_maincraft.p_762atron": "Patron 7.62",
       "entity.doz_in_maincraft.brigadier_ghul": "Brigadier Ghul",
       "item.doz_in_maincraft.pp_19_bizon": "PP19 Bizon",
       "item.doz_in_maincraft.aluminum_armor_chestplate": "Aluminum Chestplate",
       "item.doz_in_maincraft.ghoul_bull_spawn_egg": "Ghoul-\"bull\" Spawn Egg",
       "advancements.get_armor.title": "Get Armor",
       "item.doz_in_maincraft.steal_armor_chestplate": "Steal Chestplate",
+      "advancements.i_always_come_back.descr": "if you want to live, you won\u0027t get away with it",
       "entity.doz_in_maincraft.forrster_hunter_2": "Forester Hunter",
       "entity.doz_in_maincraft.ghoul_raider": "Ghoul Raider",
       "advancements.well_why_dont_you_have_a_chest.title": "Well Why Dont You Have A Chest",
@@ -9435,6 +10191,7 @@
       "item.doz_in_maincraft.forester_hunter_spawn_egg": "Forester Hunter Spawn Egg",
       "block.vse.magic_pine_fence_gate": "MagicPine Fence Gate",
       "block.doz_in_maincraft.palach_pr": "PALACH",
+      "advancements.hardware_store.descr": "and where is your electrical tape?",
       "gui.doz_in_maincraft.sds.label_warning": "WARNING!!!",
       "item.vse.gas_mask_crahet_boots": "Gasgas Mask Ботинки",
       "item.doz_in_maincraft.plate_shape": "Plate Shape",
@@ -9445,8 +10202,8 @@
       "effect.doz_in_maincraft.ty": "a",
       "item.doz_in_maincraft.detail_special_akm": "Detail Special AKM",
       "block.doz_in_maincraft.crystalline_wood": "Crystalline Wood",
-      "item.vse.piece_tin": "Piece Tin",
       "item.doz_in_maincraft.copper_armor_boots": "Copper Boots",
+      "item.vse.piece_tin": "Piece Tin",
       "item.doz_in_maincraft.first_executioner_1_spawn_egg": "First Executioner(1 strip) Spawn Egg",
       "item.doz_in_maincraft.steal_hoe": "Steal Hoe",
       "item.doz_in_maincraft.aluminum_plate": "Aluminum Plate",
@@ -9458,6 +10215,7 @@
       "block.doz_in_maincraft.sedling_magic_pine": "Sedling Magic Pine",
       "item.doz_in_maincraft.large_box_from_hozmag": "Large Box From Hozmag",
       "item.doz_in_maincraft.load_foresters": "Load Foresters",
+      "block.doz_in_maincraft.first_aid_kit": "First Aid Kit",
       "advancements.this_is_what_is_nezerit.descr": "get nezerite dust",
       "gui.vse.dfs.label_vozdukh": "воздух",
       "item.vse.magnum": "Magnum",
@@ -9465,8 +10223,8 @@
       "item.vse.empty_stimulant": "Empty Stimulant",
       "itemGroup.tabsad": "DOZ_Survival",
       "advancements.booom.descr": "Boom",
-      "item.doz_in_maincraft.detail_gaus": "Detail Gaus",
       "fluid.vse.fluedglass": "Flued Glass",
+      "item.doz_in_maincraft.detail_gaus": "Detail Gaus",
       "item.doz_in_maincraft.survivors_armor_chestplate": "Нагрудник Survivor\u0027s Armor",
       "entity.doz_in_maincraft.forester_hunter": "Forester Hunter",
       "block.doz_in_maincraft.crystalline_fence_gate": "Crystalline Fence Gate",
@@ -9476,8 +10234,8 @@
       "biome.doz_in_maincraft.creek_forest": "Creek Forest",
       "item.doz_in_maincraft.survivors_armor_leggings": "Поножи Survivor\u0027s Armor",
       "item.doz_in_maincraft.rising_executioner_spawn_egg": "Rising Executioner Spawn Egg",
-      "item.vse.filler": "Syringe",
       "item.doz_in_maincraft.survivors_armor_boots": "Ботинки Survivor\u0027s Armor",
+      "item.vse.filler": "Syringe",
       "gui.doz_in_maincraft.sds.label_stop_increased_danger": "STOP INCREASED DANGER",
       "item.doz_in_maincraft.copper_ingot": "Copper",
       "block.vse.magic_pine_log": "MagicPine Log",
@@ -9488,19 +10246,20 @@
       "block.vse.magic_pine_stairs": "MagicPine Stairs",
       "item.doz_in_maincraft.nylon_fabric": "Nylon Fabric",
       "block.doz_in_maincraft.magic_pine_planks": "MagicPine Planks",
+      "advancements.stokers_heart.title": "Stokers Heart",
       "advancements.mgl_1.descr": "MGL",
       "block.doz_in_maincraft.steal_block": "Block of Steal",
       "item.vse.molten_steel_bucket": "Molten Steel Bucket",
       "advancements.cheers_weapon.descr": "get a weapon",
       "advancements.a_762.descr": "7.62",
-      "item.doz_in_maincraft.beast_forest_spawn_egg": "Beast Forest(5 strip) Spawn Egg",
       "item.vse.copper_pickaxe": "Copper Pickaxe",
-      "advancements.the_beginning_of_the_beginning.title": "The Beginning Of The Beginning",
+      "item.doz_in_maincraft.beast_forest_spawn_egg": "Beast Forest(5 strip) Spawn Egg",
       "item.doz_in_maincraft.casting_mold": "Casting Mold of the stimulator",
-      "block.doz_in_maincraft.crystalline_pressure_plate": "Crystalline Pressure Plate",
+      "advancements.the_beginning_of_the_beginning.title": "The Beginning Of The Beginning",
       "item.vse.aluminum_shovel": "Aluminum Shovel",
-      "item.vse.executioner_heart": "Executioner\u0027s Heart",
+      "block.doz_in_maincraft.crystalline_pressure_plate": "Crystalline Pressure Plate",
       "gui.doz_in_maincraft.apaa.label_stop_increased_danger": "STOP INCREASED DANGER",
+      "item.vse.executioner_heart": "Executioner\u0027s Heart",
       "item.vse.copper_armor_leggings": "Copper Leggings",
       "item.vse.foresters_spear": "Foresters Spear",
       "item.doz_in_maincraft.pressure_regulator": "Pressure Regulator",
@@ -9522,18 +10281,18 @@
       "item.vse.added_aromatic_spices": "Added Aromatic Spices",
       "advancements.well_why_dont_you_have_a_chest.descr": "make a case shooting 2",
       "fluid.doz_in_maincraft.molten_steel": "Molten Steel",
-      "item.doz_in_maincraft.first_executioner_spawn_egg": "First Executioner(3 strip) Spawn Egg",
-      "block.doz_in_maincraft.blood_hole_block": "Blood Hole Block",
       "gui.vse.dfg.label_gas": "gas",
+      "block.doz_in_maincraft.blood_hole_block": "Blood Hole Block",
+      "item.doz_in_maincraft.first_executioner_spawn_egg": "First Executioner(3 strip) Spawn Egg",
       "item.doz_in_maincraft.sekret_armor_helmet": "Шлем Sekret Armor",
+      "advancements.forest_of_dead_souls.descr": "smoke, purple smoke",
       "item.vse.nezerite_dust": "Nezerite",
       "item.vse.tin_ingot": "Tin",
       "item.doz_in_maincraft.forester_hunter_5_spawn_egg": "Forester Hunter Spawn Egg",
-      "block.vse.magic_pine_pressure_plate": "MagicPine Pressure Plate",
       "advancements.gas_cheers.title": "Gas Cheers",
+      "block.vse.magic_pine_pressure_plate": "MagicPine Pressure Plate",
       "advancements.cheers_cartridges.descr": "get drops",
       "block.doz_in_maincraft.molten_steel": "Molten Steel",
-      "item.doz_in_maincraft.revolver_clip_1": "Revolver Clip",
       "gui.vse.grt.label_nie_rostraiuisia": "не ростраюйся",
       "item.vse.revolver_clip": "Revolver Clip",
       "item.vse.aluminum_armor_boots": "Aluminum Boots",
@@ -9547,12 +10306,15 @@
       "entity.doz_in_maincraft.ghoul_bandit": "Ghoul Bandit",
       "item.doz_in_maincraft.titanium_plates": "Titanium Plates",
       "block.vse.lead_ore": "Lead Ore",
+      "advancements.i_always_come_back.title": "I Always Come Back",
       "block.vse.magic_pine_wood": "MagicPine Wood",
       "item.doz_in_maincraft.detail_swd": "Detail SWD",
-      "advancements.and_if_he_is_pressed.descr": "create a metallurgical press",
       "block.doz_in_maincraft.ammunition_press": "Ammunition Press",
+      "advancements.and_if_he_is_pressed.descr": "create a metallurgical press",
       "item.vse.gas_mask_crahet_leggings": "Gasgas Mask Поножи",
+      "block.doz_in_maincraft.lamp": "Lamp",
       "item.doz_in_maincraft.sekret_armor_leggings": "Поножи Sekret Armor",
+      "advancements.dark_zone_hello.descr": "and how can I go back?",
       "item.doz_in_maincraft.chugun": "Chugun",
       "item.doz_in_maincraft.ghoul_bandit_spawn_egg": "Ghoul Bandit Spawn Egg",
       "advancements.the_beginning_of_the_beginning.descr": "the beginning of the beginning",
@@ -9578,6 +10340,7 @@
       "advancements.pp_19.descr": "PP 19",
       "item.doz_in_maincraft.magnum": "Magnum",
       "gui.doz_in_maincraft.grt.label_nie_rostraiuisia": "не ростраюйся",
+      "advancements.diods_heart.title": "Gemini\u0027s Heart",
       "entity.doz_in_maincraft.forrester_hunter_3": "Forester Hunter",
       "item.doz_in_maincraft.gas_filter": "Gas Filter",
       "item.doz_in_maincraft.dark_zone": "portal catalyst",
@@ -9585,8 +10348,10 @@
       "biome.vse.creek_forest": "Creek Forest",
       "item.doz_in_maincraft.stabilizer_diode": "Stabilizer \"Diode\"",
       "entity.vse.forrester_hunter_3": "Forester Hunter",
+      "advancements.dark_zone_hello.title": "Dark Zone Hello",
       "item.doz_in_maincraft.copper_armor_leggings": "Copper Leggings",
       "item.doz_in_maincraft.beast_forest_4_spawn_egg": "Beast Forest(4 strip) Spawn Egg",
+      "advancements.dark_shit.descr": "crystals of darkness, but the question is what are they for?",
       "block.vse.nezerite_ore": "Nezerite Ore",
       "advancements.what_are_you_up_to.descr": "make a case shooting 3",
       "item.vse.gas": "Gas",
@@ -9602,6 +10367,8 @@
       "item.minecraft.tipped_arrow.effect.hgfgg": "Arrow of Hgfgg",
       "item.doz_in_maincraft.iron_plates": "Iron Plates",
       "block.doz_in_maincraft.nezerite_ore": "Nezerite Ore",
+      "advancements.geminis_heart.descr": "oh that was hard",
+      "advancements.stokers_heart.descr": "oh that was hard",
       "item.doz_in_maincraft.survivor_armor_set": "Survivor Armor Set",
       "block.doz_in_maincraft.engineering_workbench": "Engineering Workbench",
       "block.doz_in_maincraft.airdrop": "Airdrop",
@@ -9647,6 +10414,8 @@
       "item.vse.forester_hunter_5_spawn_egg": "Forester Hunter Spawn Egg",
       "item.doz_in_maincraft.object_diode_spawn_egg": "Object Stoker Spawn Egg",
       "gui.doz_in_maincraft.dfs.label_zzhatii": "зжатий",
+      "advancements.x_3_stabilizators.title": "X 3 Stabilizator\u0027s",
+      "advancements.dark_shit.title": "Dark Shit",
       "item.doz_in_maincraft.unfinished_stimulant": "Unfinished Stimulant",
       "item.doz_in_maincraft.caliber_12": "Caliber 12",
       "item.vse.gas_mask_crahet_helmet": "Gasgas Mask",
@@ -9684,6 +10453,7 @@
       "item.doz_in_maincraft.detail_akm": "Detail AKM",
       "item.doz_in_maincraft.symbiotic_pieces": "Symbiotic Pieces",
       "block.doz_in_maincraft.polka_4": "Polka 4",
+      "advancements.forest_of_dead_souls.title": "Forest of dead souls",
       "item.vse.gas_mask_leggings": "Gasgas Mask Поножи",
       "block.doz_in_maincraft.polka_1": "Polka 1",
       "block.doz_in_maincraft.polka_2": "Polka 2",
@@ -9707,6 +10477,7 @@
       "gui.doz_in_maincraft.grt.label_ia_znaiu_shto_lut_ghovno": "я знаю што лут говно",
       "item.minecraft.potion.effect.hgfgg": "Potion of Hgfgg",
       "item.doz_in_maincraft.brigadier_ghul_spawn_egg": "Brigadier Ghul Spawn Egg",
+      "item.doz_in_maincraft.scar_hfull": "Scar H Ammo",
       "block.doz_in_maincraft.magic_pine_stairs": "MagicPine Stairs",
       "block.doz_in_maincraft.metal_forming_machine": "Metal Forming Machine",
       "item.vse.aluminum_plate": "Aluminum Plate",
@@ -9720,10 +10491,10 @@
       "item.doz_in_maincraft.steel_barrel": "Steel Barrel",
       "item.doz_in_maincraft.revolver_drum": "Revolver Drum",
       "item.doz_in_maincraft.aluminum_shovel": "Aluminum Shovel",
-      "item.doz_in_maincraft.sleeve_10_mm": "Sleeve 1 0 Mm",
       "item.doz_in_maincraft.armor_fortress_leggings": "Поножи Armor Fortress",
       "item.doz_in_maincraft.tt_simbiot": "Simbiot TT",
       "item.doz_in_maincraft.ghoul_arrows_spawn_egg": "ghoul arrows Spawn Egg",
+      "advancements.hardware_store.title": "Hardware Store",
       "item.doz_in_maincraft.clip_bison": "Clip Bison",
       "block.vse.metal_forming_machine": "Metal Forming Machine",
       "block.doz_in_maincraft.magic_pine_fence": "MagicPine Fence",
@@ -9732,10 +10503,10 @@
       "item.vse.steal_armor_chestplate": "Steal Chestplate",
       "item.doz_in_maincraft.gas": "Gas",
       "item.doz_in_maincraft.steal_armor_boots": "Steal Boots",
-      "item.doz_in_maincraft.revolver_clip": "Revolver Clip",
       "block.doz_in_maincraft.crystal_cobblestone": "Crystal Cobblestone",
       "advancements.i_wonder_if_vashkevich_will_be_saved_from_farting.descr": "do not get poisoned by witches",
       "item.doz_in_maincraft.sekret_armor_chestplate": "Нагрудник Sekret Armor",
+      "advancements.geminis_heart.title": "Stokers Heart",
       "item.doz_in_maincraft.case_shooting_range_2": "Case Range 2",
       "advancements.tt_1.descr": "take TT",
       "block.doz_in_maincraft.box_level_2": "box level 2",
@@ -9746,17 +10517,23 @@
       "block.doz_in_maincraft.box_level_3": "box level 3",
       "block.vse.magic_pine_button": "MagicPine Button",
       "block.doz_in_maincraft.box_level_4": "box level 4",
+      "item.doz_in_maincraft.scar_h": "AK-47",
       "block.doz_in_maincraft.crystalline_log": "Crystalline Log",
       "item.vse.stimulator": "Stimulator",
       "entity.vse.forester_hunter_4": "Forester Hunter",
       "advancements.and_how_powerful_are_you_heating.title": "And How Powerful Are You Heating :)",
       "entity.vse.forester_hunter_5": "Forester Hunter",
+      "block.doz_in_maincraft.refueling_installation": "Refueling Installation",
+      "block.doz_in_maincraft.electrical_anomaly": "Electrical Anomaly",
       "block.doz_in_maincraft.fluedglass": "Flued Glass",
       "advancements.aaaaaaaaa_what.title": "Aaaaaaaaa What",
       "block.vse.tin_ore": "Tin Ore",
       "block.vse.steal_block": "Block of Steal",
+      "advancements.x_3_stabilizators.descr": "after three hundred years i will see grass",
       "block.doz_in_maincraft.creative_cell": "Creative Cell",
+      "item.doz_in_maincraft.patron_556": "Patron 5.56",
       "block.vse.magic_pine_slab": "MagicPine Slab",
+      "advancements.diods_heart.descr": "two sisters for one me",
       "item.doz_in_maincraft.forrester_hunter_3_spawn_egg": "Forester Hunter Spawn Egg",
       "item.vse.aluminum_armor_helmet": "Aluminum Helmet",
       "block.vse.aluminum_block": "Block of Aluminum",
@@ -9775,6 +10552,8 @@
       "gui.doz_in_maincraft.dfs.label_vozdukh": "воздух",
       "item.doz_in_maincraft.detail_pp_19": "Detail PP 1 9",
       "item.doz_in_maincraft.battery": "Battery",
+      "item.doz_in_maincraft.dfgd": "Dfgd",
+      "advancements.chugunplus.title": "Chugun",
       "entity.doz_in_maincraft.ghoul_bull": "Ghoul-\"bull\"",
       "block.doz_in_maincraft.crystal_ground": "Crystal Ground",
       "item.doz_in_maincraft.detail_spas_12": "Detail Spas 1 2",
@@ -9787,6 +10566,7 @@
       "gui.doz_in_maincraft.dfg.label_bnbtnumberprogress": "\u003cBNBT:number.progress\u003e%",
       "advancements.cheers_weapon.title": "Cheers Weapon",
       "item.doz_in_maincraft.steal_shovel": "Steal Shovel",
+      "item.doz_in_maincraft.ak_47": "AK-47",
       "item.doz_in_maincraft.nezerite_dust": "Nezerite",
       "item.vse.aluminum_axe": "Aluminum Axe",
       "item.doz_in_maincraft.steal_armor_helmet": "Steal Helmet",
@@ -9821,6 +10601,7 @@
       "effect.doz_in_maincraft.forest_spores": "forest spores",
       "item.vse.steal_hoe": "Steal Hoe",
       "block.doz_in_maincraft.tin_block": "Block of Tin",
+      "item.doz_in_maincraft.ak_47ammo": "Ak 47ammo",
       "block.doz_in_maincraft.auto_miner": "Auto Miner",
       "block.doz_in_maincraft.copper_block": "Block of Copper",
       "item.doz_in_maincraft.cooling_mechanism": "Cooling Mechanism",
@@ -9834,12 +10615,14 @@
       "gui.doz_in_maincraft.sds.label_warning1": "WARNING!!!",
       "block.vse.copper_block": "Block of Copper",
       "entity.doz_in_maincraft.object_stoker": "Object Stoker",
+      "block.doz_in_maincraft.first_aid_kit_oppen": "First Aid Kit",
       "item.doz_in_maincraft.dron_spawn_egg": "Dron Spawn Egg",
       "item.doz_in_maincraft.fww": "DOZ Survival",
       "item.vse.forrster_hunter_2_spawn_egg": "Forester Hunter Spawn Egg",
       "item.doz_in_maincraft.steal_axe": "Steal Axe",
       "block.doz_in_maincraft.crystal_earth": "Crystal Earth",
       "item.doz_in_maincraft.armor_fortress_chestplate": "Нагрудник Armor Fortress",
+      "gui.doz_in_maincraft.aptechka.label_first_aid_kit": "first aid kit",
       "item.vse.aluminum_sword": "Aluminum Sword",
       "item.vse.steal_ingot": "Steal",
       "advancements.gas_cheers.descr": "get gas",
@@ -9850,6 +10633,7 @@
       "block.doz_in_maincraft.bloody_hole": "Bloody Hole",
       "item.doz_in_maincraft.steel_plate": "Steel Plate",
       "key.doz_in_maincraft.ggg": "Ggg",
+      "item.doz_in_maincraft.ak_47full": "Ak 47 ammo",
       "effect.doz_in_maincraft.deep_wounds": "deep wounds",
       "gui.doz_in_maincraft.fyv.label_auto_miner": "auto miner",
       "item.doz_in_maincraft.average_household_box": "Average  Hozmag Box",
@@ -9869,6 +10653,7 @@
       "item.doz_in_maincraft.mgl": "MGL",
       "advancements.where_is_the_usual_chest.descr": "try crafting a chest      (spoiler you won\u0027t get anything)",
       "item.doz_in_maincraft.forester_hunter_4_spawn_egg": "Forester Hunter Spawn Egg",
+      "advancements.chugunplus.descr": "cast iron frying pan inexpensive",
       "item.doz_in_maincraft.aluminum_pickaxe": "Aluminum Pickaxe",
       "item.vse.steal_pickaxe": "Steal Pickaxe",
       "item.vse.copper_armor_chestplate": "Copper Chestplate",
@@ -9883,11 +10668,11 @@
       "item.doz_in_maincraft.gas_mask_helmet.description_0": "для зашітиот нє желатєльних ефєктов",
       "block.vse.magic_pine_planks": "MagicPine Planks",
       "block.doz_in_maincraft.armorers_workbench": "Armorer\u0027s Workbench",
-      "item.doz_in_maincraft.sleeve_762": "Sleeve 7.62",
       "block.doz_in_maincraft.forest_roots": "Forest Roots",
       "item.doz_in_maincraft.molten_steel_bucket": "Molten Steel Bucket",
       "item.vse.healing_mixture": "Healing Mixture",
       "item.doz_in_maincraft.fortress_armor_set": "Fortress Armor Set",
+      "item.doz_in_maincraft.scar_h_ammo": "Scar H Ammo",
       "item.doz_in_maincraft.clip_swd": "Clip SWD",
       "gui.doz_in_maincraft.sds.label_the_institute_is_not_responsible1": "THE INSTITUTE IS NOT RESPONSIBLE FOR DEATH OR LOSS OF THINGS",
       "item.doz_in_maincraft.p_762atron": "Patron 7.62atron",
@@ -9897,6 +10682,7 @@
       "item.doz_in_maincraft.ghoul_bull_spawn_egg": "Ghoul-\"bull\" Spawn Egg",
       "advancements.get_armor.title": "Get Armor",
       "item.doz_in_maincraft.steal_armor_chestplate": "Steal Chestplate",
+      "advancements.i_always_come_back.descr": "if you want to live, you won\u0027t get away with it",
       "entity.doz_in_maincraft.forrster_hunter_2": "Forester Hunter",
       "entity.doz_in_maincraft.ghoul_raider": "Ghoul Raider",
       "advancements.well_why_dont_you_have_a_chest.title": "Well Why Dont You Have A Chest",
@@ -9925,6 +10711,7 @@
       "item.doz_in_maincraft.forester_hunter_spawn_egg": "Forester Hunter Spawn Egg",
       "block.vse.magic_pine_fence_gate": "MagicPine Fence Gate",
       "block.doz_in_maincraft.palach_pr": "PALACH",
+      "advancements.hardware_store.descr": "and where is your electrical tape?",
       "gui.doz_in_maincraft.sds.label_warning": "WARNING!!!",
       "item.vse.gas_mask_crahet_boots": "Gasgas Mask Ботинки",
       "item.doz_in_maincraft.plate_shape": "Plate Shape",

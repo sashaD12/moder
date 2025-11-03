@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "doz_in_maincraft:symbiotic_ulcer"
+    },
+    "title": {
+      "translate": "advancements.hardware_store.title"
+    },
+    "description": {
+      "translate": "advancements.hardware_store.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hardware_store_0": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 0,
+            "max": 200
+          },
+          "source_entity": {
+            "type": "doz_in_maincraft:rising_executioner"
+          },
+          "blocked": false
+        }
+      }
+    }
+  },
+  "parent": "doz_in_maincraft:this_is_what_is_nezerit"
+}

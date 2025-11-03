@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "doz_in_maincraft:stocer1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 29,
+    "separation": 4,
+    "salt": 1107697635
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "ak47"
+      },
+      "name": "default"
+    }
+  }
+}

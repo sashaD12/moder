@@ -49,17 +49,17 @@ public class ReloardPriNazhatiiKlavishiProcedure {
 		}
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DozInMaincraftModItems.MAGNUM.get()) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("magnum") < 1) {
-				if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(DozInMaincraftModItems.REVOLVER_CLIP.get())) : false) {
+				if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(DozInMaincraftModItems.PATRON_10MM.get())) : false) {
 					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("magnum") < 1) {
-						if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(DozInMaincraftModItems.REVOLVER_CLIP.get())) : false) {
+						if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(DozInMaincraftModItems.PATRON_10MM.get())) : false) {
 							(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble("magnum",
-									((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("magnum") + 9));
+									((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("magnum") + 1));
 							if (entity instanceof Player _player) {
-								ItemStack _stktoremove = new ItemStack(DozInMaincraftModItems.REVOLVER_CLIP.get());
+								ItemStack _stktoremove = new ItemStack(DozInMaincraftModItems.PATRON_10MM.get());
 								_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 							}
 							if (entity instanceof Player _player)
-								_player.getCooldowns().addCooldown((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem(), 60);
+								_player.getCooldowns().addCooldown((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem(), 15);
 						}
 					}
 				}
@@ -128,6 +128,42 @@ public class ReloardPriNazhatiiKlavishiProcedure {
 							}
 							if (entity instanceof Player _player)
 								_player.getCooldowns().addCooldown((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem(), 15);
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DozInMaincraftModItems.AK_47.get()) {
+			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("ak47") < 1) {
+				if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(DozInMaincraftModItems.AK_47FULL.get())) : false) {
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("ak47") < 1) {
+						if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(DozInMaincraftModItems.AK_47FULL.get())) : false) {
+							(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble("ak47",
+									((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("ak47") + 30));
+							if (entity instanceof Player _player) {
+								ItemStack _stktoremove = new ItemStack(DozInMaincraftModItems.AK_47FULL.get());
+								_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+							}
+							if (entity instanceof Player _player)
+								_player.getCooldowns().addCooldown((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem(), 60);
+						}
+					}
+				}
+			}
+		}
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DozInMaincraftModItems.SCAR_H.get()) {
+			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("scarh") < 1) {
+				if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(DozInMaincraftModItems.SCAR_HFULL.get())) : false) {
+					if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("scarh") < 1) {
+						if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(DozInMaincraftModItems.SCAR_HFULL.get())) : false) {
+							(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().putDouble("scarh",
+									((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getDouble("scarh") + 30));
+							if (entity instanceof Player _player) {
+								ItemStack _stktoremove = new ItemStack(DozInMaincraftModItems.SCAR_HFULL.get());
+								_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+							}
+							if (entity instanceof Player _player)
+								_player.getCooldowns().addCooldown((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem(), 60);
 						}
 					}
 				}

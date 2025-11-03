@@ -1,8 +1,10 @@
 {
-  "parent": "block/cross",
+  "parent": "doz_in_maincraft:custom/huy",
   "textures": {
-    "cross": "doz_in_maincraft:block/erw",
-    "particle": "doz_in_maincraft:block/erw"
+    "all": "doz_in_maincraft:block/sad",
+    "particle": "doz_in_maincraft:block/sad",
+    "0": "doz_in_maincraft:block/sad",
+    "missing": "doz_in_maincraft:block/sad"
   },
   "render_type": "translucent"
 }

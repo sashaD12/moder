@@ -23,6 +23,7 @@ import net.mcreator.doz_in_maincraft.world.inventory.FyvMenu;
 import net.mcreator.doz_in_maincraft.world.inventory.DsdMenu;
 import net.mcreator.doz_in_maincraft.world.inventory.DfsMenu;
 import net.mcreator.doz_in_maincraft.world.inventory.DfgMenu;
+import net.mcreator.doz_in_maincraft.world.inventory.AptechkaMenu;
 import net.mcreator.doz_in_maincraft.world.inventory.ApaaMenu;
 import net.mcreator.doz_in_maincraft.world.inventory.AddMenu;
 import net.mcreator.doz_in_maincraft.DozInMaincraftMod;
@@ -43,4 +44,5 @@ public class DozInMaincraftModMenus {
 	public static final RegistryObject<MenuType<FyvMenu>> FYV = REGISTRY.register("fyv", () -> IForgeMenuType.create(FyvMenu::new));
 	public static final RegistryObject<MenuType<ApaaMenu>> APAA = REGISTRY.register("apaa", () -> IForgeMenuType.create(ApaaMenu::new));
 	public static final RegistryObject<MenuType<SfMenu>> SF = REGISTRY.register("sf", () -> IForgeMenuType.create(SfMenu::new));
+	public static final RegistryObject<MenuType<AptechkaMenu>> APTECHKA = REGISTRY.register("aptechka", () -> IForgeMenuType.create(AptechkaMenu::new));
 }

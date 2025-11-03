@@ -1,0 +1,59 @@
+{
+  "_fv": 73,
+  "_type": "structure",
+  "definition": {
+    "structure": "hazmag_up2",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 30,
+    "separation": 4,
+    "restrictionBiomes": [
+      {
+        "value": "#minecraft:is_overworld"
+      }
+    ],
+    "terrainAdaptation": "beard_box",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "up",
+        "fallbackPool": "doz_in_maincraft:hazmag1_up",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "hazmag_down",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.STRUCTURE_BLOCK#3"
+              },
+              {
+                "value": "Blocks.STRUCTURE_BLOCK#4"
+              },
+              {
+                "value": "Blocks.STRUCTURE_BLOCK"
+              },
+              {
+                "value": "Blocks.STRUCTURE_BLOCK#1"
+              },
+              {
+                "value": "Blocks.STRUCTURE_BLOCK#2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "_fv": 73,
+  "_type": "item",
+  "definition": {
+    "renderType": 1,
+    "texture": "ak47",
+    "customModelName": "ak47:default",
+    "customProperties": {},
+    "states": [],
+    "name": "AK-47",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Sad"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 72000,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "enableRanged": true,
+    "shootConstantly": true,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:AK47Projectile"
+    },
+    "projectileDisableAmmoCheck": true,
+    "onRangedItemUsed": {
+      "name": "AK47PriVystrielieSnariadomIzPriedmieta"
+    },
+    "rangedUseCondition": {
+      "name": "AK47MozhnoIspolzovatSnariad"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "bow",
+    "isMusicDisc": false,
+    "musicDiscMusic": {
+      "value": ""
+    },
+    "musicDiscDescription": "",
+    "musicDiscLengthInTicks": 100,
+    "musicDiscAnalogOutput": 0
+  }
+}

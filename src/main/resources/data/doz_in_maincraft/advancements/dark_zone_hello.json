@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "doz_in_maincraft:crystal_ground"
+    },
+    "title": {
+      "translate": "advancements.dark_zone_hello.title"
+    },
+    "description": {
+      "translate": "advancements.dark_zone_hello.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dark_zone_hello_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "doz_in_maincraft:dark_zone"
+      }
+    }
+  },
+  "parent": "doz_in_maincraft:x_3_stabilizators"
+}

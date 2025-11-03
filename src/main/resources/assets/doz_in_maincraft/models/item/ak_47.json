@@ -1,0 +1,7 @@
+{
+  "parent": "doz_in_maincraft:custom/ak47",
+  "textures": {
+    "0": "doz_in_maincraft:block/ak47",
+    "particle": "doz_in_maincraft:item/ak47"
+  }
+}

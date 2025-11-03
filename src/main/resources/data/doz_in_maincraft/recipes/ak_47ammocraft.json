@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "doz_in_maincraft:p_762atron"
+    },
+    {
+      "item": "doz_in_maincraft:p_762atron"
+    },
+    {
+      "item": "doz_in_maincraft:ak_47ammo"
+    },
+    {
+      "item": "doz_in_maincraft:p_762atron"
+    }
+  ],
+  "result": {
+    "item": "doz_in_maincraft:ak_47full",
+    "count": 1
+  }
+}

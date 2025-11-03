@@ -6,21 +6,26 @@
     "mobLabel": "",
     "mobModelName": "Modelkogot",
     "mobModelTexture": "kogot.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
     "solidBoundingBox": {
       "fixedValue": false
     },
-    "modelLayers": [
-      {
-        "model": "Default",
-        "texture": "kogot.png",
-        "disableHurtOverlay": false,
-        "glow": true
-      }
-    ],
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.1
+    },
+    "modelLayers": [],
     "animations": [],
-    "modelWidth": 0.6,
-    "modelHeight": 1.8,
-    "modelShadowSize": 0.5,
+    "modelWidth": 1.0,
+    "modelHeight": 2.0,
+    "modelShadowSize": 1.0,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
@@ -70,13 +75,16 @@
     "health": 30,
     "xpAmount": 5,
     "waterMob": false,
+    "breatheUnderwater": {
+      "fixedValue": false
+    },
     "pushedByFluids": {
       "fixedValue": true
     },
     "flyingMob": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "disableCollisions": false,
+    "disableCollisions": true,
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
@@ -106,6 +114,9 @@
       "value": "entity.generic.death"
     },
     "stepSound": {
+      "value": ""
+    },
+    "raidCelebrationSound": {
       "value": ""
     },
     "entityDataEntries": [],

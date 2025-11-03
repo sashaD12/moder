@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "doz_in_maincraft:seedling_magic_pine"
+    },
+    "title": {
+      "translate": "advancements.forest_of_dead_souls.title"
+    },
+    "description": {
+      "translate": "advancements.forest_of_dead_souls.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "forest_of_dead_souls_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "doz_in_maincraft:creek_forest"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "doz_in_maincraft:this_is_what_is_nezerit"
+}

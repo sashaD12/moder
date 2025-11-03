@@ -1,0 +1,9 @@
+{
+  "parent": "doz_in_maincraft:custom/svet",
+  "textures": {
+    "all": "doz_in_maincraft:block/svet",
+    "particle": "doz_in_maincraft:block/svet",
+    "0": "doz_in_maincraft:block/svet"
+  },
+  "render_type": "solid"
+}

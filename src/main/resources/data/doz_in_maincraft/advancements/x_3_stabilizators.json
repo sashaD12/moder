@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "item": "doz_in_maincraft:dark_zone"
+    },
+    "title": {
+      "translate": "advancements.x_3_stabilizators.title"
+    },
+    "description": {
+      "translate": "advancements.x_3_stabilizators.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "x_3_stabilizators_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "doz_in_maincraft:stabilizer_stoker"
+            ],
+            "count": {
+              "min": 2,
+              "max": 2
+            }
+          }
+        ]
+      }
+    },
+    "x_3_stabilizators_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "doz_in_maincraft:stabilizer_gemini"
+            ],
+            "count": {
+              "min": 2,
+              "max": 2
+            }
+          }
+        ]
+      }
+    },
+    "x_3_stabilizators_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "doz_in_maincraft:stabilizer_diode"
+            ],
+            "count": {
+              "min": 2,
+              "max": 2
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "parent": "doz_in_maincraft:chugunplus"
+}

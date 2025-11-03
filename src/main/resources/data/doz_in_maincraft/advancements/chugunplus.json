@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "doz_in_maincraft:chugun"
+    },
+    "title": {
+      "translate": "advancements.chugunplus.title"
+    },
+    "description": {
+      "translate": "advancements.chugunplus.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chugunplus_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "doz_in_maincraft:chugun"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "doz_in_maincraft:forest_of_dead_souls"
+}

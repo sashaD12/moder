@@ -10,7 +10,7 @@ import net.mcreator.doz_in_maincraft.client.model.Modelgul1;
 
 public class BrigadierGhulRenderer extends MobRenderer<BrigadierGhulEntity, Modelgul1<BrigadierGhulEntity>> {
 	public BrigadierGhulRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelgul1<BrigadierGhulEntity>(context.bakeLayer(Modelgul1.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelgul1<BrigadierGhulEntity>(context.bakeLayer(Modelgul1.LAYER_LOCATION)), 1f);
 	}
 
 	@Override

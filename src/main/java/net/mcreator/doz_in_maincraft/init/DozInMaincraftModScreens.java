@@ -23,6 +23,7 @@ import net.mcreator.doz_in_maincraft.client.gui.FyvScreen;
 import net.mcreator.doz_in_maincraft.client.gui.DsdScreen;
 import net.mcreator.doz_in_maincraft.client.gui.DfsScreen;
 import net.mcreator.doz_in_maincraft.client.gui.DfgScreen;
+import net.mcreator.doz_in_maincraft.client.gui.AptechkaScreen;
 import net.mcreator.doz_in_maincraft.client.gui.ApaaScreen;
 import net.mcreator.doz_in_maincraft.client.gui.AddScreen;
 
@@ -45,6 +46,7 @@ public class DozInMaincraftModScreens {
 			MenuScreens.register(DozInMaincraftModMenus.FYV.get(), FyvScreen::new);
 			MenuScreens.register(DozInMaincraftModMenus.APAA.get(), ApaaScreen::new);
 			MenuScreens.register(DozInMaincraftModMenus.SF.get(), SfScreen::new);
+			MenuScreens.register(DozInMaincraftModMenus.APTECHKA.get(), AptechkaScreen::new);
 		});
 	}
 }

@@ -36,6 +36,12 @@ public class BloodyMossBlock extends Block {
 	}
 
 	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.or(box(0, 0, 0, 16, 0.25, 16), box(4, 0.25, 8, 5, 0.75, 9), box(9, 0.25, 5, 10, 0.75, 6), box(1, 0.25, 1, 2, 0.75, 2), box(12, 0.25, 9, 13, 0.75, 10), box(11, 0.25, 1, 12, 0.75, 2), box(1, 0.25, 12, 2, 0.75, 13),
+				box(1, 0.25, 7, 2, 0.75, 8), box(6, 0.25, 10, 7, 0.75, 11), box(10, 0.25, 13, 11, 0.75, 14), box(14, 0.25, 13, 15, 0.75, 14));
+	}
+
+	@Override
 	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
 		super.stepOn(world, pos, blockstate, entity);
 		BloodyMossKoghdaSushchnostKhoditPoBlokuProcedure.execute(world, entity);

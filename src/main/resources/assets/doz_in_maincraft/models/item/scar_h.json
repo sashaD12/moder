@@ -1,0 +1,7 @@
+{
+  "parent": "doz_in_maincraft:custom/skarh",
+  "textures": {
+    "0": "doz_in_maincraft:block/scarh",
+    "particle": "doz_in_maincraft:item/scarh"
+  }
+}

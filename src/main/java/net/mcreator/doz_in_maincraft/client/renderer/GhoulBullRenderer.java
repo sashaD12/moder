@@ -10,7 +10,7 @@ import net.mcreator.doz_in_maincraft.client.model.Modelgul2;
 
 public class GhoulBullRenderer extends MobRenderer<GhoulBullEntity, Modelgul2<GhoulBullEntity>> {
 	public GhoulBullRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelgul2<GhoulBullEntity>(context.bakeLayer(Modelgul2.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelgul2<GhoulBullEntity>(context.bakeLayer(Modelgul2.LAYER_LOCATION)), 1f);
 	}
 
 	@Override

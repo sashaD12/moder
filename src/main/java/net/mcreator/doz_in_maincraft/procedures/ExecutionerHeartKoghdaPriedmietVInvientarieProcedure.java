@@ -7,7 +7,6 @@ import net.minecraftforge.event.entity.living.LivingDeathEvent;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
@@ -34,7 +33,7 @@ public class ExecutionerHeartKoghdaPriedmietVInvientarieProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(DozInMaincraftModItems.EXECUTIONER_HEART.get())) : false) {
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == DozInMaincraftModItems.EXECUTIONER_HEART.get()) {
 			if (entity instanceof LivingEntity _entity)
 				_entity.setHealth(1);
 			if (event != null && event.isCancelable()) {

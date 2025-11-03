@@ -1,0 +1,24 @@
+{
+  "_fv": 73,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Hardware Store",
+    "achievementDescription": "and where is your electrical tape?",
+    "achievementIcon": {
+      "value": "CUSTOM:SymbioticUlcer"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:ThisIsWhatIsNezerit"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"entity_hurt_player\"><field name=\"sourceentity\">CUSTOM:RisingExecutioner</field><field name=\"blocked\">FALSE</field><value name=\"minDamage\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"maxDamage\"><block type=\"math_number\"><field name=\"NUM\">200</field></block></value></block></next></block></xml>"
+  }
+}

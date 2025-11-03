@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/nether_portal",
+    "up": "minecraft:block/nether_portal",
+    "north": "minecraft:block/nether_portal",
+    "east": "minecraft:block/nether_portal",
+    "south": "minecraft:block/nether_portal",
+    "west": "minecraft:block/nether_portal",
+    "particle": "minecraft:block/nether_portal"
+  },
+  "render_type": "solid"
+}

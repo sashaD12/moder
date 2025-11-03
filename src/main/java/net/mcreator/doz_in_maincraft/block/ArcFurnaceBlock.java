@@ -3,6 +3,9 @@ package net.mcreator.doz_in_maincraft.block;
 
 import net.minecraftforge.network.NetworkHooks;
 
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.Shapes;
+import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -34,7 +37,7 @@ import io.netty.buffer.Unpooled;
 
 public class ArcFurnaceBlock extends Block implements EntityBlock {
 	public ArcFurnaceBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(2.05f, 10f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(2.05f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -45,6 +48,16 @@ public class ArcFurnaceBlock extends Block implements EntityBlock {
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 0;
+	}
+
+	@Override
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return box(0, 0, 0, 16, 16, 18);
 	}
 
 	@Override

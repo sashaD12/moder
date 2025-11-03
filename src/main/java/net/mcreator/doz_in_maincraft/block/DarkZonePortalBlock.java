@@ -28,6 +28,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.doz_in_maincraft.world.teleporter.DarkZoneTeleporter;
 import net.mcreator.doz_in_maincraft.world.teleporter.DarkZonePortalShape;
+import net.mcreator.doz_in_maincraft.procedures.DarkZoneUsloviieIspolzovaniiaPortalaProcedure;
 
 import java.util.Optional;
 
@@ -81,7 +82,7 @@ public class DarkZonePortalBlock extends NetherPortalBlock {
 
 	@Override
 	public void entityInside(BlockState state, Level world, BlockPos pos, Entity entity) {
-		if (entity.canChangeDimensions() && !entity.level().isClientSide() && true) {
+		if (entity.canChangeDimensions() && !entity.level().isClientSide() && DarkZoneUsloviieIspolzovaniiaPortalaProcedure.execute(world)) {
 			if (entity.isOnPortalCooldown()) {
 				entity.setPortalCooldown();
 			} else if (entity.level().dimension() != ResourceKey.create(Registries.DIMENSION, new ResourceLocation("doz_in_maincraft:dark_zone"))) {

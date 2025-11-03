@@ -89,6 +89,51 @@
           "y": 71,
           "locked": false
         }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_up",
+          "image": "up.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Upammo"
+          },
+          "x": 267,
+          "y": 53,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_down",
+          "image": "down.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Downammo"
+          },
+          "x": 267,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_tek",
+          "text": {
+            "fixedValue": "",
+            "name": "Tek"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 267,
+          "y": 71,
+          "locked": false
+        }
       }
     ],
     "gridSettings": {

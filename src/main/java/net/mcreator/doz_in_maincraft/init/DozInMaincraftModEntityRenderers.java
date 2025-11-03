@@ -72,5 +72,7 @@ public class DozInMaincraftModEntityRenderers {
 		event.registerEntityRenderer(DozInMaincraftModEntities.TT_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(DozInMaincraftModEntities.TT_SIMBIOT_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(DozInMaincraftModEntities.SPAS_12_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(DozInMaincraftModEntities.AK_47_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(DozInMaincraftModEntities.SCAR_H_PROJECTILE.get(), ThrownItemRenderer::new);
 	}
 }

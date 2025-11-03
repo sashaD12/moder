@@ -18,6 +18,7 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.doz_in_maincraft.entity.TTSimbiotProjectileEntity;
 import net.mcreator.doz_in_maincraft.entity.TTProjectileEntity;
+import net.mcreator.doz_in_maincraft.entity.ScarHProjectileEntity;
 import net.mcreator.doz_in_maincraft.entity.SPAS12ProjectileEntity;
 import net.mcreator.doz_in_maincraft.entity.RisingExecutionerEntity;
 import net.mcreator.doz_in_maincraft.entity.PP19BizonProjectileEntity;
@@ -48,6 +49,7 @@ import net.mcreator.doz_in_maincraft.entity.BeastForest4Entity;
 import net.mcreator.doz_in_maincraft.entity.BeastForest3Entity;
 import net.mcreator.doz_in_maincraft.entity.BeastForest2Entity;
 import net.mcreator.doz_in_maincraft.entity.BeastForest1Entity;
+import net.mcreator.doz_in_maincraft.entity.AK47ProjectileEntity;
 import net.mcreator.doz_in_maincraft.DozInMaincraftMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -96,23 +98,23 @@ public class DozInMaincraftModEntities {
 	public static final RegistryObject<EntityType<GhoulBanditEntity>> GHOUL_BANDIT = register("ghoul_bandit",
 			EntityType.Builder.<GhoulBanditEntity>of(GhoulBanditEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GhoulBanditEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(1f, 2f));
 	public static final RegistryObject<EntityType<GhoulBullEntity>> GHOUL_BULL = register("ghoul_bull",
 			EntityType.Builder.<GhoulBullEntity>of(GhoulBullEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GhoulBullEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(1f, 2f));
 	public static final RegistryObject<EntityType<BrigadierGhulEntity>> BRIGADIER_GHUL = register("brigadier_ghul",
 			EntityType.Builder.<BrigadierGhulEntity>of(BrigadierGhulEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BrigadierGhulEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(1f, 2f));
 	public static final RegistryObject<EntityType<GhoulArrowsEntity>> GHOUL_ARROWS = register("ghoul_arrows",
 			EntityType.Builder.<GhoulArrowsEntity>of(GhoulArrowsEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GhoulArrowsEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(1f, 2f));
 	public static final RegistryObject<EntityType<GhoulRaiderEntity>> GHOUL_RAIDER = register("ghoul_raider",
 			EntityType.Builder.<GhoulRaiderEntity>of(GhoulRaiderEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GhoulRaiderEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(1f, 2f));
 	public static final RegistryObject<EntityType<FirstExecutionerEntity>> FIRST_EXECUTIONER = register("first_executioner",
 			EntityType.Builder.<FirstExecutionerEntity>of(FirstExecutionerEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FirstExecutionerEntity::new)
 
@@ -132,11 +134,11 @@ public class DozInMaincraftModEntities {
 	public static final RegistryObject<EntityType<BloodyClawEntity>> BLOODY_CLAW = register("bloody_claw",
 			EntityType.Builder.<BloodyClawEntity>of(BloodyClawEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BloodyClawEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(1f, 2f));
 	public static final RegistryObject<EntityType<BloodyCarcassEntity>> BLOODY_CARCASS = register("bloody_carcass",
 			EntityType.Builder.<BloodyCarcassEntity>of(BloodyCarcassEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BloodyCarcassEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(1f, 2f));
 	public static final RegistryObject<EntityType<ObjectStokerEntity>> OBJECT_STOKER = register("object_stoker",
 			EntityType.Builder.<ObjectStokerEntity>of(ObjectStokerEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ObjectStokerEntity::new)
 
@@ -163,6 +165,10 @@ public class DozInMaincraftModEntities {
 			.setCustomClientFactory(TTSimbiotProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<SPAS12ProjectileEntity>> SPAS_12_PROJECTILE = register("spas_12_projectile", EntityType.Builder.<SPAS12ProjectileEntity>of(SPAS12ProjectileEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(SPAS12ProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<AK47ProjectileEntity>> AK_47_PROJECTILE = register("ak_47_projectile",
+			EntityType.Builder.<AK47ProjectileEntity>of(AK47ProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(AK47ProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ScarHProjectileEntity>> SCAR_H_PROJECTILE = register("scar_h_projectile", EntityType.Builder.<ScarHProjectileEntity>of(ScarHProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(ScarHProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

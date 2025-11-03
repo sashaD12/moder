@@ -1,0 +1,63 @@
+{
+  "_fv": 73,
+  "_type": "structure",
+  "definition": {
+    "structure": "azs",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 32,
+    "separation": 4,
+    "restrictionBiomes": [
+      {
+        "value": "#minecraft:is_overworld"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "one",
+        "fallbackPool": "doz_in_maincraft:azs_one",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "azs2",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.STRUCTURE_BLOCK"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "poolName": "two",
+        "fallbackPool": "doz_in_maincraft:azs_two",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "azsbos",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.STRUCTURE_BLOCK"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

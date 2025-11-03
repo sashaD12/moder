@@ -72,11 +72,11 @@ public class BowForestersProjectileEntity extends AbstractArrow implements ItemS
 	}
 
 	public static BowForestersProjectileEntity shoot(Level world, LivingEntity entity, RandomSource source) {
-		return shoot(world, entity, source, 1.5f, 6.7, 4);
+		return shoot(world, entity, source, 1.5f, 6.7, 1);
 	}
 
 	public static BowForestersProjectileEntity shoot(Level world, LivingEntity entity, RandomSource source, float pullingPower) {
-		return shoot(world, entity, source, pullingPower * 1.5f, 6.7, 4);
+		return shoot(world, entity, source, pullingPower * 1.5f, 6.7, 1);
 	}
 
 	public static BowForestersProjectileEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
@@ -99,7 +99,7 @@ public class BowForestersProjectileEntity extends AbstractArrow implements ItemS
 		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 1.5f * 2, 12.0F);
 		entityarrow.setSilent(true);
 		entityarrow.setBaseDamage(6.7);
-		entityarrow.setKnockback(4);
+		entityarrow.setKnockback(1);
 		entityarrow.setCritArrow(false);
 		entity.level().addFreshEntity(entityarrow);
 		entity.level().playSound(null, entity.getX(), entity.getY(), entity.getZ(), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.arrow.shoot")), SoundSource.PLAYERS, 1, 1f / (RandomSource.create().nextFloat() * 0.5f + 1));

@@ -6,9 +6,13 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.doz_in_maincraft.world.inventory.DsdMenu;
+import net.mcreator.doz_in_maincraft.procedures.TekProcedure;
+import net.mcreator.doz_in_maincraft.network.DsdButtonMessage;
+import net.mcreator.doz_in_maincraft.DozInMaincraftMod;
 
 import java.util.HashMap;
 
@@ -19,6 +23,8 @@ public class DsdScreen extends AbstractContainerScreen<DsdMenu> {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+	ImageButton imagebutton_up;
+	ImageButton imagebutton_down;
 
 	public DsdScreen(DsdMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -68,10 +74,29 @@ public class DsdScreen extends AbstractContainerScreen<DsdMenu> {
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font,
+
+				TekProcedure.execute(world, x, y, z), 141, 34, -12829636, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
+		imagebutton_up = new ImageButton(this.leftPos + 141, this.topPos + 16, 16, 16, 0, 0, 16, new ResourceLocation("doz_in_maincraft:textures/screens/atlas/imagebutton_up.png"), 16, 32, e -> {
+			if (true) {
+				DozInMaincraftMod.PACKET_HANDLER.sendToServer(new DsdButtonMessage(0, x, y, z));
+				DsdButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		});
+		guistate.put("button:imagebutton_up", imagebutton_up);
+		this.addRenderableWidget(imagebutton_up);
+		imagebutton_down = new ImageButton(this.leftPos + 141, this.topPos + 43, 16, 16, 0, 0, 16, new ResourceLocation("doz_in_maincraft:textures/screens/atlas/imagebutton_down.png"), 16, 32, e -> {
+			if (true) {
+				DozInMaincraftMod.PACKET_HANDLER.sendToServer(new DsdButtonMessage(1, x, y, z));
+				DsdButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
+		});
+		guistate.put("button:imagebutton_down", imagebutton_down);
+		this.addRenderableWidget(imagebutton_down);
 	}
 }

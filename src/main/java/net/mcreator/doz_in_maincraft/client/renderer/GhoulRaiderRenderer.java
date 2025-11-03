@@ -10,7 +10,7 @@ import net.mcreator.doz_in_maincraft.client.model.Modelgul3;
 
 public class GhoulRaiderRenderer extends MobRenderer<GhoulRaiderEntity, Modelgul3<GhoulRaiderEntity>> {
 	public GhoulRaiderRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelgul3<GhoulRaiderEntity>(context.bakeLayer(Modelgul3.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelgul3<GhoulRaiderEntity>(context.bakeLayer(Modelgul3.LAYER_LOCATION)), 1f);
 	}
 
 	@Override

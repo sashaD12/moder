@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "doz_in_maincraft:block/first_aid_kit_oppen"
+    },
+    "facing=east": {
+      "model": "doz_in_maincraft:block/first_aid_kit_oppen",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "doz_in_maincraft:block/first_aid_kit_oppen",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "doz_in_maincraft:block/first_aid_kit_oppen",
+      "y": 270
+    }
+  }
+}

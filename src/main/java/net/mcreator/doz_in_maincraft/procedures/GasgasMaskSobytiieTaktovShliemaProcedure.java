@@ -13,16 +13,12 @@ public class GasgasMaskSobytiieTaktovShliemaProcedure {
 		if (entity == null)
 			return;
 		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getOrCreateTag().getDouble("protgas") != 0) {
-			if (entity instanceof LivingEntity _livEnt2 && _livEnt2.hasEffect(DozInMaincraftModMobEffects.FOREST_SPORES.get())) {
-				if (entity instanceof LivingEntity _entity)
-					_entity.removeEffect(DozInMaincraftModMobEffects.FOREST_SPORES.get());
-			}
-			if (entity instanceof LivingEntity _livEnt4 && _livEnt4.hasEffect(MobEffects.POISON)) {
-				if (entity instanceof LivingEntity _entity)
-					_entity.removeEffect(MobEffects.POISON);
-			}
 			(entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getOrCreateTag().putDouble("protgas",
 					((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getOrCreateTag().getDouble("protgas") - 1));
+			if (entity instanceof LivingEntity _entity)
+				_entity.removeEffect(DozInMaincraftModMobEffects.FOREST_SPORES.get());
+			if (entity instanceof LivingEntity _entity)
+				_entity.removeEffect(MobEffects.POISON);
 		}
 	}
 }

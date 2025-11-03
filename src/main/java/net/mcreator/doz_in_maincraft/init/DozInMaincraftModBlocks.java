@@ -21,6 +21,7 @@ import net.mcreator.doz_in_maincraft.block.StocerBlock;
 import net.mcreator.doz_in_maincraft.block.StealBlockBlock;
 import net.mcreator.doz_in_maincraft.block.SedlingMagicPineBlock;
 import net.mcreator.doz_in_maincraft.block.SdddBlock;
+import net.mcreator.doz_in_maincraft.block.RefuelingInstallationBlock;
 import net.mcreator.doz_in_maincraft.block.Polka4Block;
 import net.mcreator.doz_in_maincraft.block.Polka3Block;
 import net.mcreator.doz_in_maincraft.block.Polka2Block;
@@ -42,11 +43,15 @@ import net.mcreator.doz_in_maincraft.block.MagicPineFenceBlock;
 import net.mcreator.doz_in_maincraft.block.MagicPineButtonBlock;
 import net.mcreator.doz_in_maincraft.block.LeadOreBlock;
 import net.mcreator.doz_in_maincraft.block.LeadBlockBlock;
+import net.mcreator.doz_in_maincraft.block.LampBlock;
 import net.mcreator.doz_in_maincraft.block.HozmagBrickBlock;
 import net.mcreator.doz_in_maincraft.block.ForestRootsBlock;
+import net.mcreator.doz_in_maincraft.block.FirstAidKitOppenBlock;
+import net.mcreator.doz_in_maincraft.block.FirstAidKitBlock;
 import net.mcreator.doz_in_maincraft.block.FLUEDGLASSBlock;
 import net.mcreator.doz_in_maincraft.block.EngineeringWorkbenchBlock;
 import net.mcreator.doz_in_maincraft.block.EnergyFrameworkBlock;
+import net.mcreator.doz_in_maincraft.block.ElectricalAnomalyBlock;
 import net.mcreator.doz_in_maincraft.block.DarkZonePortalBlock;
 import net.mcreator.doz_in_maincraft.block.DarkZoneCrystalBlock;
 import net.mcreator.doz_in_maincraft.block.CrystallineWoodBlock;
@@ -162,6 +167,11 @@ public class DozInMaincraftModBlocks {
 	public static final RegistryObject<Block> AIRDROP = REGISTRY.register("airdrop", () -> new AirdropBlock());
 	public static final RegistryObject<Block> AIRDROP_OPEN = REGISTRY.register("airdrop_open", () -> new AirdropOpenBlock());
 	public static final RegistryObject<Block> DARK_ZONE_CRYSTAL = REGISTRY.register("dark_zone_crystal", () -> new DarkZoneCrystalBlock());
+	public static final RegistryObject<Block> LAMP = REGISTRY.register("lamp", () -> new LampBlock());
+	public static final RegistryObject<Block> REFUELING_INSTALLATION = REGISTRY.register("refueling_installation", () -> new RefuelingInstallationBlock());
+	public static final RegistryObject<Block> FIRST_AID_KIT = REGISTRY.register("first_aid_kit", () -> new FirstAidKitBlock());
+	public static final RegistryObject<Block> ELECTRICAL_ANOMALY = REGISTRY.register("electrical_anomaly", () -> new ElectricalAnomalyBlock());
+	public static final RegistryObject<Block> FIRST_AID_KIT_OPPEN = REGISTRY.register("first_aid_kit_oppen", () -> new FirstAidKitOppenBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

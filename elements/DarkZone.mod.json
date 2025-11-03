@@ -71,6 +71,9 @@
     ],
     "texture": "adaadd",
     "portalTexture": "sd",
-    "enablePortal": true
+    "enablePortal": true,
+    "portalUseCondition": {
+      "name": "DarkZoneUsloviieIspolzovaniiaPortala"
+    }
   }
 }

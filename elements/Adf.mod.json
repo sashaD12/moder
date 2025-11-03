@@ -30,13 +30,13 @@
         "value": "Blocks.STAINED_GLASS_PANE"
       },
       {
-        "value": "Items.COAL"
+        "value": "CUSTOM:PieceTin"
       },
       {
         "value": "CUSTOM:StealIngot"
       },
       {
-        "value": "Items.COAL"
+        "value": "CUSTOM:PieceTin"
       }
     ],
     "recipeReturnStack": {

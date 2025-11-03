@@ -1,7 +1,6 @@
 {
-  "parent": "doz_in_maincraft:custom/sad",
+  "parent": "item/generated",
   "textures": {
-    "0": "doz_in_maincraft:block/patron",
-    "particle": "doz_in_maincraft:item/patron"
+    "layer0": "doz_in_maincraft:item/10mm"
   }
 }

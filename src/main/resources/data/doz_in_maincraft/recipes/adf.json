@@ -17,7 +17,7 @@
       "tag": "forge:stained_glass_panes"
     },
     "d": {
-      "item": "minecraft:air"
+      "item": "doz_in_maincraft:piece_tin"
     },
     "e": {
       "item": "doz_in_maincraft:steal_ingot"

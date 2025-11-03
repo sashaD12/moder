@@ -19,7 +19,7 @@
       }
     ],
     "armorTextureFile": "xc",
-    "helmetName": "Gasgas Mask",
+    "helmetName": "Gas Mask",
     "bodyName": "Gasgas Mask Кираса",
     "leggingsName": "Gasgas Mask Поножи",
     "bootsName": "Gasgas Mask Ботинки",
@@ -63,6 +63,30 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
     "maxDamage": 500,
     "damageValueHelmet": 3,
     "damageValueBody": 0,

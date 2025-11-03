@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "doz_in_maincraft:patron_556"
+    },
+    {
+      "item": "doz_in_maincraft:patron_556"
+    },
+    {
+      "item": "doz_in_maincraft:scar_h_ammo"
+    },
+    {
+      "item": "doz_in_maincraft:patron_556"
+    }
+  ],
+  "result": {
+    "item": "doz_in_maincraft:scar_hfull",
+    "count": 1
+  }
+}

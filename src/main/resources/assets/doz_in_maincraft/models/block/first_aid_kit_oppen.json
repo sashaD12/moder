@@ -1,0 +1,9 @@
+{
+  "parent": "doz_in_maincraft:custom/hilplus",
+  "textures": {
+    "all": "doz_in_maincraft:block/hilplus",
+    "particle": "doz_in_maincraft:block/hilplus",
+    "0": "doz_in_maincraft:block/hilplus"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "doz_in_maincraft:custom/gasstation",
+  "textures": {
+    "all": "doz_in_maincraft:block/molot",
+    "particle": "doz_in_maincraft:block/molot",
+    "0": "doz_in_maincraft:block/gasstation"
+  },
+  "render_type": "solid"
+}

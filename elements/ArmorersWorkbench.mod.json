@@ -18,7 +18,7 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -27,7 +27,7 @@
         "mx": 0.0,
         "my": 0.0,
         "mz": 0.0,
-        "Mx": 16.0,
+        "Mx": 32.0,
         "My": 16.0,
         "Mz": 16.0,
         "subtract": false
@@ -59,7 +59,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "IRON"
+      "value": "NONE"
     },
     "tickRate": 10,
     "tickRandomly": false,

@@ -111,7 +111,6 @@ public class DozInMaincraftModTabs {
 				tabData.accept(DozInMaincraftModItems.NEZERITE_DUST.get());
 				tabData.accept(DozInMaincraftModBlocks.NEZERITE_ORE.get().asItem());
 				tabData.accept(DozInMaincraftModBlocks.METAL_FORMING_MACHINE.get().asItem());
-				tabData.accept(DozInMaincraftModItems.REVOLVER_CLIP.get());
 				tabData.accept(DozInMaincraftModItems.EXECUTIONER_HEART.get());
 				tabData.accept(DozInMaincraftModItems.GAS_MASK_HELMET.get());
 				tabData.accept(DozInMaincraftModItems.GAS_MASK_CRAHET_HELMET.get());
@@ -203,9 +202,6 @@ public class DozInMaincraftModTabs {
 				tabData.accept(DozInMaincraftModItems.STABILIZER_STOKER.get());
 				tabData.accept(DozInMaincraftModItems.STABILIZER_GEMINI.get());
 				tabData.accept(DozInMaincraftModItems.STABILIZER_DIODE.get());
-				tabData.accept(DozInMaincraftModItems.SLEEVE_10_MM.get());
-				tabData.accept(DozInMaincraftModItems.SLEEVE_762.get());
-				tabData.accept(DozInMaincraftModItems.REVOLVER_CLIP_1.get());
 				tabData.accept(DozInMaincraftModItems.P_762ATRON.get());
 				tabData.accept(DozInMaincraftModItems.CLIP_1.get());
 				tabData.accept(DozInMaincraftModItems.CLIP_2.get());
@@ -239,6 +235,7 @@ public class DozInMaincraftModTabs {
 				tabData.accept(DozInMaincraftModItems.OBJECT_DIODE_SPAWN_EGG.get());
 				tabData.accept(DozInMaincraftModItems.DARK_CRYSTAL.get());
 				tabData.accept(DozInMaincraftModItems.SPECIAL_FORCES_COMMUNICATOR.get());
+				tabData.accept(DozInMaincraftModItems.BOW_FORESTERS.get());
 				tabData.accept(DozInMaincraftModItems.L_96_A_1.get());
 				tabData.accept(DozInMaincraftModItems.MGL.get());
 				tabData.accept(DozInMaincraftModItems.MAGNUM.get());
@@ -246,6 +243,17 @@ public class DozInMaincraftModTabs {
 				tabData.accept(DozInMaincraftModItems.TT.get());
 				tabData.accept(DozInMaincraftModItems.TT_SIMBIOT.get());
 				tabData.accept(DozInMaincraftModItems.SPAS_12.get());
+				tabData.accept(DozInMaincraftModBlocks.LAMP.get().asItem());
+				tabData.accept(DozInMaincraftModBlocks.REFUELING_INSTALLATION.get().asItem());
+				tabData.accept(DozInMaincraftModBlocks.ELECTRICAL_ANOMALY.get().asItem());
+				tabData.accept(DozInMaincraftModItems.AK_47.get());
+				tabData.accept(DozInMaincraftModItems.AK_47AMMO.get());
+				tabData.accept(DozInMaincraftModItems.AK_47FULL.get());
+				tabData.accept(DozInMaincraftModItems.SCAR_H.get());
+				tabData.accept(DozInMaincraftModItems.SCAR_H_AMMO.get());
+				tabData.accept(DozInMaincraftModItems.SCAR_HFULL.get());
+				tabData.accept(DozInMaincraftModItems.PATRON_556.get());
+				tabData.accept(DozInMaincraftModItems.DFGD.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -255,8 +263,6 @@ public class DozInMaincraftModTabs {
 			tabData.accept(DozInMaincraftModBlocks.DARK_ZONE_CRYSTAL.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(DozInMaincraftModItems.FIRST_EXECUTIONER_1_SPAWN_EGG.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(DozInMaincraftModItems.BOW_FORESTERS.get());
 		}
 	}
 }
